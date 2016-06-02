@@ -1,0 +1,169 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library("BradleyTerry2")
+> 
+> games <- read.csv("uscho_games.csv",stringsAsFactors=FALSE)
+> dim(games)
+[1] 31193    10
+> 
+> games <- subset(games,year==2013 & team_div=="I" & opponent_div=="I")
+> dim(games)
+[1] 1103   10
+> 
+> fit <- BTm(outcome,team,opponent,data=games)
+> 
+> fit
+Bradley Terry model fit by glm.fit 
+
+Call:  BTm(outcome = outcome, player1 = team, player2 = opponent, data = games)
+
+Coefficients:
+    ..Alabama-Huntsville                  ..Alaska        ..Alaska-Anchorage  
+               -2.443111                  0.453102                 -0.665342  
+..American International                    ..Army           ..Bemidji State  
+               -0.688257                 -1.320135                 -0.390893  
+               ..Bentley          ..Boston College       ..Boston University  
+               -0.873451                  1.091836                  0.858155  
+         ..Bowling Green                   ..Brown                ..Canisius  
+                0.219074                  0.643506                 -0.124905  
+              ..Clarkson                 ..Colgate        ..Colorado College  
+               -0.087169                  0.227082                  0.682153  
+           ..Connecticut                 ..Cornell               ..Dartmouth  
+                0.028682                  0.601178                  0.606402  
+                ..Denver            ..Ferris State                 ..Harvard  
+                1.021083                  0.458903                  0.001044  
+            ..Holy Cross           ..Lake Superior                   ..Maine  
+                0.063385                  0.157526                  0.155738  
+         ..Massachusetts    ..Massachusetts-Lowell              ..Mercyhurst  
+                0.162663                  1.480099                 -0.093427  
+             ..Merrimack                   ..Miami                ..Michigan  
+                0.396492                  1.114307                  0.427717  
+        ..Michigan State           ..Michigan Tech               ..Minnesota  
+                0.035729                  0.127052                  1.428504  
+      ..Minnesota-Duluth         ..Minnesota State          ..Nebraska-Omaha  
+                0.154744                  1.060249                  0.501670  
+         ..New Hampshire                 ..Niagara            ..North Dakota  
+                1.073435                  0.507046                  1.049187  
+          ..Northeastern       ..Northern Michigan              ..Notre Dame  
+               -0.321787                  0.339531                  1.109913  
+            ..Ohio State              ..Penn State               ..Princeton  
+                0.484634                 -0.260184                  0.088151  
+            ..Providence              ..Quinnipiac              ..Rensselaer  
+                0.844498                  1.687043                  0.805906  
+                   ..RIT           ..Robert Morris            ..Sacred Heart  
+               -0.341212                  0.135183                 -2.358840  
+       ..St. Cloud State            ..St. Lawrence                   ..Union  
+                1.079315                  0.506592                  0.970033  
+               ..Vermont        ..Western Michigan               ..Wisconsin  
+                0.190351                  0.836673                  0.977117  
+                  ..Yale  
+                1.115338  
+
+Degrees of Freedom: 1103 Total (i.e. Null);  1045 Residual
+Null Deviance:	    1343 
+Residual Deviance: 1173 	AIC: 1478
+> 
+> out <- as.data.frame(BTabilities(fit))
+> out <- out[with(out, order(-ability)), ]
+> 
+> out <- subset(out,TRUE,select=c(ability))
+> out$ability <- exp(out$ability)
+> 
+> out$team <- rownames(out)
+> out
+                          ability                   team
+Quinnipiac             5.40347678             Quinnipiac
+Massachusetts-Lowell   4.39337871   Massachusetts-Lowell
+Minnesota              4.17245054              Minnesota
+Yale                   3.05059980                   Yale
+Miami                  3.04745637                  Miami
+Notre Dame             3.03409342             Notre Dame
+Boston College         2.97974102         Boston College
+St. Cloud State        2.94266303        St. Cloud State
+New Hampshire          2.92541106          New Hampshire
+Minnesota State        2.88708880        Minnesota State
+North Dakota           2.85532745           North Dakota
+Denver                 2.77620002                 Denver
+Wisconsin              2.65678613              Wisconsin
+Union                  2.63803235                  Union
+Boston University      2.35880549      Boston University
+Providence             2.32681002             Providence
+Western Michigan       2.30867346       Western Michigan
+Rensselaer             2.23872468             Rensselaer
+Colorado College       1.97813229       Colorado College
+Brown                  1.90314242                  Brown
+Dartmouth              1.83382182              Dartmouth
+Cornell                1.82426571                Cornell
+Niagara                1.66037928                Niagara
+St. Lawrence           1.65962587           St. Lawrence
+Nebraska-Omaha         1.65147737         Nebraska-Omaha
+Ohio State             1.62358077             Ohio State
+Ferris State           1.58233689           Ferris State
+Alaska                 1.57318391                 Alaska
+Michigan               1.53375194               Michigan
+Merrimack              1.48660028              Merrimack
+Northern Michigan      1.40428816      Northern Michigan
+Colgate                1.25493314                Colgate
+Bowling Green          1.24492353          Bowling Green
+Vermont                1.20967426                Vermont
+Massachusetts          1.17664017          Massachusetts
+Lake Superior          1.17061067          Lake Superior
+Maine                  1.16852020                  Maine
+Minnesota-Duluth       1.16735920       Minnesota-Duluth
+Robert Morris          1.14474574          Robert Morris
+Michigan Tech          1.13547590          Michigan Tech
+Princeton              1.09215305              Princeton
+Holy Cross             1.06543733             Holy Cross
+Michigan State         1.03637486         Michigan State
+Connecticut            1.02909679            Connecticut
+Harvard                1.00104481                Harvard
+Air Force              1.00000000              Air Force
+Clarkson               0.91652263               Clarkson
+Mercyhurst             0.91080428             Mercyhurst
+Canisius               0.88258090               Canisius
+Penn State             0.77090962             Penn State
+Northeastern           0.72485288           Northeastern
+RIT                    0.71090816                    RIT
+Bemidji State          0.67645245          Bemidji State
+Alaska-Anchorage       0.51409758       Alaska-Anchorage
+American International 0.50245102 American International
+Bentley                0.41750836                Bentley
+Army                   0.26709933                   Army
+Sacred Heart           0.09452977           Sacred Heart
+Alabama-Huntsville     0.08689010     Alabama-Huntsville
+> 
+> scored <- aggregate(team_score ~ team, games, sum)
+> allowed <- aggregate(opponent_score ~ team, games, sum)
+> 
+> df <- merge(out,scored)
+> df <- merge(df,allowed)
+> 
+> fit <- lm(log(ability) ~ log(team_score/opponent_score), df)
+> 
+> fit
+
+Call:
+lm(formula = log(ability) ~ log(team_score/opponent_score), data = df)
+
+Coefficients:
+                   (Intercept)  log(team_score/opponent_score)  
+                        0.5953                          1.8022  
+
+> quit("no")
