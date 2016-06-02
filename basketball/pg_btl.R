@@ -12,8 +12,8 @@ team_id as team,
 opponent_id as opponent,
 team_score as team_score,
 opponent_score as opponent_score,
-(case when team_score>opponent_score then TRUE
- else FALSE end) as outcome
+(case when team_score>opponent_score then 1.0
+ else 0.0 end) as outcome
 from bbref.results
 where year=1996
 ;")

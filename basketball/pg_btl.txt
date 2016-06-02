@@ -1,0 +1,121 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library("BradleyTerry2")
+> 
+> library("RPostgreSQL")
+> 
+> drv <- dbDriver("PostgreSQL")
+> 
+> con <- dbConnect(drv, dbname="basketball")
+> 
+> query <- dbSendQuery(con, "
++ select
++ team_id as team,
++ opponent_id as opponent,
++ team_score as team_score,
++ opponent_score as opponent_score,
++ (case when team_score>opponent_score then 1.0
++  else 0.0 end) as outcome
++ from bbref.results
++ where year=1996
++ ;")
+> 
+> games <- fetch(query,n=-1)
+> dim(games)
+[1] 2514    5
+> 
+> fit <- BTm(outcome,team,opponent,data=games)
+> 
+> fit
+Bradley Terry model fit by glm.fit 
+
+Call:  BTm(outcome = outcome, player1 = team, player2 = opponent, data = games)
+
+Coefficients:
+   ..BOS     ..CHH     ..CHI     ..CLE     ..DAL     ..DEN     ..DET     ..GSW  
+-0.74894  -0.29277   1.89514  -0.05280  -1.13862  -0.63068  -0.06555  -0.57667  
+   ..HOU     ..IND     ..LAC     ..LAL     ..MIA     ..MIL     ..MIN     ..NJN  
+ 0.07434   0.26257  -0.96346   0.27794  -0.24917  -1.17024  -1.13862  -0.91502  
+   ..NYK     ..ORL     ..PHI     ..PHO     ..POR     ..SAC     ..SAS     ..SEA  
+ 0.11598   0.83035  -1.64081  -0.31521  -0.13267  -0.40191   0.64274   1.08687  
+   ..TOR     ..UTA     ..VAN     ..WSB  
+-1.45338   0.53977  -1.88707  -0.41289  
+
+Degrees of Freedom: 2514 Total (i.e. Null);  2486 Residual
+Null Deviance:	    3485 
+Residual Deviance: 2876 	AIC: 2932
+> 
+> out <- as.data.frame(BTabilities(fit))
+> out <- out[with(out, order(-ability)), ]
+> 
+> out <- subset(out,TRUE,select=c(ability))
+> out$ability <- exp(out$ability)
+> 
+> out$team <- rownames(out)
+> out
+      ability team
+CHI 6.6534777  CHI
+SEA 2.9649863  SEA
+ORL 2.2941132  ORL
+SAS 1.9016903  SAS
+UTA 1.7156038  UTA
+LAL 1.3204087  LAL
+IND 1.3002717  IND
+NYK 1.1229749  NYK
+HOU 1.0771694  HOU
+ATL 1.0000000  ATL
+CLE 0.9485722  CLE
+DET 0.9365530  DET
+POR 0.8757500  POR
+MIA 0.7794443  MIA
+CHH 0.7461922  CHH
+PHO 0.7296380  PHO
+SAC 0.6690382  SAC
+WSB 0.6617377  WSB
+GSW 0.5617649  GSW
+DEN 0.5322320  DEN
+BOS 0.4728652  BOS
+NJN 0.4005070  NJN
+LAC 0.3815709  LAC
+MIN 0.3202592  MIN
+DAL 0.3202592  DAL
+MIL 0.3102914  MIL
+TOR 0.2337784  TOR
+PHI 0.1938223  PHI
+VAN 0.1515146  VAN
+> 
+> scored <- aggregate(team_score ~ team, games, sum)
+> allowed <- aggregate(opponent_score ~ team, games, sum)
+> 
+> df <- merge(out,scored)
+> df <- merge(df,allowed)
+> 
+> fit <- lm(log(ability) ~ log(team_score/opponent_score), df)
+> 
+> fit
+
+Call:
+lm(formula = log(ability) ~ log(team_score/opponent_score), data = df)
+
+Coefficients:
+                   (Intercept)  log(team_score/opponent_score)  
+                       -0.2513                         15.9864  
+
+> quit("no")
