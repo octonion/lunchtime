@@ -1,0 +1,675 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library("BradleyTerry2")
+> 
+> library("RPostgreSQL")
+> 
+> drv <- dbDriver("PostgreSQL")
+> 
+> con <- dbConnect(drv, dbname="basketball")
+> 
+> query <- dbSendQuery(con, "
++ select
++ sd.school_name as team,
++ od.school_name as opponent,
++ r.team_score as team_score,
++ r.opponent_score as opponent_score,
++ (case when r.team_score>r.opponent_score then 1.0
++  else 0.0 end) as outcome
++ from ncaa.results r
++ join ncaa.schools_divisions sd
++   on (sd.year,sd.school_id)=(r.year,r.school_id)
++ join ncaa.schools_divisions od
++   on (od.year,od.school_id)=(r.year,r.opponent_id)
++ where r.year=2016
++ and sd.div_id=1
++ and od.div_id=1
++ ;")
+> 
+> games <- fetch(query,n=-1)
+> dim(games)
+[1] 22064     5
+> 
+> fit <- BTm(outcome,team,opponent,data=games)
+> 
+> fit
+Bradley Terry model fit by glm.fit 
+
+Call:  BTm(outcome = outcome, player1 = team, player2 = opponent, data = games)
+
+Coefficients:
+           ..Air Force                 ..Akron               ..Alabama  
+               2.40757                 3.89844                 4.42980  
+         ..Alabama A&M           ..Alabama St.           ..Albany (NY)  
+              -0.08184                 0.38412                 2.73247  
+              ..Alcorn    ..A&M-Corpus Christi              ..American  
+               0.54708                 3.08329                 1.13626  
+     ..Appalachian St.               ..Arizona           ..Arizona St.  
+               1.24563                 5.55239                 4.23790  
+            ..Arkansas          ..Arkansas St.       ..Ark.-Pine Bluff  
+               3.94226                 1.11275                -0.39206  
+     ..Army West Point                ..Auburn           ..Austin Peay  
+               1.72309                 3.23887                 2.01115  
+            ..Ball St.                ..Baylor               ..Belmont  
+               2.77218                 5.54825                 3.01952  
+     ..Bethune-Cookman            ..Binghamton             ..Boise St.  
+               0.46175                 0.33865                 3.71780  
+      ..Boston College             ..Boston U.         ..Bowling Green  
+               2.02680                 1.85855                 2.19485  
+             ..Bradley                 ..Brown                ..Bryant  
+               0.68137                 0.48927                -0.14159  
+            ..Bucknell               ..Buffalo                ..Butler  
+               1.95778                 3.29718                 5.58389  
+                 ..BYU            ..California              ..Cal Poly  
+               4.18824                 5.42074                 1.53562  
+   ..Cal St. Fullerton              ..Campbell              ..Canisius  
+               1.16656                 0.83044                 1.59945  
+        ..Central Ark.     ..Central Conn. St.         ..Central Mich.  
+              -0.81631                -0.93452                 2.44318  
+      ..Charleston So.             ..Charlotte           ..Chattanooga  
+               0.70862                 1.93615                 4.28737  
+         ..Chicago St.            ..Cincinnati               ..Clemson  
+              -1.90662                 4.80121                 4.47624  
+       ..Cleveland St.         ..Coastal Caro.               ..Colgate  
+               1.18620                 2.69351                 1.28951  
+  ..Col. of Charleston              ..Colorado          ..Colorado St.  
+               3.06697                 5.08918                 3.01841  
+            ..Columbia            ..Coppin St.               ..Cornell  
+               3.29375                -0.24790                 1.21798  
+           ..Creighton       ..CSU Bakersfield                  ..CSUN  
+               4.66975                 2.97099                 1.23568  
+           ..Dartmouth              ..Davidson                ..Dayton  
+               1.02310                 4.21809                 5.20710  
+            ..Delaware          ..Delaware St.                ..Denver  
+               1.38861                -0.75905                 2.38588  
+              ..DePaul               ..Detroit                 ..Drake  
+               3.13417                 2.44449                 1.01162  
+              ..Drexel                  ..Duke              ..Duquesne  
+               1.55764                 5.73340                 3.17765  
+       ..East Carolina          ..Eastern Ill.           ..Eastern Ky.  
+               2.43069                 1.47635                 1.85039  
+       ..Eastern Mich.         ..Eastern Wash.                  ..Elon  
+               2.85006                 1.59560                 2.68270  
+                ..ETSU            ..Evansville             ..Fairfield  
+               3.22321                 4.05051                 2.36523  
+ ..Fairleigh Dickinson                  ..FGCU                   ..FIU  
+               1.41390                 2.22904                 1.23364  
+       ..Fla. Atlantic               ..Florida           ..Florida A&M  
+               0.68660                 4.72392                -0.67072  
+         ..Florida St.               ..Fordham            ..Fresno St.  
+               4.85201                 3.11110                 4.19279  
+              ..Furman          ..Gardner-Webb          ..Ga. Southern  
+               2.21712                 1.81052                 1.64068  
+        ..George Mason            ..Georgetown     ..George Washington  
+               2.59928                 4.29836                 5.00338  
+             ..Georgia           ..Georgia St.          ..Georgia Tech  
+               4.59189                 2.25364                 5.00755  
+             ..Gonzaga             ..Grambling          ..Grand Canyon  
+               5.14855                -1.28471                 3.54710  
+           ..Green Bay               ..Hampton              ..Hartford  
+               3.26587                 1.96359                 0.41617  
+             ..Harvard                ..Hawaii            ..High Point  
+               2.02883                 4.78449                 2.68777  
+             ..Hofstra            ..Holy Cross               ..Houston  
+               4.02996                 1.17990                 4.33237  
+     ..Houston Baptist                ..Howard                 ..Idaho  
+               0.98951                 0.16139                 2.00615  
+           ..Idaho St.          ..Ill.-Chicago              ..Illinois  
+               1.26754                 0.03902                 3.75816  
+        ..Illinois St.        ..Incarnate Word               ..Indiana  
+               3.43577                 1.44736                 5.77275  
+         ..Indiana St.                  ..Iona                  ..Iowa  
+               2.82547                 3.26749                 5.44129  
+            ..Iowa St.                  ..IPFW                 ..IUPUI  
+               5.71364                 3.50356                 2.27899  
+         ..Jackson St.          ..Jacksonville      ..Jacksonville St.  
+               1.00934                 1.22621                 0.28078  
+       ..James Madison                ..Kansas            ..Kansas St.  
+               3.56920                 7.17101                 4.72498  
+        ..Kennesaw St.              ..Kent St.              ..Kentucky  
+               1.23650                 3.03055                 5.53466  
+           ..Lafayette         ..La.-Lafayette                 ..Lamar  
+               0.18629                 2.50889                -0.57963  
+          ..La.-Monroe              ..La Salle                ..Lehigh  
+               2.70121                 2.27937                 1.79971  
+             ..Liberty              ..Lipscomb           ..Little Rock  
+               1.22272                 1.18241                 4.67618  
+        ..LIU Brooklyn        ..Long Beach St.              ..Longwood  
+               0.96722                 3.68929                 0.47540  
+      ..Louisiana Tech            ..Louisville        ..Loyola Chicago  
+               2.91379                 5.85714                 2.48115  
+     ..Loyola Maryland      ..Loyola Marymount                   ..LSU  
+               0.79634                 2.06339                 4.36823  
+               ..Maine             ..Manhattan                ..Marist  
+               0.25389                 1.54431                 0.43554  
+           ..Marquette              ..Marshall              ..Maryland  
+               4.86300                 2.76504                 5.75560  
+       ..Massachusetts           ..McNeese St.               ..Memphis  
+               3.06040                -0.81538                 3.71440  
+              ..Mercer            ..Miami (FL)            ..Miami (OH)  
+               2.31038                 6.28979                 2.23267  
+            ..Michigan          ..Michigan St.          ..Middle Tenn.  
+               5.12351                 6.30970                 3.59850  
+           ..Milwaukee             ..Minnesota       ..Mississippi St.  
+               2.78352                 2.45314                 3.52305  
+    ..Mississippi Val.              ..Missouri          ..Missouri St.  
+              -0.58082                 2.96299                 2.44397  
+            ..Monmouth               ..Montana           ..Montana St.  
+               4.06397                 2.31966                 1.30387  
+        ..Morehead St.            ..Morgan St.        ..Mt. St. Mary's  
+               3.02460                -0.10515                 0.89533  
+          ..Murray St.                  ..Navy              ..N.C. A&T  
+               2.36547                 1.79514                 0.01636  
+        ..N.C. Central              ..Nebraska                ..Nevada  
+               0.10142                 3.79804                 3.52785  
+       ..New Hampshire            ..New Mexico        ..New Mexico St.  
+               1.92751                 3.33692                 3.04951  
+         ..New Orleans               ..Niagara          ..Nicholls St.  
+              -0.76093                 0.35193                -0.59165  
+                ..NJIT           ..Norfolk St.        ..North Carolina  
+               2.17761                 1.23828                 6.68590  
+  ..North Carolina St.          ..North Dakota      ..North Dakota St.  
+               4.24165                 1.62277                 2.78905  
+        ..Northeastern        ..Northern Ariz.        ..Northern Colo.  
+               3.16049                -0.60925                 0.58235  
+       ..Northern Ill.          ..Northern Ky.         ..North Florida  
+               2.92442                 0.90065                 2.57573  
+         ..North Texas          ..Northwestern      ..Northwestern St.  
+               1.12728                 4.51505                -1.08789  
+          ..Notre Dame               ..Oakland                  ..Ohio  
+               5.54335                 3.41871                 3.39222  
+            ..Ohio St.              ..Oklahoma          ..Oklahoma St.  
+               4.68144                 6.61985                 3.65006  
+        ..Old Dominion              ..Ole Miss                 ..Omaha  
+               3.21444                 4.27739                 2.69770  
+        ..Oral Roberts                ..Oregon            ..Oregon St.  
+               2.52827                 6.31305                 4.97969  
+             ..Pacific                  ..Penn              ..Penn St.  
+               1.24516                 1.28655                 3.96697  
+          ..Pepperdine            ..Pittsburgh              ..Portland  
+               2.92216                 5.22395                 1.65561  
+        ..Portland St.          ..Prairie View          ..Presbyterian  
+               1.00963                -0.51535                 0.79194  
+           ..Princeton            ..Providence                ..Purdue  
+               3.91947                 5.68201                 5.64444  
+          ..Quinnipiac               ..Radford          ..Rhode Island  
+               0.69138                 2.14566                 3.69527  
+                ..Rice              ..Richmond                 ..Rider  
+               1.22934                 3.73931                 1.35165  
+       ..Robert Morris               ..Rutgers        ..Sacramento St.  
+               0.41179                 1.59810                 1.23825  
+        ..Sacred Heart    ..Saint Francis (PA)        ..Saint Joseph's  
+               0.65971                 0.76057                 5.41155  
+         ..Saint Louis         ..Saint Peter's               ..Samford  
+               2.58524                 1.63243                 1.44262  
+     ..Sam Houston St.             ..San Diego         ..San Diego St.  
+               1.18213                 1.30123                 4.80501  
+       ..San Francisco          ..San Jose St.           ..Santa Clara  
+               2.14691                 1.37949                 1.72406  
+        ..Savannah St.               ..Seattle            ..Seton Hall  
+               0.82193                 1.25948                 5.95623  
+                 ..SFA                 ..Siena                  ..SIUE  
+               3.94544                 2.74407                 0.58728  
+                 ..SMU            ..South Ala.        ..South Carolina  
+               5.58967                 1.65399                 4.88612  
+  ..South Carolina St.          ..South Dakota      ..South Dakota St.  
+               1.46373                 2.19735                 3.94885  
+    ..Southeastern La.     ..Southeast Mo. St.   ..Southern California  
+              -0.45230                -0.49976                 4.96284  
+       ..Southern Ill.        ..Southern Miss.           ..Southern U.  
+               3.51783                 0.71244                 1.38108  
+       ..Southern Utah            ..South Fla.              ..Stanford  
+              -0.50940                 1.92817                 4.65933  
+     ..St. Bonaventure               ..Stetson  ..St. Francis Brooklyn  
+               4.50390                 0.69514                 0.92657  
+     ..St. John's (NY)       ..St. Mary's (CA)           ..Stony Brook  
+               2.28079                 4.91109                 3.71030  
+            ..Syracuse                   ..TCU                ..Temple  
+               5.26120                 3.58452                 4.69862  
+           ..Tennessee         ..Tennessee St.        ..Tennessee Tech  
+               3.71789                 2.50802                 2.59788  
+               ..Texas             ..Texas A&M        ..Texas Southern  
+               5.47014                 5.54321                 1.44082  
+           ..Texas St.            ..Texas Tech           ..The Citadel  
+               1.62375                 5.20413                 0.63584  
+              ..Toledo                ..Towson                  ..Troy  
+               2.56348                 3.02564                 0.86686  
+              ..Tulane                 ..Tulsa                   ..UAB  
+               2.19506                 4.40867                 3.82622  
+            ..UC Davis                   ..UCF             ..UC Irvine  
+               1.38548                 2.58975                 3.93157  
+                ..UCLA                 ..UConn          ..UC Riverside  
+               4.34088                 5.10187                 1.42442  
+    ..UC Santa Barbara          ..UMass Lowell                  ..UMBC  
+               3.32735                 0.86949                 0.01992  
+                ..UMES                  ..UMKC         ..UNC Asheville  
+               0.02316                 1.00665                 2.86212  
+                ..UNCG                  ..UNCW                   ..UNI  
+               1.71406                 4.11765                 4.10390  
+                ..UNLV           ..USC Upstate                  ..Utah  
+               3.42757                 0.55934                 5.94960  
+            ..Utah St.           ..Utah Valley          ..UT Arlington  
+               3.05685                 0.74360                 3.01617  
+                ..UTEP             ..UT Martin                 ..UTRGV  
+               2.13106                 2.10158                -0.39220  
+                ..UTSA            ..Valparaiso            ..Vanderbilt  
+              -0.47689                 4.64794                 4.55878  
+                 ..VCU               ..Vermont             ..Villanova  
+               4.87804                 2.64342                 7.35174  
+            ..Virginia         ..Virginia Tech                   ..VMI  
+               6.52826                 4.90151                 0.76439  
+              ..Wagner           ..Wake Forest            ..Washington  
+               2.04376                 3.76049                 4.65025  
+      ..Washington St.             ..Weber St.         ..Western Caro.  
+               2.71703                 2.84644                 2.17533  
+        ..Western Ill.           ..Western Ky.         ..Western Mich.  
+               1.54204                 2.51508                 2.23271  
+       ..West Virginia           ..Wichita St.        ..William & Mary  
+               6.17017                 4.87970                 3.68116  
+            ..Winthrop             ..Wisconsin               ..Wofford  
+               2.83879                 5.24399                 2.00539  
+          ..Wright St.               ..Wyoming                ..Xavier  
+               2.95395                 2.59730                 6.51136  
+                ..Yale        ..Youngstown St.  
+               4.21574                 1.26962  
+
+Degrees of Freedom: 22064 Total (i.e. Null);  21714 Residual
+Null Deviance:	    30590 
+Residual Deviance: 21160 	AIC: 21860
+> 
+> out <- as.data.frame(BTabilities(fit))
+> out <- out[with(out, order(-ability)), ]
+> 
+> out <- subset(out,TRUE,select=c(ability))
+> out$ability <- exp(out$ability)
+> 
+> out$team <- rownames(out)
+> out
+                          ability                 team
+Villanova            1558.9076365            Villanova
+Kansas               1301.1533097               Kansas
+North Carolina        801.0335119       North Carolina
+Oklahoma              749.8362547             Oklahoma
+Virginia              684.2061901             Virginia
+Xavier                672.7394707               Xavier
+Oregon                551.7263094               Oregon
+Michigan St.          549.8825405         Michigan St.
+Miami (FL)            539.0394210           Miami (FL)
+West Virginia         478.2653750        West Virginia
+Seton Hall            386.1499058           Seton Hall
+Utah                  383.5984397                 Utah
+Louisville            349.7234240           Louisville
+Indiana               321.4211306              Indiana
+Maryland              315.9565189             Maryland
+Duke                  309.0166208                 Duke
+Iowa St.              302.9724208             Iowa St.
+Providence            293.5378424           Providence
+Purdue                282.7156675               Purdue
+SMU                   267.6482968                  SMU
+Butler                266.1050325               Butler
+Arizona               257.8541220              Arizona
+Baylor                256.7889952               Baylor
+Notre Dame            255.5327973           Notre Dame
+Texas A&M             255.4979459            Texas A&M
+Kentucky              253.3227402             Kentucky
+Texas                 237.4940278                Texas
+Iowa                  230.7396882                 Iowa
+California            226.0455763           California
+Saint Joseph's        223.9790760       Saint Joseph's
+Syracuse              192.7117746             Syracuse
+Wisconsin             189.4250617            Wisconsin
+Pittsburgh            185.6655117           Pittsburgh
+Dayton                182.5631176               Dayton
+Texas Tech            182.0222596           Texas Tech
+Gonzaga               172.1814566              Gonzaga
+Michigan              167.9230974             Michigan
+UConn                 164.3292434                UConn
+Colorado              162.2565205             Colorado
+Georgia Tech          149.5382048         Georgia Tech
+George Washington     148.9151625    George Washington
+Oregon St.            145.4290695           Oregon St.
+Southern California   142.9987374  Southern California
+St. Mary's (CA)       135.7878669      St. Mary's (CA)
+Virginia Tech         134.4930891        Virginia Tech
+South Carolina        132.4380637       South Carolina
+Wichita St.           131.5915604          Wichita St.
+VCU                   131.3731187                  VCU
+Marquette             129.4123528            Marquette
+Florida St.           127.9977311          Florida St.
+San Diego St.         122.1206590        San Diego St.
+Cincinnati            121.6577926           Cincinnati
+Hawaii                119.6408858               Hawaii
+Kansas St.            112.7278525           Kansas St.
+Florida               112.6092851              Florida
+Temple                109.7960722               Temple
+Ohio St.              107.9258202             Ohio St.
+Little Rock           107.3591358          Little Rock
+Creighton             106.6711405            Creighton
+Stanford              105.5652837             Stanford
+Washington            104.6112694           Washington
+Valparaiso            104.3699831           Valparaiso
+Georgia                98.6803060              Georgia
+Vanderbilt             95.4670299           Vanderbilt
+Northwestern           91.3825886         Northwestern
+St. Bonaventure        90.3685953      St. Bonaventure
+Clemson                87.9036504              Clemson
+Alabama                83.9148487              Alabama
+Tulsa                  82.1598005                Tulsa
+LSU                    78.9036910                  LSU
+UCLA                   76.7749169                 UCLA
+Houston                76.1248601              Houston
+Georgetown             73.5786595           Georgetown
+Chattanooga            72.7746700          Chattanooga
+Ole Miss               72.0522297             Ole Miss
+North Carolina St.     69.5226800   North Carolina St.
+Arizona St.            69.2620523          Arizona St.
+Davidson               67.9039916             Davidson
+Yale                   67.7444964                 Yale
+Fresno St.             66.2074449           Fresno St.
+BYU                    65.9069543                  BYU
+UNCW                   61.4147540                 UNCW
+UNI                    60.5760248                  UNI
+Monmouth               58.2048394             Monmouth
+Evansville             57.4265286           Evansville
+Hofstra                56.2585343              Hofstra
+Penn St.               52.8239798             Penn St.
+South Dakota St.       51.8755367     South Dakota St.
+SFA                    51.6992763                  SFA
+Arkansas               51.5351183             Arkansas
+UC Irvine              50.9868412            UC Irvine
+Princeton              50.3738622            Princeton
+Akron                  49.3253828                Akron
+UAB                    45.8886769                  UAB
+Nebraska               44.6135026             Nebraska
+Wake Forest            42.9696236          Wake Forest
+Illinois               42.8694513             Illinois
+Richmond               42.0687654             Richmond
+Tennessee              41.1774559            Tennessee
+Boise St.              41.1738324            Boise St.
+Memphis                41.0340381              Memphis
+Stony Brook            40.8659680          Stony Brook
+Rhode Island           40.2563610         Rhode Island
+Long Beach St.         40.0165865       Long Beach St.
+William & Mary         39.6924187       William & Mary
+Oklahoma St.           38.4768547         Oklahoma St.
+Middle Tenn.           36.5435074         Middle Tenn.
+TCU                    36.0360292                  TCU
+James Madison          35.4883298        James Madison
+Grand Canyon           34.7123816         Grand Canyon
+Nevada                 34.0507583               Nevada
+Mississippi St.        33.8876584      Mississippi St.
+Southern Ill.          33.7111350        Southern Ill.
+IPFW                   33.2334597                 IPFW
+Illinois St.           31.0553861         Illinois St.
+UNLV                   30.8015749                 UNLV
+Oakland                30.5299394              Oakland
+Ohio                   29.7320207                 Ohio
+New Mexico             28.1322920           New Mexico
+UC Santa Barbara       27.8645143     UC Santa Barbara
+Buffalo                27.0362847              Buffalo
+Columbia               26.9437470             Columbia
+Iona                   26.2454662                 Iona
+Green Bay              26.2027696            Green Bay
+Auburn                 25.5049555               Auburn
+ETSU                   25.1085267                 ETSU
+Old Dominion           24.8892430         Old Dominion
+Duquesne               23.9903669             Duquesne
+Northeastern           23.5820312         Northeastern
+DePaul                 22.9695761               DePaul
+Fordham                22.4457839              Fordham
+A&M-Corpus Christi     21.8301262   A&M-Corpus Christi
+Col. of Charleston     21.4768001   Col. of Charleston
+Massachusetts          21.3360385        Massachusetts
+Utah St.               21.2605587             Utah St.
+New Mexico St.         21.1050986       New Mexico St.
+Kent St.               20.7086979             Kent St.
+Towson                 20.6072124               Towson
+Morehead St.           20.5858604         Morehead St.
+Belmont                20.4815263              Belmont
+Colorado St.           20.4587493         Colorado St.
+UT Arlington           20.4129522         UT Arlington
+CSU Bakersfield        19.5112604      CSU Bakersfield
+Missouri               19.3557002             Missouri
+Wright St.             19.1815552           Wright St.
+Northern Ill.          18.6234603        Northern Ill.
+Pepperdine             18.5813889           Pepperdine
+Louisiana Tech         18.4265219       Louisiana Tech
+UNC Asheville          17.4986387        UNC Asheville
+Eastern Mich.          17.2888014        Eastern Mich.
+Weber St.              17.2263868            Weber St.
+Winthrop               17.0950382             Winthrop
+Indiana St.            16.8687993          Indiana St.
+North Dakota St.       16.2655225     North Dakota St.
+Milwaukee              16.1759000            Milwaukee
+Ball St.               15.9934624             Ball St.
+Marshall               15.8797404             Marshall
+Siena                  15.5501886                Siena
+Albany (NY)            15.3708231          Albany (NY)
+Washington St.         15.1353702       Washington St.
+La.-Monroe             14.8977955           La.-Monroe
+Omaha                  14.8455531                Omaha
+Coastal Caro.          14.7834638        Coastal Caro.
+High Point             14.6988065           High Point
+Elon                   14.6244909                 Elon
+Vermont                14.0612448              Vermont
+George Mason           13.4540665         George Mason
+Tennessee Tech         13.4352632       Tennessee Tech
+Wyoming                13.4274726              Wyoming
+UCF                    13.3264379                  UCF
+Saint Louis            13.2665023          Saint Louis
+North Florida          13.1408635        North Florida
+Toledo                 12.9808643               Toledo
+Oral Roberts           12.5318316         Oral Roberts
+Western Ky.            12.3676155          Western Ky.
+La.-Lafayette          12.2912925        La.-Lafayette
+Tennessee St.          12.2806149        Tennessee St.
+Loyola Chicago         11.9550600       Loyola Chicago
+Minnesota              11.6247891            Minnesota
+Detroit                11.5246974              Detroit
+Missouri St.           11.5186420         Missouri St.
+Central Mich.          11.5095507        Central Mich.
+East Carolina          11.3667454        East Carolina
+Air Force              11.1069900            Air Force
+Denver                 10.8686585               Denver
+Murray St.             10.6490538           Murray St.
+Fairfield              10.6464352            Fairfield
+Montana                10.1721822              Montana
+Mercer                 10.0782937               Mercer
+St. John's (NY)         9.7843652      St. John's (NY)
+La Salle                9.7704822             La Salle
+IUPUI                   9.7667947                IUPUI
+Georgia St.             9.5223193          Georgia St.
+Western Mich.           9.3251193        Western Mich.
+Miami (OH)              9.3247232           Miami (OH)
+FGCU                    9.2909818                 FGCU
+Furman                  9.1808332               Furman
+South Dakota            9.0011384         South Dakota
+Tulane                  8.9805040               Tulane
+Bowling Green           8.9786681        Bowling Green
+NJIT                    8.8252163                 NJIT
+Western Caro.           8.8050497        Western Caro.
+San Francisco           8.5583600        San Francisco
+Radford                 8.5476415              Radford
+UTEP                    8.4238154                 UTEP
+UT Martin               8.1790672            UT Martin
+Loyola Marymount        7.8725778     Loyola Marymount
+Wagner                  7.7195805               Wagner
+Harvard                 7.6051803              Harvard
+Boston College          7.5897962       Boston College
+Austin Peay             7.4718767          Austin Peay
+Idaho                   7.4346596                Idaho
+Wofford                 7.4290028              Wofford
+Hampton                 7.1248518              Hampton
+Bucknell                7.0836173             Bucknell
+Charlotte               6.9320051            Charlotte
+South Fla.              6.8769088           South Fla.
+New Hampshire           6.8723447        New Hampshire
+Boston U.               6.4144381            Boston U.
+Eastern Ky.             6.3623143          Eastern Ky.
+Gardner-Webb            6.1136562         Gardner-Webb
+Lehigh                  6.0478967               Lehigh
+Navy                    6.0203423                 Navy
+Santa Clara             5.6072312          Santa Clara
+Army West Point         5.6018287      Army West Point
+UNCG                    5.5514393                 UNCG
+Portland                5.2362552             Portland
+South Ala.              5.2278024           South Ala.
+Ga. Southern            5.1586804         Ga. Southern
+Saint Peter's           5.1162930        Saint Peter's
+Texas St.               5.0720859            Texas St.
+North Dakota            5.0670872         North Dakota
+Canisius                4.9503191             Canisius
+Rutgers                 4.9436406              Rutgers
+Eastern Wash.           4.9312829        Eastern Wash.
+Drexel                  4.7475961               Drexel
+Manhattan               4.6847486            Manhattan
+Western Ill.            4.6741081         Western Ill.
+Cal Poly                4.6441957             Cal Poly
+Eastern Ill.            4.3769392         Eastern Ill.
+South Carolina St.      4.3220504   South Carolina St.
+Incarnate Word          4.2518863       Incarnate Word
+Samford                 4.2317530              Samford
+Texas Southern          4.2241668       Texas Southern
+UC Riverside            4.1554396         UC Riverside
+Fairleigh Dickinson     4.1119439  Fairleigh Dickinson
+Delaware                4.0092836             Delaware
+UC Davis                3.9967633             UC Davis
+Southern U.             3.9791985          Southern U.
+San Jose St.            3.9728727         San Jose St.
+Rider                   3.8637767                Rider
+Montana St.             3.6835379          Montana St.
+San Diego               3.6738184            San Diego
+Colgate                 3.6310008              Colgate
+Penn                    3.6202771                 Penn
+Youngstown St.          3.5594871       Youngstown St.
+Idaho St.               3.5521078            Idaho St.
+Seattle                 3.5235887              Seattle
+Appalachian St.         3.4751170      Appalachian St.
+Pacific                 3.4734961              Pacific
+Norfolk St.             3.4496675          Norfolk St.
+Sacramento St.          3.4495772       Sacramento St.
+Kennesaw St.            3.4435473         Kennesaw St.
+CSUN                    3.4407279                 CSUN
+FIU                     3.4337189                  FIU
+Rice                    3.4189634                 Rice
+Jacksonville            3.4083012         Jacksonville
+Liberty                 3.3964275              Liberty
+Cornell                 3.3803457              Cornell
+Cleveland St.           3.2746119        Cleveland St.
+Lipscomb                3.2622116             Lipscomb
+Sam Houston St.         3.2613087      Sam Houston St.
+Holy Cross              3.2540396           Holy Cross
+Cal St. Fullerton       3.2109393    Cal St. Fullerton
+American                3.1150837             American
+North Texas             3.0872626          North Texas
+Arkansas St.            3.0427092         Arkansas St.
+Dartmouth               2.7818053            Dartmouth
+Drake                   2.7500485                Drake
+Portland St.            2.7445862         Portland St.
+Jackson St.             2.7437760          Jackson St.
+UMKC                    2.7364201                 UMKC
+Houston Baptist         2.6899291      Houston Baptist
+LIU Brooklyn            2.6306311         LIU Brooklyn
+St. Francis Brooklyn    2.5258317 St. Francis Brooklyn
+Northern Ky.            2.4612018         Northern Ky.
+Mt. St. Mary's          2.4481428       Mt. St. Mary's
+UMass Lowell            2.3857012         UMass Lowell
+Troy                    2.3794334                 Troy
+Campbell                2.2943214             Campbell
+Savannah St.            2.2748938         Savannah St.
+Loyola Maryland         2.2174209      Loyola Maryland
+Presbyterian            2.2076820         Presbyterian
+VMI                     2.1476862                  VMI
+Saint Francis (PA)      2.1394936   Saint Francis (PA)
+Utah Valley             2.1034920          Utah Valley
+Southern Miss.          2.0389627       Southern Miss.
+Charleston So.          2.0311867       Charleston So.
+Stetson                 2.0039873              Stetson
+Quinnipiac              1.9964602           Quinnipiac
+Fla. Atlantic           1.9869391        Fla. Atlantic
+Bradley                 1.9765821              Bradley
+Sacred Heart            1.9342340         Sacred Heart
+The Citadel             1.8885998          The Citadel
+SIUE                    1.7990814                 SIUE
+Northern Colo.          1.7902338       Northern Colo.
+USC Upstate             1.7495246          USC Upstate
+Alcorn                  1.7281982               Alcorn
+Brown                   1.6311327                Brown
+Longwood                1.6086586             Longwood
+Bethune-Cookman         1.5868520      Bethune-Cookman
+Marist                  1.5458031               Marist
+Hartford                1.5161364             Hartford
+Robert Morris           1.5095173        Robert Morris
+Alabama St.             1.4683289          Alabama St.
+Niagara                 1.4218082              Niagara
+Binghamton              1.4030493           Binghamton
+Jacksonville St.        1.3241618     Jacksonville St.
+Maine                   1.2890245                Maine
+Lafayette               1.2047703            Lafayette
+Howard                  1.1751460               Howard
+N.C. Central            1.1067387         N.C. Central
+Ill.-Chicago            1.0397923         Ill.-Chicago
+UMES                    1.0234288                 UMES
+UMBC                    1.0201234                 UMBC
+N.C. A&T                1.0164966             N.C. A&T
+Abilene Christian       1.0000000    Abilene Christian
+Alabama A&M             0.9214214          Alabama A&M
+Morgan St.              0.9001859           Morgan St.
+Bryant                  0.8679757               Bryant
+Coppin St.              0.7804400           Coppin St.
+Ark.-Pine Bluff         0.6756663      Ark.-Pine Bluff
+UTRGV                   0.6755670                UTRGV
+Southeastern La.        0.6361602     Southeastern La.
+UTSA                    0.6207127                 UTSA
+Southeast Mo. St.       0.6066785    Southeast Mo. St.
+Southern Utah           0.6008543        Southern Utah
+Prairie View            0.5972941         Prairie View
+Lamar                   0.5601042                Lamar
+Mississippi Val.        0.5594412     Mississippi Val.
+Nicholls St.            0.5534121         Nicholls St.
+Northern Ariz.          0.5437560       Northern Ariz.
+Florida A&M             0.5113420          Florida A&M
+Delaware St.            0.4681119         Delaware St.
+New Orleans             0.4672303          New Orleans
+McNeese St.             0.4424692          McNeese St.
+Central Ark.            0.4420578         Central Ark.
+Central Conn. St.       0.3927739    Central Conn. St.
+Northwestern St.        0.3369281     Northwestern St.
+Grambling               0.2767312            Grambling
+Chicago St.             0.1485818          Chicago St.
+> 
+> scored <- aggregate(team_score ~ team, games, sum)
+> allowed <- aggregate(opponent_score ~ team, games, sum)
+> 
+> df <- merge(out,scored)
+> df <- merge(df,allowed)
+> 
+> fit <- lm(log(ability) ~ log(team_score/opponent_score), df)
+> 
+> fit
+
+Call:
+lm(formula = log(ability) ~ log(team_score/opponent_score), data = df)
+
+Coefficients:
+                   (Intercept)  log(team_score/opponent_score)  
+                         2.693                          16.948  
+
+> quit("no")
