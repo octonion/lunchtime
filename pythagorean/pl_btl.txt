@@ -39,7 +39,7 @@ Type 'q()' to quit R.
 > 
 > games <- fetch(query,n=-1)
 > dim(games)
-[1] 712   5
+[1] 760   5
 > 
 > fit <- BTm(outcome,team,opponent,data=games)
 > 
@@ -50,17 +50,17 @@ Call:  BTm(outcome = outcome, player1 = team, player2 = opponent, data = games)
 
 Coefficients:
 ..Aston Villa  ..Bournemouth      ..Chelsea     ..C Palace      ..Everton  
-      -2.2477        -1.0815        -0.6923        -1.1418        -0.7796  
+   -2.218e+00     -1.109e+00     -7.270e-01     -1.109e+00     -8.353e-01  
   ..Leicester    ..Liverpool     ..Man City      ..Man Utd    ..Newcastle  
-       0.4662        -0.4178        -0.2145        -0.2335        -1.3564  
+    4.525e-01     -4.004e-01     -2.327e-01     -2.327e-01     -1.279e+00  
     ..Norwich  ..Southampton        ..Stoke   ..Sunderland      ..Swansea  
-      -1.4728        -0.4528        -0.7886        -1.3312        -0.9878  
+   -1.456e+00     -3.450e-01     -7.811e-01     -1.165e+00     -8.896e-01  
   ..Tottenham      ..Watford    ..West Brom     ..West Ham  
-       0.1888        -0.8758        -1.0161        -0.1898  
+    3.032e-16     -9.988e-01     -9.988e-01     -2.891e-01  
 
-Degrees of Freedom: 712 Total (i.e. Null);  693 Residual
-Null Deviance:	    987 
-Residual Deviance: 870.4 	AIC: 908.4
+Degrees of Freedom: 760 Total (i.e. Null);  741 Residual
+Null Deviance:	    1054 
+Residual Deviance: 939.9 	AIC: 977.9
 > 
 > out <- as.data.frame(BTabilities(fit))
 > out <- out[with(out, order(-ability)), ]
@@ -71,26 +71,26 @@ Residual Deviance: 870.4 	AIC: 908.4
 > out$team <- rownames(out)
 > out
               ability        team
-Leicester   1.5938839   Leicester
-Tottenham   1.2077669   Tottenham
+Leicester   1.5722121   Leicester
+Tottenham   1.0000000   Tottenham
 Arsenal     1.0000000     Arsenal
-West Ham    0.8271289    West Ham
-Man City    0.8069383    Man City
-Man Utd     0.7917409     Man Utd
-Liverpool   0.6584758   Liverpool
-Southampton 0.6358687 Southampton
-Chelsea     0.5004246     Chelsea
-Everton     0.4585831     Everton
-Stoke       0.4544688       Stoke
-Watford     0.4165178     Watford
-Swansea     0.3723811     Swansea
-West Brom   0.3620079   West Brom
-Bournemouth 0.3390761 Bournemouth
-C Palace    0.3192353    C Palace
-Sunderland  0.2641673  Sunderland
-Newcastle   0.2575976   Newcastle
-Norwich     0.2292931     Norwich
-Aston Villa 0.1056470 Aston Villa
+Man City    0.7923566    Man City
+Man Utd     0.7923566     Man Utd
+West Ham    0.7489054    West Ham
+Southampton 0.7082200 Southampton
+Liverpool   0.6700552   Liverpool
+Chelsea     0.4833574     Chelsea
+Stoke       0.4579062       Stoke
+Everton     0.4337632     Everton
+Swansea     0.4108365     Swansea
+Watford     0.3683053     Watford
+West Brom   0.3683053   West Brom
+Bournemouth 0.3297291 Bournemouth
+C Palace    0.3297291    C Palace
+Sunderland  0.3117685  Sunderland
+Newcastle   0.2782348   Newcastle
+Norwich     0.2332235     Norwich
+Aston Villa 0.1088796 Aston Villa
 > 
 > scored <- aggregate(team_score ~ team, games, sum)
 > allowed <- aggregate(opponent_score ~ team, games, sum)
@@ -107,6 +107,6 @@ lm(formula = log(ability) ~ log(team_score/opponent_score), data = df)
 
 Coefficients:
                    (Intercept)  log(team_score/opponent_score)  
-                       -0.7249                          1.2844  
+                       -0.7206                          1.2865  
 
 > quit("no")
