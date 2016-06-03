@@ -1,0 +1,112 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library("BradleyTerry2")
+> 
+> library("RPostgreSQL")
+> 
+> drv <- dbDriver("PostgreSQL")
+> 
+> con <- dbConnect(drv, dbname="soccer")
+> 
+> query <- dbSendQuery(con, "
++ select
++ team_name as team,
++ opponent_name as opponent,
++ team_score as team_score,
++ opponent_score as opponent_score,
++ (case when team_score>opponent_score then 1.0
++  else 0.0 end) as outcome
++ from club.results
++ where year=2015
++ ;")
+> 
+> games <- fetch(query,n=-1)
+> dim(games)
+[1] 712   5
+> 
+> fit <- BTm(outcome,team,opponent,data=games)
+> 
+> fit
+Bradley Terry model fit by glm.fit 
+
+Call:  BTm(outcome = outcome, player1 = team, player2 = opponent, data = games)
+
+Coefficients:
+..Aston Villa  ..Bournemouth      ..Chelsea     ..C Palace      ..Everton  
+      -2.2477        -1.0815        -0.6923        -1.1418        -0.7796  
+  ..Leicester    ..Liverpool     ..Man City      ..Man Utd    ..Newcastle  
+       0.4662        -0.4178        -0.2145        -0.2335        -1.3564  
+    ..Norwich  ..Southampton        ..Stoke   ..Sunderland      ..Swansea  
+      -1.4728        -0.4528        -0.7886        -1.3312        -0.9878  
+  ..Tottenham      ..Watford    ..West Brom     ..West Ham  
+       0.1888        -0.8758        -1.0161        -0.1898  
+
+Degrees of Freedom: 712 Total (i.e. Null);  693 Residual
+Null Deviance:	    987 
+Residual Deviance: 870.4 	AIC: 908.4
+> 
+> out <- as.data.frame(BTabilities(fit))
+> out <- out[with(out, order(-ability)), ]
+> 
+> out <- subset(out,TRUE,select=c(ability))
+> out$ability <- exp(out$ability)
+> 
+> out$team <- rownames(out)
+> out
+              ability        team
+Leicester   1.5938839   Leicester
+Tottenham   1.2077669   Tottenham
+Arsenal     1.0000000     Arsenal
+West Ham    0.8271289    West Ham
+Man City    0.8069383    Man City
+Man Utd     0.7917409     Man Utd
+Liverpool   0.6584758   Liverpool
+Southampton 0.6358687 Southampton
+Chelsea     0.5004246     Chelsea
+Everton     0.4585831     Everton
+Stoke       0.4544688       Stoke
+Watford     0.4165178     Watford
+Swansea     0.3723811     Swansea
+West Brom   0.3620079   West Brom
+Bournemouth 0.3390761 Bournemouth
+C Palace    0.3192353    C Palace
+Sunderland  0.2641673  Sunderland
+Newcastle   0.2575976   Newcastle
+Norwich     0.2292931     Norwich
+Aston Villa 0.1056470 Aston Villa
+> 
+> scored <- aggregate(team_score ~ team, games, sum)
+> allowed <- aggregate(opponent_score ~ team, games, sum)
+> 
+> df <- merge(out,scored)
+> df <- merge(df,allowed)
+> 
+> fit <- lm(log(ability) ~ log(team_score/opponent_score), df)
+> 
+> fit
+
+Call:
+lm(formula = log(ability) ~ log(team_score/opponent_score), data = df)
+
+Coefficients:
+                   (Intercept)  log(team_score/opponent_score)  
+                       -0.7249                          1.2844  
+
+> quit("no")
