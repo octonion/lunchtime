@@ -31,8 +31,11 @@ Type 'q()' to quit R.
 + opponent_name as opponent,
 + team_score as team_score,
 + opponent_score as opponent_score,
-+ (case when team_score>opponent_score then 1.0
-+  else 0.0 end) as outcome
++ (
++ case when team_score>opponent_score then 1.0
++      when team_score=opponent_score then 0.5
++      when team_score<opponent_score then 0.0
++ end) as outcome
 + from club.results
 + where year=2015
 + ;")
@@ -56,11 +59,11 @@ Coefficients:
     ..Norwich  ..Southampton        ..Stoke   ..Sunderland      ..Swansea  
    -1.456e+00     -3.450e-01     -7.811e-01     -1.165e+00     -8.896e-01  
   ..Tottenham      ..Watford    ..West Brom     ..West Ham  
-    3.032e-16     -9.988e-01     -9.988e-01     -2.891e-01  
+    9.097e-17     -9.988e-01     -9.988e-01     -2.891e-01  
 
 Degrees of Freedom: 760 Total (i.e. Null);  741 Residual
-Null Deviance:	    1054 
-Residual Deviance: 939.9 	AIC: 977.9
+Null Deviance:	    756.9 
+Residual Deviance: 643.2 	AIC: 977.9
 > 
 > out <- as.data.frame(BTabilities(fit))
 > out <- out[with(out, order(-ability)), ]
@@ -83,8 +86,8 @@ Chelsea     0.4833574     Chelsea
 Stoke       0.4579062       Stoke
 Everton     0.4337632     Everton
 Swansea     0.4108365     Swansea
-Watford     0.3683053     Watford
 West Brom   0.3683053   West Brom
+Watford     0.3683053     Watford
 Bournemouth 0.3297291 Bournemouth
 C Palace    0.3297291    C Palace
 Sunderland  0.3117685  Sunderland

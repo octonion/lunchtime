@@ -12,8 +12,11 @@ team_name as team,
 opponent_name as opponent,
 team_score as team_score,
 opponent_score as opponent_score,
-(case when team_score>opponent_score then 1.0
- else 0.0 end) as outcome
+(
+case when team_score>opponent_score then 1.0
+     when team_score=opponent_score then 0.5
+     when team_score<opponent_score then 0.0
+end) as outcome
 from club.results
 where year=2015
 ;")
