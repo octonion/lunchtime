@@ -1,0 +1,4861 @@
+team,opponent,team_score,opponent_score,outcome
+Dodgers,D-backs,3,1,1.0
+Dodgers,D-backs,7,5,1.0
+Padres,Dodgers,3,1,1.0
+Brewers,Braves,2,0,1.0
+Orioles,Red Sox,2,1,1.0
+Pirates,Cubs,1,0,1.0
+Indians,Athletics,2,0,1.0
+Marlins,Rockies,10,1,1.0
+Tigers,Royals,4,3,1.0
+White Sox,Twins,5,3,1.0
+Phillies,Rangers,14,10,1.0
+Mariners,Angels,10,3,1.0
+Giants,D-backs,9,8,1.0
+Cardinals,Reds,1,0,1.0
+Rays,Blue Jays,9,2,1.0
+Nationals,Mets,9,7,1.0
+Braves,Brewers,5,2,1.0
+Marlins,Rockies,4,3,1.0
+Dodgers,Padres,3,2,1.0
+Astros,Yankees,6,2,1.0
+Rangers,Phillies,3,2,1.0
+Mariners,Angels,8,3,1.0
+D-backs,Giants,5,4,1.0
+Blue Jays,Rays,4,2,1.0
+Braves,Brewers,1,0,1.0
+Red Sox,Orioles,6,2,1.0
+Pirates,Cubs,4,3,1.0
+Athletics,Indians,6,1,1.0
+Indians,Athletics,6,4,1.0
+Rockies,Marlins,6,5,1.0
+Tigers,Royals,2,1,1.0
+Dodgers,Padres,5,1,1.0
+White Sox,Twins,7,6,1.0
+Astros,Yankees,3,1,1.0
+Rangers,Phillies,4,3,1.0
+Mariners,Angels,8,2,1.0
+Giants,D-backs,2,0,1.0
+Reds,Cardinals,1,0,1.0
+Blue Jays,Rays,3,0,1.0
+Nationals,Mets,5,1,1.0
+Red Sox,Orioles,4,3,1.0
+Cubs,Pirates,3,2,1.0
+Marlins,Rockies,8,5,1.0
+Twins,White Sox,10,9,1.0
+Yankees,Astros,4,2,1.0
+Athletics,Mariners,3,2,1.0
+Giants,D-backs,8,5,1.0
+Cardinals,Reds,7,6,1.0
+Rays,Blue Jays,7,2,1.0
+Nationals,Mets,8,2,1.0
+Angels,Astros,11,1,1.0
+Rockies,D-backs,12,2,1.0
+Braves,Nationals,2,1,1.0
+Tigers,Orioles,10,4,1.0
+Royals,White Sox,7,5,1.0
+Mets,Reds,4,3,1.0
+Brewers,Red Sox,6,2,1.0
+Indians,Twins,7,2,1.0
+Yankees,Blue Jays,7,3,1.0
+Phillies,Cubs,7,2,1.0
+Marlins,Padres,8,2,1.0
+Giants,Dodgers,8,4,1.0
+Pirates,Cardinals,12,2,1.0
+Rays,Rangers,8,1,1.0
+Angels,Astros,5,1,1.0
+Rockies,D-backs,9,4,1.0
+Braves,Nationals,6,2,1.0
+Tigers,Orioles,7,6,1.0
+Royals,White Sox,4,3,1.0
+Mets,Reds,6,3,1.0
+Brewers,Red Sox,7,6,1.0
+Twins,Indians,7,3,1.0
+Blue Jays,Yankees,4,0,1.0
+Phillies,Cubs,2,0,1.0
+Marlins,Padres,5,0,1.0
+Mariners,Athletics,3,1,1.0
+Giants,Dodgers,7,2,1.0
+Cardinals,Pirates,6,1,1.0
+Rays,Rangers,5,4,1.0
+Astros,Angels,7,4,1.0
+D-backs,Rockies,5,3,1.0
+Nationals,Braves,2,1,1.0
+Orioles,Tigers,3,1,1.0
+White Sox,Royals,5,1,1.0
+Reds,Mets,2,1,1.0
+Brewers,Red Sox,4,0,1.0
+Twins,Indians,10,7,1.0
+Yankees,Blue Jays,6,4,1.0
+Cubs,Phillies,8,3,1.0
+Padres,Marlins,4,2,1.0
+Athletics,Mariners,6,3,1.0
+Dodgers,Giants,6,2,1.0
+Pirates,Cardinals,2,1,1.0
+Rangers,Rays,3,0,1.0
+Angels,Astros,9,1,1.0
+Yankees,Orioles,4,2,1.0
+Rockies,White Sox,8,1,1.0
+Cardinals,Reds,5,3,1.0
+Athletics,Twins,8,3,1.0
+Royals,Rays,4,2,1.0
+Red Sox,Rangers,5,1,1.0
+Mariners,Angels,5,3,1.0
+Giants,D-backs,7,3,1.0
+Orioles,Yankees,14,5,1.0
+White Sox,Rockies,15,3,1.0
+Cardinals,Reds,7,5,1.0
+Dodgers,Tigers,3,2,1.0
+Blue Jays,Astros,5,2,1.0
+Nationals,Marlins,5,0,1.0
+Brewers,Phillies,10,4,1.0
+Mets,Braves,4,0,1.0
+Pirates,Cubs,7,6,1.0
+Indians,Padres,8,6,1.0
+Rays,Royals,1,0,1.0
+Rangers,Red Sox,10,7,1.0
+Angels,Mariners,2,0,1.0
+D-backs,Giants,7,3,1.0
+Orioles,Yankees,5,4,1.0
+Rockies,White Sox,10,4,1.0
+Reds,Cardinals,4,0,1.0
+Tigers,Dodgers,7,6,1.0
+Blue Jays,Astros,7,3,1.0
+Nationals,Marlins,10,7,1.0
+Brewers,Phillies,9,4,1.0
+Braves,Mets,4,3,1.0
+Athletics,Twins,7,4,1.0
+Cubs,Pirates,7,5,1.0
+Indians,Padres,2,0,1.0
+Padres,Indians,2,1,1.0
+Royals,Rays,7,3,1.0
+Red Sox,Rangers,4,2,1.0
+D-backs,Giants,6,5,1.0
+Yankees,Red Sox,4,1,1.0
+White Sox,Indians,7,3,1.0
+Astros,Blue Jays,6,4,1.0
+Nationals,Marlins,7,1,1.0
+Brewers,Phillies,6,2,1.0
+Mets,Braves,6,4,1.0
+Athletics,Twins,6,1,1.0
+Pirates,Cubs,5,4,1.0
+Red Sox,Yankees,4,2,1.0
+Cubs,Cardinals,6,3,1.0
+White Sox,Indians,9,6,1.0
+Giants,Rockies,6,5,1.0
+Padres,Tigers,6,0,1.0
+Rangers,Astros,1,0,1.0
+Twins,Royals,10,1,1.0
+Dodgers,D-backs,6,0,1.0
+Phillies,Marlins,6,3,1.0
+Angels,Mets,5,4,1.0
+Mariners,Athletics,6,4,1.0
+Brewers,Pirates,4,2,1.0
+Rays,Reds,2,1,1.0
+Blue Jays,Orioles,2,0,1.0
+Braves,Nationals,7,6,1.0
+Yankees,Red Sox,7,4,1.0
+Cardinals,Cubs,10,4,1.0
+Indians,White Sox,12,6,1.0
+Rockies,Giants,1,0,1.0
+Tigers,Padres,6,2,1.0
+Astros,Rangers,6,5,1.0
+Twins,Royals,7,1,1.0
+Dodgers,D-backs,8,5,1.0
+Phillies,Marlins,5,4,1.0
+Mets,Angels,7,6,1.0
+Athletics,Mariners,3,1,1.0
+Brewers,Pirates,3,2,1.0
+Rays,Reds,1,0,1.0
+Orioles,Blue Jays,2,1,1.0
+Braves,Nationals,6,3,1.0
+Yankees,Red Sox,3,2,1.0
+Cardinals,Cubs,6,4,1.0
+White Sox,Indians,4,3,1.0
+Giants,Rockies,5,4,1.0
+Padres,Tigers,5,1,1.0
+Rangers,Astros,1,0,1.0
+Twins,Royals,4,3,1.0
+Dodgers,D-backs,8,6,1.0
+Phillies,Marlins,4,3,1.0
+Angels,Mets,14,2,1.0
+Athletics,Mariners,3,0,1.0
+Brewers,Pirates,4,1,1.0
+Reds,Rays,12,4,1.0
+Blue Jays,Orioles,11,3,1.0
+Braves,Nationals,10,2,1.0
+Braves,Phillies,9,6,1.0
+Padres,Rockies,5,4,1.0
+Mets,D-backs,7,3,1.0
+Athletics,Angels,3,2,1.0
+Pirates,Reds,8,7,1.0
+Mariners,Rangers,7,1,1.0
+Cardinals,Brewers,4,0,1.0
+Orioles,Rays,7,1,1.0
+Nationals,Marlins,9,2,1.0
+White Sox,Red Sox,2,1,1.0
+Rockies,Padres,3,2,1.0
+Royals,Astros,4,2,1.0
+Giants,Dodgers,3,2,1.0
+Mets,D-backs,9,0,1.0
+Athletics,Angels,10,9,1.0
+Reds,Pirates,7,5,1.0
+Rangers,Mariners,5,0,1.0
+Cardinals,Brewers,6,1,1.0
+Blue Jays,Twins,9,3,1.0
+Marlins,Nationals,11,2,1.0
+Braves,Phillies,1,0,1.0
+Red Sox,White Sox,6,4,1.0
+Yankees,Cubs,3,0,1.0
+Yankees,Cubs,2,0,1.0
+Indians,Tigers,3,2,1.0
+Padres,Rockies,4,2,1.0
+Royals,Astros,6,4,1.0
+Giants,Dodgers,2,1,1.0
+Mets,D-backs,5,2,1.0
+Angels,Athletics,5,4,1.0
+Reds,Pirates,4,0,1.0
+Rangers,Mariners,3,2,1.0
+Brewers,Cardinals,5,1,1.0
+Orioles,Rays,3,0,1.0
+Nationals,Marlins,6,3,1.0
+Phillies,Braves,1,0,1.0
+Red Sox,White Sox,3,1,1.0
+Tigers,Indians,7,5,1.0
+Rockies,Padres,3,1,1.0
+Royals,Astros,5,1,1.0
+Dodgers,Giants,2,1,1.0
+Pirates,Brewers,11,2,1.0
+Yankees,Rays,10,2,1.0
+Rangers,Mariners,8,6,1.0
+Cardinals,Nationals,8,0,1.0
+Twins,Blue Jays,7,0,1.0
+Twins,Blue Jays,9,5,1.0
+Angels,Tigers,11,6,1.0
+D-backs,Dodgers,4,2,1.0
+Braves,Mets,6,0,1.0
+Orioles,Red Sox,8,4,1.0
+Rangers,White Sox,12,0,1.0
+Reds,Cubs,4,1,1.0
+Athletics,Astros,11,3,1.0
+Brewers,Pirates,5,3,1.0
+Royals,Twins,5,0,1.0
+Rays,Yankees,11,5,1.0
+Rockies,Phillies,12,1,1.0
+Marlins,Mariners,8,4,1.0
+Padres,Giants,2,1,1.0
+Nationals,Cardinals,3,1,1.0
+Blue Jays,Indians,3,2,1.0
+Tigers,Angels,5,2,1.0
+Dodgers,D-backs,8,6,1.0
+Braves,Mets,7,5,1.0
+Red Sox,Orioles,4,2,1.0
+Rangers,White Sox,6,3,1.0
+Cubs,Reds,8,4,1.0
+Athletics,Astros,4,3,1.0
+Brewers,Pirates,8,7,1.0
+Royals,Twins,5,4,1.0
+Rays,Yankees,16,1,1.0
+Rockies,Phillies,3,1,1.0
+Marlins,Mariners,7,0,1.0
+Padres,Giants,3,1,1.0
+Cardinals,Nationals,4,3,1.0
+Blue Jays,Indians,5,0,1.0
+Tigers,Angels,2,1,1.0
+Dodgers,D-backs,4,1,1.0
+Mets,Braves,4,3,1.0
+Red Sox,Orioles,6,5,1.0
+White Sox,Rangers,16,2,1.0
+Reds,Cubs,8,2,1.0
+Athletics,Astros,4,1,1.0
+Brewers,Pirates,3,2,1.0
+Twins,Royals,8,3,1.0
+Yankees,Rays,5,1,1.0
+Phillies,Rockies,10,9,1.0
+Marlins,Mariners,3,2,1.0
+Giants,Padres,4,3,1.0
+Nationals,Cardinals,3,2,1.0
+Indians,Blue Jays,6,4,1.0
+Angels,Nationals,4,2,1.0
+Cubs,D-backs,5,1,1.0
+Orioles,Red Sox,7,6,1.0
+White Sox,Tigers,3,1,1.0
+Pirates,Reds,6,5,1.0
+Astros,Mariners,7,2,1.0
+Indians,Royals,4,3,1.0
+Braves,Marlins,4,2,1.0
+Phillies,Dodgers,7,0,1.0
+Brewers,Padres,4,3,1.0
+Rockies,Giants,8,2,1.0
+Mets,Cardinals,2,0,1.0
+Rangers,Athletics,4,3,1.0
+Angels,Nationals,7,2,1.0
+Cubs,D-backs,9,2,1.0
+Blue Jays,Orioles,9,3,1.0
+Tigers,White Sox,8,6,1.0
+Reds,Pirates,4,1,1.0
+Astros,Mariners,5,2,1.0
+Royals,Indians,8,2,1.0
+Marlins,Braves,1,0,1.0
+Rays,Twins,7,3,1.0
+Yankees,Red Sox,9,3,1.0
+Phillies,Dodgers,3,2,1.0
+Padres,Brewers,2,1,1.0
+Rockies,Giants,2,1,1.0
+Cardinals,Mets,3,0,1.0
+Rangers,Athletics,5,4,1.0
+Nationals,Angels,5,4,1.0
+D-backs,Cubs,7,5,1.0
+Orioles,Blue Jays,10,8,1.0
+White Sox,Tigers,6,4,1.0
+Reds,Pirates,5,2,1.0
+Mariners,Astros,5,3,1.0
+Indians,Royals,5,3,1.0
+Braves,Marlins,3,1,1.0
+Twins,Rays,6,4,1.0
+Red Sox,Yankees,5,1,1.0
+Dodgers,Phillies,5,2,1.0
+Brewers,Padres,5,2,1.0
+Giants,Rockies,12,10,1.0
+Mets,Cardinals,3,2,1.0
+Rangers,Athletics,3,0,1.0
+D-backs,Cubs,5,2,1.0
+Orioles,Blue Jays,11,4,1.0
+Tigers,White Sox,7,4,1.0
+Reds,Pirates,2,1,1.0
+Indians,Royals,5,1,1.0
+Twins,Rays,9,7,1.0
+Yankees,Red Sox,14,5,1.0
+Athletics,Astros,10,1,1.0
+Phillies,Dodgers,7,3,1.0
+Padres,Nationals,4,3,1.0
+Mets,Cardinals,4,1,1.0
+Angels,Yankees,13,1,1.0
+Red Sox,Blue Jays,8,1,1.0
+Brewers,Cubs,5,2,1.0
+Braves,Reds,5,4,1.0
+Giants,Indians,5,1,1.0
+Rockies,Dodgers,5,4,1.0
+Tigers,Twins,10,6,1.0
+Royals,Orioles,5,0,1.0
+Mets,Marlins,4,3,1.0
+Athletics,Astros,12,5,1.0
+D-backs,Phillies,5,4,1.0
+Cardinals,Pirates,1,0,1.0
+Nationals,Padres,11,1,1.0
+White Sox,Rays,9,6,1.0
+Mariners,Rangers,6,5,1.0
+Yankees,Angels,4,3,1.0
+Red Sox,Blue Jays,7,6,1.0
+Brewers,Cubs,5,3,1.0
+Braves,Reds,4,1,1.0
+Giants,Indians,5,3,1.0
+Dodgers,Rockies,6,3,1.0
+Twins,Tigers,5,3,1.0
+Orioles,Royals,3,2,1.0
+Marlins,Mets,7,6,1.0
+Astros,Athletics,7,6,1.0
+Phillies,D-backs,6,5,1.0
+Pirates,Cardinals,6,1,1.0
+Nationals,Padres,4,0,1.0
+Rays,White Sox,4,0,1.0
+Rangers,Mariners,6,3,1.0
+Yankees,Angels,3,2,1.0
+Blue Jays,Red Sox,7,1,1.0
+Cubs,Brewers,4,0,1.0
+Braves,Reds,1,0,1.0
+Giants,Indians,4,1,1.0
+Rockies,Dodgers,6,1,1.0
+Royals,Orioles,9,3,1.0
+Mets,Marlins,4,0,1.0
+Astros,Athletics,5,1,1.0
+Phillies,D-backs,2,0,1.0
+Cardinals,Pirates,7,0,1.0
+Padres,Nationals,4,2,1.0
+White Sox,Rays,9,2,1.0
+Mariners,Rangers,6,5,1.0
+Angels,Indians,6,3,1.0
+Rockies,D-backs,8,5,1.0
+Brewers,Cardinals,5,3,1.0
+Athletics,Rangers,4,0,1.0
+Padres,Giants,6,4,1.0
+White Sox,Rays,7,3,1.0
+Marlins,Braves,9,0,1.0
+Reds,Cubs,3,2,1.0
+Angels,Indians,6,4,1.0
+Rockies,D-backs,5,4,1.0
+Tigers,White Sox,4,3,1.0
+Brewers,Cardinals,5,4,1.0
+Mets,Phillies,6,1,1.0
+Athletics,Rangers,9,3,1.0
+Giants,Padres,6,0,1.0
+Mariners,Yankees,6,3,1.0
+Red Sox,Rays,7,4,1.0
+Royals,Blue Jays,10,7,1.0
+Nationals,Astros,4,3,1.0
+Marlins,Braves,9,3,1.0
+Cubs,Reds,9,4,1.0
+Angels,Indians,7,1,1.0
+D-backs,Rockies,5,4,1.0
+Tigers,White Sox,5,1,1.0
+Dodgers,Twins,6,4,1.0
+Cardinals,Brewers,9,3,1.0
+Athletics,Rangers,12,1,1.0
+Giants,Padres,3,2,1.0
+Royals,Blue Jays,4,2,1.0
+Nationals,Astros,7,0,1.0
+Marlins,Braves,5,4,1.0
+Dodgers,Twins,9,4,1.0
+Dodgers,Twins,4,3,1.0
+Reds,Brewers,8,3,1.0
+Rockies,Mets,7,4,1.0
+Orioles,Pirates,5,1,1.0
+Orioles,Pirates,6,5,1.0
+Mariners,Yankees,4,2,1.0
+Rays,Red Sox,2,1,1.0
+Rays,Red Sox,6,5,1.0
+Blue Jays,Royals,7,3,1.0
+D-backs,Padres,2,0,1.0
+Orioles,Twins,3,0,1.0
+Indians,White Sox,12,5,1.0
+Tigers,Royals,8,2,1.0
+Marlins,Dodgers,6,3,1.0
+Brewers,Reds,2,0,1.0
+Rockies,Mets,10,3,1.0
+Red Sox,Athletics,7,1,1.0
+Astros,Mariners,5,4,1.0
+Giants,Braves,2,1,1.0
+Cubs,Cardinals,6,5,1.0
+Rays,Yankees,10,5,1.0
+Rangers,Angels,5,2,1.0
+Pirates,Blue Jays,6,5,1.0
+Nationals,Phillies,5,3,1.0
+D-backs,Padres,4,3,1.0
+Twins,Orioles,6,1,1.0
+Indians,White Sox,2,0,1.0
+Tigers,Royals,9,2,1.0
+Dodgers,Marlins,9,7,1.0
+Reds,Brewers,6,2,1.0
+Rockies,Mets,11,10,1.0
+Red Sox,Athletics,6,3,1.0
+Mariners,Astros,9,8,1.0
+Giants,Braves,3,1,1.0
+Cubs,Cardinals,3,0,1.0
+Yankees,Rays,9,3,1.0
+Angels,Rangers,5,3,1.0
+Pirates,Blue Jays,8,6,1.0
+Phillies,Nationals,7,2,1.0
+Padres,D-backs,4,3,1.0
+Twins,Orioles,5,2,1.0
+White Sox,Indians,4,3,1.0
+Tigers,Royals,9,4,1.0
+Marlins,Dodgers,5,4,1.0
+Reds,Brewers,4,3,1.0
+Mets,Rockies,5,1,1.0
+Athletics,Red Sox,3,2,1.0
+Mariners,Astros,8,7,1.0
+Giants,Braves,4,1,1.0
+Cardinals,Cubs,5,4,1.0
+Rays,Yankees,5,1,1.0
+Rangers,Angels,14,3,1.0
+Blue Jays,Pirates,7,2,1.0
+Phillies,Nationals,1,0,1.0
+Brewers,D-backs,8,3,1.0
+White Sox,Cubs,3,1,1.0
+Tigers,Astros,2,0,1.0
+Padres,Royals,6,5,1.0
+Nationals,Dodgers,4,0,1.0
+Twins,Indians,1,0,1.0
+Angels,Yankees,4,1,1.0
+Marlins,Mets,4,3,1.0
+Mariners,Athletics,4,2,1.0
+Giants,Pirates,11,10,1.0
+Cardinals,Braves,4,3,1.0
+Rockies,Rangers,8,2,1.0
+Blue Jays,Phillies,3,0,1.0
+D-backs,Brewers,7,5,1.0
+Orioles,Rays,5,3,1.0
+White Sox,Cubs,5,1,1.0
+Red Sox,Reds,4,3,1.0
+Tigers,Astros,11,4,1.0
+Royals,Padres,3,1,1.0
+Dodgers,Nationals,8,3,1.0
+Indians,Twins,4,2,1.0
+Yankees,Angels,4,3,1.0
+Marlins,Mets,3,0,1.0
+Mariners,Athletics,8,3,1.0
+Pirates,Giants,2,1,1.0
+Braves,Cardinals,2,1,1.0
+Rockies,Rangers,12,1,1.0
+Blue Jays,Phillies,6,5,1.0
+D-backs,Brewers,3,2,1.0
+Orioles,Rays,4,3,1.0
+White Sox,Cubs,8,3,1.0
+Red Sox,Reds,4,3,1.0
+Rockies,Rangers,9,2,1.0
+Tigers,Astros,3,2,1.0
+Royals,Padres,8,0,1.0
+Nationals,Dodgers,3,2,1.0
+Indians,Twins,4,3,1.0
+Yankees,Angels,9,2,1.0
+Marlins,Mets,1,0,1.0
+Blue Jays,Phillies,10,0,1.0
+Mariners,Athletics,6,4,1.0
+Athletics,Mariners,2,0,1.0
+Pirates,Giants,4,3,1.0
+Cardinals,Braves,7,1,1.0
+Orioles,Rays,3,1,1.0
+Cubs,White Sox,12,5,1.0
+Rangers,Rockies,5,0,1.0
+Astros,Tigers,6,2,1.0
+Mariners,Royals,1,0,1.0
+Marlins,Padres,3,1,1.0
+Indians,Twins,9,4,1.0
+Blue Jays,Phillies,12,6,1.0
+Giants,Dodgers,3,1,1.0
+Angels,Blue Jays,4,3,1.0
+White Sox,D-backs,9,3,1.0
+Rangers,Red Sox,8,0,1.0
+Braves,Cubs,3,2,1.0
+Indians,Rays,6,3,1.0
+Reds,Rockies,4,3,1.0
+Orioles,Astros,4,3,1.0
+Royals,Mariners,6,1,1.0
+Padres,Marlins,10,1,1.0
+Twins,Tigers,2,1,1.0
+Yankees,Brewers,5,3,1.0
+Phillies,Mets,3,2,1.0
+Giants,Dodgers,3,1,1.0
+Pirates,Cardinals,6,4,1.0
+Athletics,Nationals,8,0,1.0
+Angels,Blue Jays,5,3,1.0
+D-backs,White Sox,4,3,1.0
+Red Sox,Rangers,8,3,1.0
+Braves,Cubs,2,0,1.0
+Rays,Indians,7,1,1.0
+Rockies,Reds,11,2,1.0
+Orioles,Astros,5,4,1.0
+Mariners,Royals,3,1,1.0
+Padres,Marlins,9,3,1.0
+Tigers,Twins,9,3,1.0
+Brewers,Yankees,5,4,1.0
+Phillies,Mets,5,4,1.0
+Dodgers,Giants,6,2,1.0
+Pirates,Cardinals,4,3,1.0
+Athletics,Nationals,4,3,1.0
+Angels,Blue Jays,9,3,1.0
+D-backs,White Sox,5,1,1.0
+Red Sox,Rangers,5,2,1.0
+Braves,Cubs,5,2,1.0
+Indians,Rays,6,5,1.0
+Reds,Rockies,4,1,1.0
+Astros,Orioles,5,2,1.0
+Royals,Mariners,9,7,1.0
+Padres,Marlins,5,4,1.0
+Twins,Tigers,4,3,1.0
+Brewers,Yankees,6,5,1.0
+Mets,Phillies,5,4,1.0
+Giants,Dodgers,7,4,1.0
+Cardinals,Pirates,6,5,1.0
+Athletics,Nationals,9,1,1.0
+Blue Jays,Angels,7,3,1.0
+Giants,Braves,4,2,1.0
+Athletics,White Sox,5,4,1.0
+Cubs,Cardinals,17,5,1.0
+Tigers,Orioles,4,1,1.0
+Dodgers,Marlins,6,5,1.0
+Mets,Yankees,9,7,1.0
+Mariners,Rays,12,5,1.0
+Rangers,Astros,4,0,1.0
+Nationals,D-backs,6,5,1.0
+Angels,Phillies,4,3,1.0
+Braves,Giants,5,0,1.0
+Twins,Red Sox,8,6,1.0
+Athletics,White Sox,11,0,1.0
+Cardinals,Cubs,4,3,1.0
+Blue Jays,Indians,5,4,1.0
+Royals,Rockies,5,1,1.0
+Tigers,Orioles,4,1,1.0
+Dodgers,Marlins,7,1,1.0
+Mets,Yankees,12,7,1.0
+Brewers,Pirates,5,2,1.0
+Padres,Reds,2,1,1.0
+Rays,Mariners,2,1,1.0
+Astros,Rangers,8,0,1.0
+D-backs,Nationals,3,1,1.0
+Angels,Phillies,3,0,1.0
+Giants,Braves,10,4,1.0
+Red Sox,Twins,9,4,1.0
+White Sox,Athletics,4,2,1.0
+Indians,Blue Jays,15,4,1.0
+Royals,Rockies,3,2,1.0
+Tigers,Orioles,7,5,1.0
+Marlins,Dodgers,13,3,1.0
+Yankees,Mets,4,0,1.0
+Pirates,Brewers,4,1,1.0
+Rays,Mariners,2,0,1.0
+Astros,Rangers,5,4,1.0
+Nationals,D-backs,5,1,1.0
+Orioles,Royals,2,1,1.0
+Twins,Red Sox,4,3,1.0
+Cardinals,Cubs,5,3,1.0
+Blue Jays,Indians,4,2,1.0
+Giants,Marlins,6,4,1.0
+Yankees,Mets,1,0,1.0
+Brewers,Pirates,4,3,1.0
+Reds,Padres,5,0,1.0
+Padres,Reds,6,1,1.0
+Angels,Rays,6,5,1.0
+Cardinals,Braves,5,2,1.0
+Orioles,Royals,4,0,1.0
+White Sox,Astros,7,2,1.0
+Reds,Phillies,3,0,1.0
+Tigers,Red Sox,1,0,1.0
+Dodgers,D-backs,7,0,1.0
+Marlins,Giants,7,5,1.0
+Brewers,Cubs,4,3,1.0
+Nationals,Mets,5,2,1.0
+Athletics,Indians,11,1,1.0
+Rockies,Padres,3,1,1.0
+Twins,Mariners,5,4,1.0
+Rays,Angels,3,0,1.0
+Blue Jays,Rangers,2,0,1.0
+Cardinals,Braves,4,1,1.0
+Royals,Orioles,1,0,1.0
+Astros,White Sox,6,5,1.0
+Phillies,Reds,12,1,1.0
+Tigers,Red Sox,6,1,1.0
+D-backs,Dodgers,18,7,1.0
+Marlins,Giants,5,0,1.0
+Cubs,Brewers,3,0,1.0
+Mets,Nationals,5,2,1.0
+Athletics,Indians,6,2,1.0
+Yankees,Pirates,7,1,1.0
+Padres,Rockies,8,5,1.0
+Twins,Mariners,4,3,1.0
+Angels,Rays,6,0,1.0
+Blue Jays,Rangers,4,2,1.0
+Braves,Cardinals,6,5,1.0
+Royals,Orioles,8,6,1.0
+Astros,White Sox,8,2,1.0
+Phillies,Reds,8,3,1.0
+Tigers,Red Sox,6,2,1.0
+D-backs,Dodgers,5,3,1.0
+Giants,Marlins,4,1,1.0
+Cubs,Brewers,4,2,1.0
+Nationals,Mets,6,3,1.0
+Athletics,Indians,13,3,1.0
+Yankees,Pirates,4,3,1.0
+Pirates,Yankees,5,3,1.0
+Rockies,Padres,8,6,1.0
+Mariners,Twins,6,2,1.0
+Angels,Rays,6,2,1.0
+Rangers,Blue Jays,6,2,1.0
+White Sox,Royals,7,6,1.0
+Reds,Nationals,4,3,1.0
+Indians,Tigers,5,4,1.0
+Astros,Angels,5,2,1.0
+Braves,Brewers,9,3,1.0
+Cardinals,D-backs,5,0,1.0
+Orioles,Pirates,9,2,1.0
+White Sox,Royals,7,6,1.0
+Nationals,Reds,9,4,1.0
+Indians,Tigers,6,2,1.0
+Angels,Astros,9,3,1.0
+Dodgers,Mets,9,4,1.0
+Braves,Brewers,5,0,1.0
+Twins,Padres,5,3,1.0
+Cubs,Yankees,6,1,1.0
+Athletics,Rays,3,0,1.0
+Phillies,Marlins,6,5,1.0
+Mariners,Rangers,6,2,1.0
+Rockies,Giants,5,4,1.0
+Blue Jays,Red Sox,7,4,1.0
+Cardinals,D-backs,3,2,1.0
+Pirates,Orioles,9,8,1.0
+Royals,White Sox,3,1,1.0
+Reds,Nationals,2,1,1.0
+Indians,Tigers,11,10,1.0
+Angels,Astros,2,1,1.0
+Dodgers,Mets,4,3,1.0
+Brewers,Braves,6,1,1.0
+Twins,Padres,2,0,1.0
+Yankees,Cubs,4,2,1.0
+Athletics,Rays,3,2,1.0
+Marlins,Phillies,14,5,1.0
+Rangers,Mariners,4,3,1.0
+Giants,Rockies,5,1,1.0
+Blue Jays,Red Sox,6,4,1.0
+Cardinals,D-backs,4,2,1.0
+Cubs,Padres,5,1,1.0
+Indians,Orioles,8,7,1.0
+Mariners,Astros,3,1,1.0
+Mets,Dodgers,5,3,1.0
+Braves,Brewers,5,4,1.0
+White Sox,Yankees,3,2,1.0
+Rays,Athletics,5,2,1.0
+Marlins,Phillies,4,3,1.0
+Giants,Rockies,4,2,1.0
+Rangers,Tigers,9,2,1.0
+Blue Jays,Red Sox,7,2,1.0
+Pirates,Nationals,3,1,1.0
+Rays,Red Sox,1,0,1.0
+Padres,Cubs,11,1,1.0
+Orioles,Indians,8,4,1.0
+Braves,Rockies,3,2,1.0
+Mariners,Astros,6,1,1.0
+Angels,Royals,6,1,1.0
+Dodgers,Phillies,2,0,1.0
+Brewers,Marlins,9,5,1.0
+Giants,Twins,6,2,1.0
+White Sox,Yankees,6,5,1.0
+Blue Jays,Athletics,3,2,1.0
+Reds,Cardinals,5,3,1.0
+Tigers,Rangers,7,2,1.0
+Pirates,Nationals,4,3,1.0
+D-backs,Mets,3,2,1.0
+Rays,Red Sox,6,5,1.0
+Cubs,Padres,3,2,1.0
+Indians,Orioles,9,0,1.0
+Rockies,Braves,3,1,1.0
+Astros,Mariners,9,4,1.0
+Royals,Angels,7,4,1.0
+Phillies,Dodgers,5,3,1.0
+Marlins,Brewers,2,1,1.0
+Giants,Twins,2,1,1.0
+Yankees,White Sox,4,3,1.0
+Blue Jays,Athletics,5,2,1.0
+Cardinals,Reds,6,3,1.0
+Rangers,Tigers,12,2,1.0
+Pirates,Nationals,3,2,1.0
+D-backs,Mets,2,1,1.0
+Mets,D-backs,4,2,1.0
+Rays,Red Sox,8,5,1.0
+Padres,Cubs,4,3,1.0
+Orioles,Indians,4,2,1.0
+Braves,Rockies,7,0,1.0
+Astros,Mariners,4,1,1.0
+Angels,Royals,4,3,1.0
+Dodgers,Phillies,6,0,1.0
+Brewers,Marlins,7,1,1.0
+Giants,Twins,8,1,1.0
+Yankees,White Sox,7,1,1.0
+Blue Jays,Athletics,3,1,1.0
+Cardinals,Reds,4,0,1.0
+Rangers,Tigers,12,4,1.0
+Nationals,Pirates,5,2,1.0
+Mariners,Angels,5,1,1.0
+Orioles,Brewers,7,6,1.0
+Red Sox,Braves,8,6,1.0
+Cubs,Giants,8,4,1.0
+Dodgers,Reds,4,3,1.0
+White Sox,Indians,6,2,1.0
+Phillies,Rockies,9,0,1.0
+Athletics,Tigers,10,0,1.0
+Astros,Royals,9,2,1.0
+Marlins,Nationals,3,2,1.0
+Yankees,Cardinals,6,4,1.0
+Pirates,Mets,5,3,1.0
+D-backs,Padres,7,5,1.0
+Blue Jays,Rays,10,5,1.0
+Rangers,Twins,7,2,1.0
+Angels,Mariners,6,4,1.0
+Brewers,Orioles,7,6,1.0
+Red Sox,Braves,6,3,1.0
+Giants,Cubs,4,0,1.0
+Dodgers,Reds,6,3,1.0
+White Sox,Indians,2,1,1.0
+Rockies,Phillies,6,2,1.0
+Tigers,Athletics,6,5,1.0
+Astros,Royals,3,0,1.0
+Cardinals,Yankees,6,0,1.0
+Mets,Pirates,4,2,1.0
+Padres,D-backs,4,3,1.0
+Blue Jays,Rays,9,6,1.0
+Twins,Rangers,4,3,1.0
+Mariners,Angels,3,1,1.0
+Red Sox,Braves,4,0,1.0
+Brewers,Orioles,8,3,1.0
+Giants,Cubs,5,0,1.0
+Reds,Dodgers,3,2,1.0
+White Sox,Indians,3,2,1.0
+Phillies,Rockies,6,3,1.0
+Athletics,Tigers,3,1,1.0
+Astros,Royals,9,3,1.0
+Marlins,Nationals,8,5,1.0
+Yankees,Cardinals,7,4,1.0
+Mets,Pirates,5,0,1.0
+D-backs,Padres,12,6,1.0
+Blue Jays,Rays,3,2,1.0
+Rangers,Twins,1,0,1.0
+Angels,Mariners,7,5,1.0
+Red Sox,Braves,4,3,1.0
+Astros,Orioles,3,1,1.0
+D-backs,Reds,4,0,1.0
+Tigers,Athletics,5,4,1.0
+Royals,Blue Jays,8,6,1.0
+Mets,Phillies,4,1,1.0
+Pirates,Dodgers,6,3,1.0
+Giants,Cardinals,6,5,1.0
+Rangers,Twins,5,4,1.0
+Athletics,Angels,9,5,1.0
+Braves,Marlins,3,2,1.0
+Astros,Orioles,2,1,1.0
+Brewers,Cubs,11,5,1.0
+Reds,D-backs,6,4,1.0
+Indians,Rockies,5,2,1.0
+Tigers,Mariners,6,3,1.0
+Royals,Blue Jays,6,1,1.0
+Twins,Yankees,6,1,1.0
+Phillies,Mets,6,5,1.0
+Pirates,Dodgers,2,1,1.0
+Padres,White Sox,4,1,1.0
+Giants,Cardinals,9,4,1.0
+Red Sox,Rays,3,2,1.0
+Nationals,Rangers,9,2,1.0
+Athletics,Angels,11,3,1.0
+Braves,Marlins,9,5,1.0
+Orioles,Astros,4,1,1.0
+Cubs,Brewers,8,0,1.0
+Reds,D-backs,5,0,1.0
+Indians,Rockies,7,6,1.0
+Mariners,Tigers,3,2,1.0
+Blue Jays,Royals,12,2,1.0
+Yankees,Twins,3,1,1.0
+Mets,Phillies,5,4,1.0
+Dodgers,Pirates,12,2,1.0
+Padres,White Sox,4,2,1.0
+Cardinals,Giants,2,0,1.0
+Red Sox,Rays,7,1,1.0
+Nationals,Rangers,10,2,1.0
+Athletics,Angels,6,3,1.0
+Braves,Marlins,4,2,1.0
+Orioles,Astros,9,4,1.0
+Brewers,Cubs,9,0,1.0
+Reds,D-backs,4,3,1.0
+Indians,Rockies,6,4,1.0
+Mariners,Tigers,4,0,1.0
+Blue Jays,Royals,4,0,1.0
+Twins,Yankees,7,2,1.0
+Mets,Phillies,4,3,1.0
+Pirates,Dodgers,5,3,1.0
+White Sox,Padres,4,1,1.0
+Giants,Cardinals,8,0,1.0
+Red Sox,Rays,4,0,1.0
+Rangers,Nationals,2,0,1.0
+Indians,Red Sox,3,2,1.0
+Dodgers,White Sox,5,2,1.0
+Royals,Cardinals,6,0,1.0
+Brewers,Twins,6,2,1.0
+Mets,Phillies,11,2,1.0
+Pirates,Padres,10,3,1.0
+Mariners,Yankees,10,2,1.0
+Marlins,Rays,3,1,1.0
+Astros,Angels,7,2,1.0
+D-backs,Rockies,4,2,1.0
+Orioles,Rangers,8,3,1.0
+Indians,Red Sox,5,3,1.0
+White Sox,Dodgers,4,1,1.0
+Royals,Cardinals,8,7,1.0
+Twins,Brewers,6,4,1.0
+Cubs,Mets,2,1,1.0
+Athletics,Yankees,5,2,1.0
+Nationals,Phillies,7,0,1.0
+Pirates,Padres,4,1,1.0
+Mariners,Braves,7,5,1.0
+Reds,Giants,8,3,1.0
+Marlins,Rays,1,0,1.0
+Blue Jays,Tigers,5,3,1.0
+Angels,Astros,4,0,1.0
+D-backs,Rockies,16,8,1.0
+Orioles,Rangers,6,5,1.0
+Indians,Red Sox,7,4,1.0
+White Sox,Dodgers,2,1,1.0
+Marlins,Rays,5,4,1.0
+Twins,Brewers,6,4,1.0
+Cubs,Mets,5,4,1.0
+Athletics,Yankees,7,4,1.0
+Nationals,Phillies,8,4,1.0
+Padres,Pirates,3,2,1.0
+Mariners,Braves,2,0,1.0
+Giants,Reds,3,2,1.0
+Cardinals,Royals,5,2,1.0
+Blue Jays,Tigers,8,2,1.0
+Astros,Angels,8,5,1.0
+D-backs,Rockies,12,7,1.0
+Rangers,Orioles,8,6,1.0
+Marlins,Rays,11,6,1.0
+Brewers,Twins,8,5,1.0
+Cubs,Mets,7,4,1.0
+Yankees,Athletics,2,1,1.0
+Nationals,Phillies,4,2,1.0
+Giants,Reds,6,1,1.0
+Royals,Cardinals,3,2,1.0
+Blue Jays,Tigers,7,3,1.0
+Braves,D-backs,5,2,1.0
+Tigers,Red Sox,6,2,1.0
+Angels,White Sox,8,4,1.0
+Rangers,Indians,6,4,1.0
+Astros,Twins,5,4,1.0
+Dodgers,Rockies,7,2,1.0
+Cubs,Marlins,5,3,1.0
+Pirates,Brewers,15,5,1.0
+Yankees,Royals,4,2,1.0
+Giants,Mets,4,2,1.0
+Athletics,Orioles,4,3,1.0
+Phillies,Reds,8,0,1.0
+Rays,Mariners,4,0,1.0
+Blue Jays,Cardinals,3,1,1.0
+Nationals,Padres,6,0,1.0
+D-backs,Braves,4,3,1.0
+Tigers,Red Sox,8,6,1.0
+Angels,White Sox,6,5,1.0
+Indians,Rangers,8,3,1.0
+Twins,Astros,8,0,1.0
+Rockies,Dodgers,5,4,1.0
+Cubs,Marlins,5,2,1.0
+Brewers,Pirates,9,3,1.0
+Royals,Yankees,8,4,1.0
+Giants,Mets,5,4,1.0
+Orioles,Athletics,6,3,1.0
+Reds,Phillies,6,5,1.0
+Mariners,Rays,7,4,1.0
+Cardinals,Blue Jays,5,0,1.0
+Padres,Nationals,4,3,1.0
+D-backs,Braves,6,5,1.0
+Red Sox,Tigers,5,3,1.0
+Angels,White Sox,4,2,1.0
+Indians,Rangers,3,2,1.0
+Astros,Twins,14,5,1.0
+Dodgers,Rockies,6,1,1.0
+Marlins,Cubs,4,3,1.0
+Brewers,Pirates,1,0,1.0
+Royals,Yankees,2,1,1.0
+Giants,Mets,6,4,1.0
+Athletics,Orioles,11,1,1.0
+Reds,Phillies,4,1,1.0
+Mariners,Rays,5,0,1.0
+Cardinals,Blue Jays,5,0,1.0
+Nationals,Padres,6,0,1.0
+Braves,Rockies,3,1,1.0
+Orioles,Red Sox,4,0,1.0
+Pirates,Cubs,6,2,1.0
+Indians,Rangers,17,7,1.0
+White Sox,Tigers,6,5,1.0
+Astros,D-backs,4,3,1.0
+Dodgers,Reds,6,2,1.0
+Blue Jays,Twins,5,4,1.0
+Angels,Athletics,4,1,1.0
+Mariners,Rays,3,0,1.0
+Nationals,Giants,9,2,1.0
+Braves,Rockies,13,10,1.0
+Red Sox,Orioles,1,0,1.0
+Cubs,Pirates,7,3,1.0
+Royals,Indians,9,5,1.0
+D-backs,Astros,4,1,1.0
+Dodgers,Reds,6,1,1.0
+Marlins,Rangers,8,5,1.0
+Mets,Brewers,6,2,1.0
+Twins,Blue Jays,4,0,1.0
+Yankees,Mariners,3,2,1.0
+Angels,Athletics,2,1,1.0
+Phillies,Padres,5,2,1.0
+Cardinals,Rays,1,0,1.0
+Nationals,Giants,2,1,1.0
+Astros,D-backs,5,1,1.0
+Rockies,Braves,8,2,1.0
+Orioles,Red Sox,6,0,1.0
+Pirates,Cubs,4,2,1.0
+Royals,Indians,4,1,1.0
+White Sox,Tigers,8,2,1.0
+Reds,Dodgers,5,0,1.0
+Rangers,Marlins,6,0,1.0
+Brewers,Mets,3,1,1.0
+Twins,Blue Jays,7,2,1.0
+Yankees,Mariners,4,2,1.0
+Athletics,Angels,7,1,1.0
+Phillies,Padres,3,0,1.0
+Rays,Cardinals,6,3,1.0
+Nationals,Giants,6,2,1.0
+Astros,D-backs,5,4,1.0
+Rockies,Braves,10,3,1.0
+Pirates,Cubs,4,0,1.0
+Red Sox,Indians,5,2,1.0
+Tigers,White Sox,4,0,1.0
+Reds,Dodgers,4,1,1.0
+Brewers,Mets,5,1,1.0
+Yankees,Mariners,6,3,1.0
+Phillies,Padres,7,3,1.0
+Orioles,Blue Jays,4,2,1.0
+Giants,Nationals,7,1,1.0
+Braves,Angels,4,3,1.0
+Dodgers,D-backs,4,3,1.0
+Cubs,Phillies,2,1,1.0
+Reds,Brewers,6,5,1.0
+Red Sox,Indians,10,3,1.0
+Rockies,Giants,7,4,1.0
+Royals,White Sox,7,2,1.0
+Twins,Tigers,2,0,1.0
+Yankees,Athletics,7,0,1.0
+Pirates,Marlins,8,6,1.0
+Mets,Padres,6,2,1.0
+Rays,Astros,6,1,1.0
+Rangers,Mariners,1,0,1.0
+Blue Jays,Orioles,4,0,1.0
+Cardinals,Nationals,1,0,1.0
+Angels,Braves,11,6,1.0
+Dodgers,D-backs,6,4,1.0
+Phillies,Cubs,7,4,1.0
+Brewers,Reds,4,2,1.0
+Indians,Red Sox,3,2,1.0
+Rockies,Giants,5,4,1.0
+Royals,White Sox,9,1,1.0
+Tigers,Twins,12,9,1.0
+Athletics,Yankees,5,1,1.0
+Pirates,Marlins,8,6,1.0
+Padres,Mets,5,0,1.0
+Astros,Rays,7,3,1.0
+Rangers,Mariners,4,3,1.0
+Orioles,Blue Jays,3,2,1.0
+Cardinals,Nationals,4,1,1.0
+Braves,Angels,7,3,1.0
+D-backs,Dodgers,6,3,1.0
+Cubs,Phillies,3,0,1.0
+Reds,Brewers,13,4,1.0
+Indians,Red Sox,3,2,1.0
+Rockies,Giants,8,7,1.0
+Royals,White Sox,6,3,1.0
+Tigers,Twins,4,3,1.0
+Athletics,Yankees,10,5,1.0
+Marlins,Pirates,3,2,1.0
+Mets,Padres,3,1,1.0
+Rays,Astros,4,3,1.0
+Mariners,Rangers,5,1,1.0
+Blue Jays,Orioles,5,2,1.0
+Cardinals,Nationals,5,2,1.0
+Indians,Angels,4,3,1.0
+Rays,Orioles,5,4,1.0
+Cubs,Marlins,5,4,1.0
+Dodgers,Rockies,6,1,1.0
+Royals,Tigers,11,8,1.0
+Brewers,D-backs,9,3,1.0
+Red Sox,Twins,1,0,1.0
+Cardinals,Mets,6,2,1.0
+Phillies,Braves,6,1,1.0
+Mariners,Padres,5,1,1.0
+Rangers,Athletics,14,8,1.0
+Angels,Indians,9,3,1.0
+Orioles,Rays,7,5,1.0
+Marlins,Cubs,6,5,1.0
+Reds,Pirates,6,5,1.0
+Dodgers,Rockies,4,2,1.0
+Nationals,Astros,6,5,1.0
+Royals,Tigers,11,4,1.0
+Brewers,D-backs,7,5,1.0
+Red Sox,Twins,2,1,1.0
+Cardinals,Mets,5,2,1.0
+Phillies,Braves,5,2,1.0
+Mariners,Padres,6,1,1.0
+White Sox,Giants,8,2,1.0
+Athletics,Rangers,10,6,1.0
+Yankees,Blue Jays,3,1,1.0
+Orioles,Rays,2,0,1.0
+Cubs,Marlins,6,1,1.0
+Reds,Pirates,11,4,1.0
+Dodgers,Rockies,8,0,1.0
+Nationals,Astros,6,5,1.0
+Royals,Tigers,2,1,1.0
+D-backs,Brewers,4,3,1.0
+Red Sox,Twins,2,1,1.0
+Mets,Cardinals,3,2,1.0
+Phillies,Braves,10,5,1.0
+Padres,Mariners,2,1,1.0
+White Sox,Giants,7,6,1.0
+Athletics,Rangers,4,2,1.0
+Yankees,Blue Jays,7,3,1.0
+Indians,Angels,5,3,1.0
+Braves,Nationals,3,0,1.0
+Athletics,Red Sox,4,2,1.0
+Twins,White Sox,4,2,1.0
+Pirates,Reds,4,3,1.0
+Rays,Astros,5,0,1.0
+Tigers,Royals,2,1,1.0
+Brewers,D-backs,4,1,1.0
+Mets,Marlins,1,0,1.0
+Phillies,Cardinals,4,1,1.0
+Padres,Mariners,4,1,1.0
+Yankees,Blue Jays,6,4,1.0
+Braves,Nationals,6,4,1.0
+Yankees,Orioles,5,3,1.0
+Athletics,Red Sox,4,3,1.0
+Twins,White Sox,5,4,1.0
+Tigers,Indians,6,4,1.0
+Astros,Rays,3,1,1.0
+Padres,Dodgers,6,5,1.0
+Brewers,Rockies,13,10,1.0
+Marlins,Mets,3,2,1.0
+Phillies,Cardinals,5,1,1.0
+Cubs,Pirates,6,3,1.0
+Mariners,Royals,7,5,1.0
+D-backs,Giants,4,1,1.0
+Angels,Rangers,7,3,1.0
+Blue Jays,Reds,14,9,1.0
+Nationals,Braves,3,0,1.0
+Orioles,Yankees,6,1,1.0
+Athletics,Red Sox,2,1,1.0
+Twins,White Sox,4,3,1.0
+Tigers,Indians,5,4,1.0
+Rays,Astros,8,0,1.0
+Dodgers,Padres,4,2,1.0
+Brewers,Rockies,9,4,1.0
+Mets,Marlins,4,0,1.0
+Cardinals,Phillies,4,1,1.0
+Pirates,Cubs,5,3,1.0
+Mariners,Royals,2,1,1.0
+Giants,D-backs,6,4,1.0
+Angels,Rangers,3,2,1.0
+Reds,Blue Jays,11,1,1.0
+Nationals,Braves,4,1,1.0
+Orioles,Yankees,8,0,1.0
+Red Sox,Athletics,7,6,1.0
+Twins,White Sox,6,5,1.0
+Tigers,Indians,10,4,1.0
+Rays,Astros,5,2,1.0
+Dodgers,Padres,2,1,1.0
+Brewers,Rockies,6,5,1.0
+Mets,Marlins,11,5,1.0
+Cardinals,Phillies,5,3,1.0
+Pirates,Cubs,2,1,1.0
+Mariners,Royals,2,1,1.0
+Giants,D-backs,4,1,1.0
+Angels,Rangers,5,2,1.0
+Reds,Blue Jays,4,3,1.0
+Mariners,Red Sox,12,3,1.0
+Orioles,White Sox,6,4,1.0
+Reds,Cubs,6,1,1.0
+Royals,Dodgers,5,3,1.0
+Marlins,Phillies,4,0,1.0
+Blue Jays,Yankees,8,3,1.0
+Pirates,Rays,8,1,1.0
+Padres,Giants,6,0,1.0
+Cardinals,Rockies,8,0,1.0
+Nationals,Brewers,3,0,1.0
+Braves,Astros,3,2,1.0
+Mariners,Red Sox,8,2,1.0
+White Sox,Orioles,4,2,1.0
+Cubs,Reds,7,3,1.0
+D-backs,Indians,9,8,1.0
+Tigers,Rangers,8,2,1.0
+Dodgers,Royals,2,0,1.0
+Phillies,Marlins,7,4,1.0
+Angels,Twins,8,6,1.0
+Blue Jays,Yankees,7,6,1.0
+Mets,Athletics,10,1,1.0
+Pirates,Rays,6,5,1.0
+Padres,Giants,7,2,1.0
+Rockies,Cardinals,10,5,1.0
+Nationals,Brewers,4,2,1.0
+Braves,Astros,4,0,1.0
+Red Sox,Mariners,5,4,1.0
+Orioles,White Sox,5,4,1.0
+Reds,Cubs,4,1,1.0
+Indians,D-backs,6,1,1.0
+Tigers,Rangers,8,6,1.0
+Dodgers,Royals,5,4,1.0
+Marlins,Phillies,3,2,1.0
+Angels,Twins,6,2,1.0
+Yankees,Blue Jays,5,3,1.0
+Athletics,Mets,8,5,1.0
+Rays,Pirates,5,1,1.0
+Giants,Padres,4,0,1.0
+Cardinals,Rockies,9,6,1.0
+Brewers,Nationals,9,2,1.0
+Astros,Braves,6,1,1.0
+Blue Jays,White Sox,7,0,1.0
+Reds,Giants,3,1,1.0
+Brewers,Rockies,7,4,1.0
+Tigers,Rangers,6,0,1.0
+Phillies,Marlins,5,3,1.0
+Angels,Twins,6,4,1.0
+Pirates,Mets,5,2,1.0
+Dodgers,Cardinals,1,0,1.0
+Cubs,Nationals,5,3,1.0
+Royals,Angels,8,6,1.0
+D-backs,Padres,2,1,1.0
+Braves,Phillies,4,2,1.0
+Yankees,Red Sox,6,0,1.0
+White Sox,Blue Jays,5,4,1.0
+Reds,Giants,6,2,1.0
+Mariners,Indians,3,2,1.0
+Brewers,Rockies,3,2,1.0
+Astros,Tigers,4,3,1.0
+Rangers,Twins,5,4,1.0
+Pirates,Mets,3,2,1.0
+Athletics,Marlins,9,5,1.0
+Cardinals,Dodgers,3,1,1.0
+Rays,Orioles,5,2,1.0
+Orioles,Rays,4,1,1.0
+Cubs,Nationals,7,2,1.0
+Angels,Royals,6,2,1.0
+D-backs,Padres,3,1,1.0
+Braves,Phillies,10,3,1.0
+Braves,Phillies,5,1,1.0
+Red Sox,Yankees,2,1,1.0
+White Sox,Blue Jays,4,3,1.0
+Reds,Giants,7,3,1.0
+Indians,Mariners,5,0,1.0
+Brewers,Rockies,7,4,1.0
+Tigers,Astros,4,3,1.0
+Rangers,Twins,5,0,1.0
+Mets,Pirates,5,3,1.0
+Athletics,Marlins,7,6,1.0
+Dodgers,Cardinals,9,1,1.0
+Rays,Orioles,5,4,1.0
+Nationals,Cubs,3,0,1.0
+Nationals,Cubs,7,2,1.0
+Royals,Angels,5,4,1.0
+Padres,D-backs,2,1,1.0
+Braves,Phillies,3,2,1.0
+Red Sox,Yankees,8,5,1.0
+White Sox,Blue Jays,4,0,1.0
+Reds,Giants,4,0,1.0
+Mariners,Indians,3,0,1.0
+Rockies,Brewers,10,4,1.0
+Astros,Tigers,6,4,1.0
+Twins,Rangers,3,2,1.0
+Pirates,Mets,5,2,1.0
+Athletics,Marlins,4,3,1.0
+Dodgers,Cardinals,6,0,1.0
+Rays,Orioles,12,7,1.0
+Cubs,Red Sox,2,0,1.0
+Padres,Reds,1,0,1.0
+Dodgers,Indians,1,0,1.0
+Nationals,Rockies,7,3,1.0
+Royals,Twins,6,1,1.0
+Braves,Mets,5,3,1.0
+Tigers,Athletics,5,4,1.0
+Mariners,Astros,10,4,1.0
+Rays,Yankees,4,3,1.0
+Orioles,Rangers,7,1,1.0
+Angels,White Sox,8,4,1.0
+Angels,White Sox,7,5,1.0
+Pirates,D-backs,3,2,1.0
+Cubs,Red Sox,2,1,1.0
+Padres,Reds,8,2,1.0
+Indians,Dodgers,10,3,1.0
+Nationals,Rockies,7,1,1.0
+Twins,Royals,10,2,1.0
+Blue Jays,Brewers,4,1,1.0
+Braves,Mets,5,4,1.0
+Tigers,Athletics,3,0,1.0
+Marlins,Phillies,5,4,1.0
+Mariners,Astros,13,2,1.0
+Giants,Cardinals,5,0,1.0
+Rays,Yankees,2,1,1.0
+Orioles,Rangers,8,3,1.0
+White Sox,Angels,3,2,1.0
+Pirates,D-backs,5,1,1.0
+Cubs,Red Sox,16,9,1.0
+Padres,Reds,3,0,1.0
+Indians,Dodgers,5,4,1.0
+Nationals,Rockies,4,3,1.0
+Royals,Twins,4,0,1.0
+Blue Jays,Brewers,7,4,1.0
+Braves,Mets,3,1,1.0
+Tigers,Athletics,9,3,1.0
+Marlins,Phillies,5,0,1.0
+Mariners,Astros,5,2,1.0
+Cardinals,Giants,2,0,1.0
+Rays,Yankees,6,3,1.0
+Orioles,Rangers,6,4,1.0
+D-backs,Pirates,10,2,1.0
+Angels,Astros,5,2,1.0
+Dodgers,Rockies,3,2,1.0
+Yankees,Twins,7,4,1.0
+Phillies,Marlins,5,4,1.0
+Cardinals,Giants,7,2,1.0
+Tigers,Rays,8,1,1.0
+Orioles,Rangers,5,2,1.0
+Athletics,Blue Jays,4,1,1.0
+Braves,D-backs,5,2,1.0
+Cubs,Nationals,7,2,1.0
+Angels,Astros,7,6,1.0
+Royals,Indians,7,1,1.0
+Dodgers,Rockies,9,0,1.0
+Cardinals,Marlins,3,2,1.0
+Reds,Brewers,4,2,1.0
+Yankees,Twins,6,5,1.0
+Pirates,Phillies,8,2,1.0
+White Sox,Mariners,7,1,1.0
+Padres,Giants,2,0,1.0
+Rays,Tigers,6,3,1.0
+Mets,Rangers,6,5,1.0
+Athletics,Blue Jays,1,0,1.0
+Braves,D-backs,10,4,1.0
+Red Sox,Orioles,3,2,1.0
+Orioles,Red Sox,7,4,1.0
+Nationals,Cubs,13,0,1.0
+Angels,Astros,11,5,1.0
+Indians,Royals,7,3,1.0
+Rockies,Dodgers,8,7,1.0
+Marlins,Cardinals,6,5,1.0
+Brewers,Reds,1,0,1.0
+Twins,Yankees,2,1,1.0
+Pirates,Phillies,3,2,1.0
+Mariners,White Sox,3,2,1.0
+Giants,Padres,5,3,1.0
+Rays,Tigers,7,2,1.0
+Rangers,Mets,5,3,1.0
+Athletics,Blue Jays,5,1,1.0
+D-backs,Braves,3,1,1.0
+Orioles,Red Sox,7,6,1.0
+Nationals,Cubs,2,1,1.0
+Angels,Astros,6,1,1.0
+Indians,Royals,4,1,1.0
+Dodgers,Rockies,8,2,1.0
+Marlins,Cardinals,8,4,1.0
+Reds,Brewers,4,2,1.0
+Yankees,Twins,9,7,1.0
+Pirates,Phillies,6,2,1.0
+White Sox,Mariners,1,0,1.0
+Giants,Padres,5,3,1.0
+Rays,Tigers,7,3,1.0
+Mets,Rangers,8,4,1.0
+Athletics,Blue Jays,4,2,1.0
+Mets,Braves,4,3,1.0
+Orioles,Nationals,8,2,1.0
+White Sox,Red Sox,4,0,1.0
+Reds,Cubs,9,3,1.0
+Astros,Rangers,12,7,1.0
+Royals,Rays,6,0,1.0
+D-backs,Marlins,9,1,1.0
+Mariners,Twins,2,0,1.0
+Yankees,Indians,5,3,1.0
+Phillies,Brewers,3,2,1.0
+Cardinals,Pirates,2,0,1.0
+Padres,Rockies,6,1,1.0
+Athletics,Giants,5,0,1.0
+Angels,Blue Jays,5,2,1.0
+Mets,Braves,8,3,1.0
+White Sox,Red Sox,8,3,1.0
+Reds,Cubs,4,2,1.0
+Reds,Cubs,6,5,1.0
+Astros,Rangers,8,3,1.0
+Rays,Royals,4,3,1.0
+Tigers,Dodgers,14,5,1.0
+Marlins,D-backs,2,1,1.0
+Twins,Mariners,2,0,1.0
+Indians,Yankees,5,3,1.0
+Phillies,Brewers,9,7,1.0
+Cardinals,Pirates,5,4,1.0
+Rockies,Padres,2,1,1.0
+Athletics,Giants,6,1,1.0
+Blue Jays,Angels,4,0,1.0
+Mets,Braves,4,1,1.0
+Red Sox,White Sox,5,4,1.0
+Reds,Cubs,4,1,1.0
+Astros,Rangers,8,4,1.0
+Royals,Rays,5,4,1.0
+Tigers,Dodgers,4,1,1.0
+D-backs,Marlins,4,3,1.0
+Twins,Mariners,8,1,1.0
+Yankees,Indians,5,4,1.0
+Giants,Athletics,5,2,1.0
+Phillies,Brewers,4,1,1.0
+Cardinals,Pirates,5,2,1.0
+Rockies,Padres,6,3,1.0
+Angels,Blue Jays,8,7,1.0
+Nationals,Orioles,6,2,1.0
+Angels,Rangers,15,6,1.0
+Braves,Mets,3,1,1.0
+Red Sox,White Sox,4,3,1.0
+Cubs,Reds,6,4,1.0
+Tigers,Royals,16,4,1.0
+Twins,Mariners,4,2,1.0
+Indians,Yankees,9,3,1.0
+Athletics,Giants,6,1,1.0
+Phillies,Brewers,9,1,1.0
+Pirates,Cardinals,9,1,1.0
+Dodgers,Padres,2,1,1.0
+Orioles,Nationals,4,3,1.0
+Angels,Rangers,3,0,1.0
+Giants,D-backs,5,0,1.0
+Cubs,Braves,5,4,1.0
+Red Sox,Astros,8,3,1.0
+Indians,White Sox,7,4,1.0
+Tigers,Royals,2,1,1.0
+Mets,Marlins,7,1,1.0
+Rockies,Twins,6,2,1.0
+Orioles,Yankees,3,2,1.0
+Mariners,Athletics,3,2,1.0
+Reds,Pirates,6,5,1.0
+Padres,Dodgers,6,3,1.0
+Cardinals,Brewers,7,6,1.0
+Blue Jays,Rays,8,5,1.0
+Phillies,Nationals,6,2,1.0
+Angels,Rangers,5,2,1.0
+D-backs,Giants,2,0,1.0
+Braves,Cubs,11,6,1.0
+Astros,Red Sox,3,2,1.0
+White Sox,Indians,6,2,1.0
+Tigers,Royals,5,1,1.0
+Mets,Marlins,5,4,1.0
+Twins,Rockies,9,3,1.0
+Yankees,Orioles,3,0,1.0
+Mariners,Athletics,6,2,1.0
+Pirates,Reds,6,5,1.0
+Dodgers,Padres,1,0,1.0
+Cardinals,Brewers,10,2,1.0
+Rays,Blue Jays,10,3,1.0
+Nationals,Phillies,5,3,1.0
+Angels,Rangers,10,7,1.0
+Giants,D-backs,8,4,1.0
+Braves,Cubs,10,7,1.0
+Red Sox,Astros,11,0,1.0
+Indians,White Sox,3,2,1.0
+Royals,Tigers,5,2,1.0
+Mets,Marlins,9,1,1.0
+Twins,Rockies,13,5,1.0
+Orioles,Yankees,3,1,1.0
+Athletics,Mariners,4,1,1.0
+Reds,Pirates,6,3,1.0
+Dodgers,Padres,1,0,1.0
+Brewers,Cardinals,11,2,1.0
+Rays,Blue Jays,3,0,1.0
+Nationals,Phillies,10,3,1.0
+Athletics,Orioles,5,4,1.0
+D-backs,Cubs,5,4,1.0
+Yankees,Reds,4,3,1.0
+Indians,Tigers,9,3,1.0
+Pirates,Rockies,4,2,1.0
+White Sox,Astros,3,2,1.0
+Red Sox,Royals,5,4,1.0
+Cardinals,Dodgers,3,2,1.0
+Brewers,Nationals,4,2,1.0
+Mets,Padres,5,4,1.0
+Braves,Phillies,6,4,1.0
+Angels,Mariners,3,2,1.0
+Giants,Marlins,9,1,1.0
+Rays,Twins,6,2,1.0
+Rangers,Blue Jays,5,1,1.0
+Orioles,Athletics,8,4,1.0
+D-backs,Cubs,9,3,1.0
+Yankees,Reds,7,1,1.0
+Indians,Tigers,6,2,1.0
+Indians,Tigers,5,2,1.0
+Pirates,Rockies,3,2,1.0
+White Sox,Astros,4,3,1.0
+Red Sox,Royals,2,1,1.0
+Cardinals,Dodgers,4,2,1.0
+Nationals,Brewers,8,3,1.0
+Padres,Mets,6,0,1.0
+Phillies,Braves,2,1,1.0
+Mariners,Angels,3,2,1.0
+Giants,Marlins,5,3,1.0
+Rays,Twins,5,1,1.0
+Blue Jays,Rangers,4,1,1.0
+Athletics,Orioles,10,2,1.0
+D-backs,Cubs,3,2,1.0
+Yankees,Reds,3,2,1.0
+Tigers,Indians,5,1,1.0
+Pirates,Rockies,5,3,1.0
+Astros,White Sox,11,7,1.0
+Red Sox,Royals,6,0,1.0
+Dodgers,Cardinals,4,3,1.0
+Nationals,Brewers,5,4,1.0
+Padres,Mets,2,1,1.0
+Braves,Phillies,8,2,1.0
+Angels,Mariners,6,5,1.0
+Marlins,Giants,3,2,1.0
+Rays,Twins,5,3,1.0
+Blue Jays,Rangers,9,6,1.0
+Orioles,Angels,4,2,1.0
+Red Sox,Blue Jays,14,1,1.0
+Brewers,Reds,5,2,1.0
+Twins,Indians,4,3,1.0
+Tigers,D-backs,4,3,1.0
+White Sox,Royals,3,1,1.0
+Dodgers,Pirates,5,2,1.0
+Marlins,Braves,3,1,1.0
+Mariners,Mets,5,2,1.0
+Giants,Phillies,7,4,1.0
+Rangers,Yankees,4,2,1.0
+Nationals,Rockies,7,2,1.0
+Orioles,Angels,4,2,1.0
+Blue Jays,Red Sox,7,3,1.0
+Brewers,Reds,4,3,1.0
+Indians,Twins,8,2,1.0
+D-backs,Tigers,5,4,1.0
+Astros,Athletics,3,2,1.0
+Royals,White Sox,7,1,1.0
+Pirates,Dodgers,12,7,1.0
+Marlins,Braves,6,5,1.0
+Mets,Mariners,3,1,1.0
+Cubs,Padres,6,0,1.0
+Giants,Phillies,9,6,1.0
+Rays,Cardinals,7,2,1.0
+Yankees,Rangers,2,1,1.0
+Nationals,Rockies,7,4,1.0
+Angels,Orioles,3,2,1.0
+Blue Jays,Red Sox,6,4,1.0
+Brewers,Reds,5,1,1.0
+Twins,Indians,3,1,1.0
+Tigers,D-backs,11,5,1.0
+Athletics,Astros,9,7,1.0
+Royals,White Sox,2,1,1.0
+Pirates,Dodgers,6,1,1.0
+Braves,Marlins,6,1,1.0
+Mets,Mariners,3,2,1.0
+Padres,Cubs,8,3,1.0
+Giants,Phillies,3,1,1.0
+Rays,Cardinals,3,0,1.0
+Yankees,Rangers,2,1,1.0
+Rockies,Nationals,6,4,1.0
+Orioles,Mariners,4,0,1.0
+Blue Jays,Red Sox,8,0,1.0
+White Sox,Twins,5,2,1.0
+Royals,Indians,2,1,1.0
+Tigers,Angels,6,4,1.0
+Athletics,Astros,13,1,1.0
+Marlins,Braves,3,2,1.0
+Brewers,Mets,9,1,1.0
+Padres,Cubs,13,3,1.0
+Phillies,Giants,2,1,1.0
+Yankees,Rangers,4,2,1.0
+Phillies,D-backs,9,5,1.0
+Orioles,Mariners,2,1,1.0
+Rays,Red Sox,6,4,1.0
+White Sox,Twins,9,5,1.0
+Royals,Indians,6,4,1.0
+Angels,Tigers,2,1,1.0
+Dodgers,Giants,8,1,1.0
+Marlins,Astros,2,0,1.0
+Mets,Brewers,3,2,1.0
+Rangers,Athletics,4,1,1.0
+Rockies,Pirates,8,1,1.0
+Padres,Braves,5,2,1.0
+Cubs,Cardinals,7,6,1.0
+Yankees,Blue Jays,6,4,1.0
+Nationals,Reds,4,1,1.0
+D-backs,Phillies,10,6,1.0
+Mariners,Orioles,4,3,1.0
+Rays,Red Sox,3,0,1.0
+White Sox,Twins,7,0,1.0
+Royals,Indians,7,5,1.0
+Angels,Tigers,4,0,1.0
+Dodgers,Giants,5,0,1.0
+Marlins,Astros,7,3,1.0
+Brewers,Mets,5,2,1.0
+Athletics,Rangers,5,1,1.0
+Rockies,Pirates,8,1,1.0
+Braves,Padres,5,3,1.0
+Cardinals,Cubs,6,3,1.0
+Blue Jays,Yankees,6,4,1.0
+Reds,Nationals,1,0,1.0
+Phillies,D-backs,4,2,1.0
+Orioles,Mariners,3,2,1.0
+Red Sox,Rays,3,2,1.0
+Twins,White Sox,4,3,1.0
+Indians,Royals,10,3,1.0
+Angels,Tigers,2,1,1.0
+Dodgers,Giants,4,3,1.0
+Marlins,Astros,4,2,1.0
+Mets,Brewers,2,0,1.0
+Athletics,Rangers,9,3,1.0
+Pirates,Rockies,7,5,1.0
+Braves,Padres,8,3,1.0
+Cardinals,Cubs,1,0,1.0
+Blue Jays,Yankees,5,4,1.0
+Nationals,Reds,4,2,1.0
+D-backs,Reds,2,1,1.0
+Cubs,Rockies,4,1,1.0
+Rays,Brewers,2,1,1.0
+Rangers,Yankees,4,2,1.0
+Astros,Athletics,7,3,1.0
+Mets,Phillies,7,1,1.0
+Pirates,Giants,5,0,1.0
+Braves,Padres,2,0,1.0
+Blue Jays,Red Sox,14,1,1.0
+Marlins,Nationals,7,6,1.0
+Orioles,Angels,7,6,1.0
+Reds,D-backs,3,0,1.0
+Dodgers,Braves,8,4,1.0
+White Sox,Tigers,11,4,1.0
+Cubs,Rockies,4,3,1.0
+Rays,Brewers,5,1,1.0
+Twins,Royals,2,1,1.0
+Yankees,Rangers,12,11,1.0
+Athletics,Astros,7,4,1.0
+Phillies,Mets,6,0,1.0
+Pirates,Giants,3,1,1.0
+Mariners,Indians,5,2,1.0
+Padres,Cardinals,3,1,1.0
+Blue Jays,Red Sox,4,2,1.0
+Marlins,Nationals,3,0,1.0
+Orioles,Angels,4,3,1.0
+D-backs,Reds,5,4,1.0
+Dodgers,Braves,3,2,1.0
+Tigers,White Sox,7,2,1.0
+Rockies,Cubs,6,4,1.0
+Brewers,Rays,5,0,1.0
+Royals,Twins,3,2,1.0
+Rangers,Yankees,3,2,1.0
+Astros,Athletics,8,1,1.0
+Mets,Phillies,11,2,1.0
+Giants,Pirates,7,5,1.0
+Indians,Mariners,2,0,1.0
+Padres,Cardinals,12,1,1.0
+Blue Jays,Red Sox,6,1,1.0
+Nationals,Marlins,4,3,1.0
+Angels,Orioles,1,0,1.0
+Dodgers,Braves,2,1,1.0
+White Sox,Tigers,7,4,1.0
+Reds,Marlins,3,1,1.0
+Cubs,Rockies,3,1,1.0
+Royals,Twins,6,3,1.0
+Phillies,Nationals,10,4,1.0
+D-backs,Pirates,7,4,1.0
+Mariners,Indians,6,5,1.0
+Cardinals,Padres,6,2,1.0
+Blue Jays,Astros,6,5,1.0
+Angels,Rays,5,3,1.0
+Padres,Braves,10,1,1.0
+Cubs,Dodgers,8,2,1.0
+Reds,Marlins,5,2,1.0
+Tigers,Rockies,4,2,1.0
+Royals,Athletics,1,0,1.0
+Brewers,Cardinals,7,4,1.0
+White Sox,Twins,10,8,1.0
+Red Sox,Yankees,4,3,1.0
+Phillies,Nationals,2,1,1.0
+Pirates,D-backs,9,4,1.0
+Orioles,Mariners,2,1,1.0
+Giants,Mets,5,1,1.0
+Indians,Rangers,12,2,1.0
+Astros,Blue Jays,3,1,1.0
+Rays,Angels,10,3,1.0
+Padres,Braves,3,2,1.0
+Dodgers,Cubs,5,2,1.0
+Marlins,Reds,2,1,1.0
+Tigers,Rockies,11,5,1.0
+Athletics,Royals,8,3,1.0
+Cardinals,Brewers,9,7,1.0
+Twins,White Sox,8,6,1.0
+Yankees,Red Sox,6,4,1.0
+Nationals,Phillies,11,0,1.0
+Pirates,D-backs,8,3,1.0
+Mariners,Orioles,6,3,1.0
+Mets,Giants,4,2,1.0
+Indians,Rangers,2,0,1.0
+Astros,Blue Jays,8,2,1.0
+Angels,Rays,7,5,1.0
+Padres,Braves,4,3,1.0
+Cubs,Dodgers,7,3,1.0
+Reds,Marlins,7,3,1.0
+Tigers,Rockies,4,0,1.0
+Royals,Athletics,4,2,1.0
+Cardinals,Brewers,3,2,1.0
+Twins,White Sox,16,3,1.0
+Yankees,Red Sox,8,7,1.0
+Nationals,Phillies,4,0,1.0
+D-backs,Pirates,3,2,1.0
+Orioles,Mariners,1,0,1.0
+Giants,Mets,9,0,1.0
+Indians,Rangers,4,3,1.0
+Astros,Blue Jays,6,1,1.0
+Angels,Dodgers,5,0,1.0
+Orioles,Nationals,7,3,1.0
+Indians,Reds,7,1,1.0
+Yankees,Tigers,2,1,1.0
+Giants,Mets,4,3,1.0
+Athletics,Rays,3,2,1.0
+White Sox,Rangers,5,3,1.0
+Dodgers,Angels,5,4,1.0
+Mariners,Braves,4,2,1.0
+Orioles,Blue Jays,9,3,1.0
+Cardinals,Red Sox,3,2,1.0
+Cubs,Rockies,6,5,1.0
+Reds,Indians,9,2,1.0
+Tigers,Yankees,4,3,1.0
+Phillies,Astros,2,1,1.0
+Royals,D-backs,12,2,1.0
+Marlins,Pirates,6,3,1.0
+Mets,Nationals,6,1,1.0
+Twins,Padres,3,1,1.0
+Brewers,Giants,4,3,1.0
+Athletics,Rays,3,0,1.0
+Rangers,White Sox,16,0,1.0
+Mariners,Braves,7,3,1.0
+Blue Jays,Orioles,5,1,1.0
+Red Sox,Cardinals,2,1,1.0
+Rockies,Cubs,13,4,1.0
+Reds,Indians,8,3,1.0
+Yankees,Tigers,5,1,1.0
+Phillies,Astros,10,3,1.0
+Royals,D-backs,4,3,1.0
+Dodgers,Angels,2,1,1.0
+Pirates,Marlins,7,3,1.0
+Nationals,Mets,7,1,1.0
+Padres,Twins,5,4,1.0
+Giants,Brewers,7,4,1.0
+Rays,Athletics,7,3,1.0
+Rangers,White Sox,3,1,1.0
+Orioles,Blue Jays,2,1,1.0
+Cardinals,Red Sox,5,2,1.0
+Mariners,White Sox,13,3,1.0
+Cubs,Rockies,6,2,1.0
+Reds,Indians,4,0,1.0
+Yankees,Tigers,1,0,1.0
+Phillies,Astros,6,5,1.0
+Royals,D-backs,6,2,1.0
+Dodgers,Angels,7,0,1.0
+Pirates,Marlins,7,2,1.0
+Athletics,Twins,3,0,1.0
+Nationals,Mets,5,3,1.0
+Brewers,Giants,3,1,1.0
+Red Sox,Angels,4,2,1.0
+Mariners,White Sox,4,1,1.0
+Yankees,Indians,10,6,1.0
+D-backs,Rockies,5,3,1.0
+Tigers,Blue Jays,5,4,1.0
+Brewers,Dodgers,9,3,1.0
+Marlins,Reds,2,1,1.0
+Athletics,Twins,6,5,1.0
+Mets,Phillies,5,4,1.0
+Pirates,Padres,2,1,1.0
+Royals,Giants,4,2,1.0
+Orioles,Cardinals,12,2,1.0
+Rays,Cubs,4,3,1.0
+Astros,Rangers,4,3,1.0
+Braves,Nationals,7,6,1.0
+Angels,Red Sox,5,4,1.0
+White Sox,Mariners,2,1,1.0
+Indians,Yankees,3,0,1.0
+D-backs,Rockies,14,4,1.0
+Blue Jays,Tigers,3,2,1.0
+Brewers,Dodgers,4,1,1.0
+Marlins,Reds,4,3,1.0
+Athletics,Twins,9,4,1.0
+Mets,Phillies,2,1,1.0
+Padres,Pirates,2,1,1.0
+Royals,Giants,5,0,1.0
+Orioles,Cardinals,10,3,1.0
+Rays,Cubs,4,0,1.0
+Astros,Rangers,8,3,1.0
+Nationals,Braves,4,1,1.0
+Red Sox,Angels,3,1,1.0
+Mariners,White Sox,4,2,1.0
+Indians,Yankees,4,1,1.0
+Rockies,D-backs,5,3,1.0
+Blue Jays,Tigers,6,5,1.0
+Dodgers,Brewers,5,1,1.0
+Reds,Marlins,7,2,1.0
+Twins,Athletics,6,1,1.0
+Phillies,Mets,7,6,1.0
+Padres,Pirates,8,2,1.0
+Royals,Giants,7,4,1.0
+Cardinals,Orioles,8,3,1.0
+Cubs,Rays,3,2,1.0
+Rangers,Astros,6,2,1.0
+Braves,Nationals,3,1,1.0
+Padres,Rockies,4,3,1.0
+Pirates,Tigers,11,6,1.0
+Dodgers,Braves,6,2,1.0
+Brewers,Cubs,3,1,1.0
+Twins,Astros,4,2,1.0
+Orioles,Yankees,11,3,1.0
+Mets,Phillies,5,3,1.0
+Royals,Athletics,3,2,1.0
+Marlins,Cardinals,6,5,1.0
+Rays,Rangers,7,0,1.0
+Mariners,Blue Jays,11,1,1.0
+Red Sox,Reds,3,2,1.0
+White Sox,Giants,3,2,1.0
+Padres,Rockies,4,1,1.0
+Pirates,Tigers,4,2,1.0
+Dodgers,Braves,4,2,1.0
+Cubs,Brewers,3,0,1.0
+Astros,Twins,10,4,1.0
+Athletics,Royals,11,3,1.0
+Angels,Phillies,7,2,1.0
+Marlins,Cardinals,3,0,1.0
+Rangers,Rays,3,2,1.0
+Mariners,Blue Jays,6,3,1.0
+Nationals,Mets,7,1,1.0
+Indians,D-backs,3,2,1.0
+D-backs,Indians,1,0,1.0
+Red Sox,Reds,5,4,1.0
+Giants,White Sox,7,1,1.0
+Padres,Rockies,5,3,1.0
+Braves,Dodgers,3,2,1.0
+Cubs,Brewers,4,2,1.0
+Twins,Astros,3,1,1.0
+Orioles,Yankees,5,3,1.0
+Royals,Athletics,3,0,1.0
+Angels,Phillies,4,3,1.0
+Tigers,Pirates,8,4,1.0
+Cardinals,Marlins,5,2,1.0
+Rays,Rangers,10,1,1.0
+Mariners,Blue Jays,2,0,1.0
+Nationals,Mets,3,2,1.0
+Marlins,D-backs,5,4,1.0
+Rockies,Reds,7,3,1.0
+Red Sox,Astros,9,4,1.0
+Dodgers,Braves,6,4,1.0
+Brewers,Cubs,6,2,1.0
+Royals,Athletics,7,3,1.0
+Tigers,Pirates,5,2,1.0
+Cardinals,Padres,4,3,1.0
+Rays,Rangers,6,3,1.0
+Nationals,Mets,4,1,1.0
+Angels,Rangers,5,4,1.0
+D-backs,Marlins,3,2,1.0
+Indians,Orioles,2,1,1.0
+Mets,Cubs,3,2,1.0
+Reds,Rockies,3,2,1.0
+Astros,Red Sox,5,3,1.0
+Royals,Twins,6,5,1.0
+Brewers,Dodgers,6,3,1.0
+Rays,Yankees,5,0,1.0
+Braves,Athletics,7,2,1.0
+Phillies,Giants,5,3,1.0
+Nationals,Pirates,5,4,1.0
+Cardinals,Padres,4,2,1.0
+Mariners,Tigers,7,2,1.0
+White Sox,Blue Jays,11,5,1.0
+Angels,Rangers,5,4,1.0
+Marlins,D-backs,2,1,1.0
+Indians,Orioles,6,0,1.0
+Mets,Cubs,7,3,1.0
+Red Sox,Astros,10,7,1.0
+Twins,Royals,4,1,1.0
+Brewers,Dodgers,3,2,1.0
+Yankees,Rays,3,2,1.0
+Braves,Athletics,4,3,1.0
+Giants,Phillies,6,5,1.0
+Nationals,Pirates,4,3,1.0
+Padres,Cardinals,9,5,1.0
+Tigers,Mariners,4,2,1.0
+Blue Jays,White Sox,6,3,1.0
+Rangers,Angels,3,2,1.0
+Marlins,D-backs,10,3,1.0
+Orioles,Indians,4,1,1.0
+Cubs,Mets,2,1,1.0
+Rockies,Reds,10,9,1.0
+Rockies,Reds,10,5,1.0
+Astros,Red Sox,8,1,1.0
+Royals,Twins,12,6,1.0
+Brewers,Dodgers,7,2,1.0
+Yankees,Rays,4,2,1.0
+Braves,Athletics,4,3,1.0
+Giants,Phillies,5,2,1.0
+Nationals,Pirates,6,5,1.0
+Cardinals,Padres,7,6,1.0
+Mariners,Tigers,8,1,1.0
+White Sox,Blue Jays,7,5,1.0
+Angels,Red Sox,4,2,1.0
+Nationals,D-backs,5,4,1.0
+Braves,Pirates,7,3,1.0
+Orioles,White Sox,8,2,1.0
+Cubs,Mets,4,1,1.0
+Cardinals,Reds,6,5,1.0
+Royals,Twins,6,4,1.0
+Phillies,Mariners,4,1,1.0
+Angels,Red Sox,4,3,1.0
+Nationals,D-backs,8,1,1.0
+Braves,Pirates,11,3,1.0
+Orioles,White Sox,5,1,1.0
+Cardinals,Reds,5,4,1.0
+Indians,Twins,7,5,1.0
+Tigers,Rays,8,6,1.0
+Astros,Yankees,7,4,1.0
+Royals,Rockies,7,4,1.0
+Athletics,Mets,6,2,1.0
+Dodgers,Padres,8,6,1.0
+Mariners,Phillies,5,2,1.0
+Cubs,Giants,2,1,1.0
+Marlins,Rangers,4,3,1.0
+Brewers,Blue Jays,6,1,1.0
+Angels,Red Sox,8,3,1.0
+Nationals,D-backs,3,2,1.0
+Pirates,Braves,3,2,1.0
+Orioles,White Sox,4,3,1.0
+Cardinals,Reds,7,3,1.0
+Indians,Twins,5,0,1.0
+Tigers,Rays,6,0,1.0
+Astros,Yankees,5,2,1.0
+Rockies,Royals,5,2,1.0
+Mets,Athletics,8,5,1.0
+Padres,Dodgers,4,1,1.0
+Phillies,Mariners,4,3,1.0
+Giants,Cubs,8,3,1.0
+Rangers,Marlins,5,4,1.0
+Blue Jays,Brewers,9,5,1.0
+Angels,Red Sox,2,0,1.0
+Nationals,D-backs,1,0,1.0
+Braves,Reds,8,0,1.0
+Twins,Indians,4,1,1.0
+Rays,Tigers,1,0,1.0
+Yankees,Astros,3,0,1.0
+Dodgers,Padres,2,1,1.0
+Giants,Cubs,5,3,1.0
+Athletics,Angels,5,3,1.0
+Braves,Reds,3,1,1.0
+Cubs,Orioles,4,1,1.0
+Yankees,White Sox,4,3,1.0
+Twins,Tigers,20,6,1.0
+Astros,Indians,5,1,1.0
+Royals,Rangers,6,3,1.0
+Marlins,Rockies,13,5,1.0
+Dodgers,Mets,6,2,1.0
+Pirates,Brewers,8,3,1.0
+D-backs,Padres,5,1,1.0
+Mariners,Red Sox,5,3,1.0
+Giants,Nationals,10,3,1.0
+Phillies,Cardinals,5,4,1.0
+Rays,Blue Jays,8,0,1.0
+Athletics,Angels,2,1,1.0
+Reds,Braves,1,0,1.0
+Cubs,Orioles,7,2,1.0
+Yankees,White Sox,5,3,1.0
+Twins,Tigers,12,4,1.0
+Tigers,Twins,8,6,1.0
+Indians,Astros,3,2,1.0
+Royals,Rangers,6,3,1.0
+Rockies,Marlins,5,4,1.0
+Dodgers,Mets,7,4,1.0
+Pirates,Brewers,10,2,1.0
+D-backs,Padres,5,2,1.0
+Mariners,Red Sox,7,3,1.0
+Nationals,Giants,6,2,1.0
+Cardinals,Phillies,6,5,1.0
+Blue Jays,Rays,5,4,1.0
+Angels,Athletics,9,4,1.0
+Reds,Braves,5,3,1.0
+Cubs,Orioles,2,1,1.0
+Yankees,White Sox,7,4,1.0
+Tigers,Twins,13,4,1.0
+Indians,Astros,3,1,1.0
+Rangers,Royals,3,1,1.0
+Rockies,Marlins,7,4,1.0
+Mets,Dodgers,11,3,1.0
+Brewers,Pirates,4,3,1.0
+Padres,D-backs,7,4,1.0
+Mariners,Red Sox,8,6,1.0
+Nationals,Giants,14,6,1.0
+Phillies,Cardinals,7,1,1.0
+Rays,Blue Jays,2,1,1.0
+Red Sox,Blue Jays,4,3,1.0
+Rockies,Giants,3,2,1.0
+Marlins,Angels,7,1,1.0
+Brewers,Padres,10,1,1.0
+Yankees,Royals,8,1,1.0
+Athletics,Astros,8,2,1.0
+Cardinals,Pirates,3,2,1.0
+Orioles,Rays,9,1,1.0
+Rangers,Mariners,2,0,1.0
+Phillies,Nationals,3,2,1.0
+Mets,Braves,3,2,1.0
+Red Sox,Blue Jays,11,7,1.0
+Cubs,Reds,3,0,1.0
+Indians,White Sox,8,6,1.0
+Giants,Rockies,3,0,1.0
+Dodgers,D-backs,9,5,1.0
+Angels,Marlins,8,2,1.0
+Padres,Brewers,4,1,1.0
+Royals,Twins,2,1,1.0
+Tigers,Yankees,5,2,1.0
+Astros,Athletics,4,2,1.0
+Pirates,Cardinals,5,2,1.0
+Orioles,Rays,4,2,1.0
+Mariners,Rangers,5,0,1.0
+Phillies,Nationals,4,3,1.0
+Braves,Mets,3,2,1.0
+Blue Jays,Red Sox,5,2,1.0
+Reds,Cubs,7,5,1.0
+White Sox,Indians,3,2,1.0
+Giants,Rockies,4,2,1.0
+Dodgers,D-backs,3,1,1.0
+Angels,Marlins,6,1,1.0
+Padres,Brewers,3,2,1.0
+Royals,Twins,6,1,1.0
+Yankees,Tigers,8,4,1.0
+Athletics,Astros,5,4,1.0
+Pirates,Cardinals,3,1,1.0
+Rays,Orioles,3,1,1.0
+Rangers,Mariners,12,4,1.0
+Phillies,Nationals,8,4,1.0
+Braves,Mets,6,1,1.0
+Reds,Cubs,7,2,1.0
+Indians,White Sox,3,2,1.0
+Giants,Rockies,4,1,1.0
+Twins,Royals,11,5,1.0
+Tigers,Yankees,3,2,1.0
+Angels,Athletics,4,3,1.0
+Orioles,Rays,5,4,1.0
+Astros,Rangers,4,2,1.0
+Red Sox,Rays,8,4,1.0
+Cubs,Cardinals,7,2,1.0
+Pirates,Reds,2,1,1.0
+Indians,Royals,6,1,1.0
+D-backs,Rockies,5,2,1.0
+Tigers,White Sox,7,1,1.0
+Padres,Dodgers,3,2,1.0
+Braves,Marlins,5,2,1.0
+Giants,Brewers,13,2,1.0
+Orioles,Twins,9,1,1.0
+Yankees,Blue Jays,6,3,1.0
+Angels,Athletics,4,0,1.0
+Mets,Phillies,4,1,1.0
+Rangers,Astros,13,6,1.0
+Nationals,Mariners,8,3,1.0
+Rays,Red Sox,7,0,1.0
+Cubs,Cardinals,5,1,1.0
+Cardinals,Cubs,13,2,1.0
+Pirates,Reds,3,2,1.0
+Indians,Royals,3,2,1.0
+Rockies,D-backs,2,0,1.0
+White Sox,Tigers,6,3,1.0
+Tigers,White Sox,8,4,1.0
+Padres,Dodgers,2,1,1.0
+Marlins,Braves,4,0,1.0
+Giants,Brewers,3,1,1.0
+Orioles,Twins,3,2,1.0
+Blue Jays,Yankees,2,0,1.0
+Angels,Athletics,2,0,1.0
+Phillies,Mets,7,2,1.0
+Astros,Rangers,2,0,1.0
+Nationals,Mariners,3,1,1.0
+Red Sox,Rays,3,0,1.0
+Cardinals,Cubs,9,6,1.0
+Reds,Pirates,3,2,1.0
+Indians,Royals,4,3,1.0
+D-backs,Rockies,6,2,1.0
+White Sox,Tigers,6,2,1.0
+Dodgers,Padres,7,1,1.0
+Braves,Marlins,1,0,1.0
+Giants,Brewers,15,5,1.0
+Orioles,Twins,12,8,1.0
+Blue Jays,Yankees,4,3,1.0
+Angels,Athletics,8,1,1.0
+Mets,Phillies,6,5,1.0
+Astros,Rangers,3,2,1.0
+Mariners,Nationals,5,3,1.0
+Padres,D-backs,3,1,1.0
+Rays,Red Sox,4,3,1.0
+Tigers,Indians,12,1,1.0
+Cubs,Brewers,4,2,1.0
+Twins,Orioles,6,4,1.0
+Marlins,Mets,9,6,1.0
+Phillies,Braves,7,0,1.0
+Cardinals,Pirates,5,4,1.0
+Athletics,Mariners,6,1,1.0
+Rockies,Giants,10,9,1.0
+Royals,Rangers,4,3,1.0
+Nationals,Dodgers,6,4,1.0
+Astros,Angels,8,3,1.0
+Padres,D-backs,2,1,1.0
+Red Sox,Yankees,9,4,1.0
+White Sox,Twins,6,3,1.0
+Orioles,Reds,5,4,1.0
+Tigers,Indians,4,2,1.0
+Cubs,Brewers,7,1,1.0
+Mets,Marlins,8,6,1.0
+Phillies,Braves,4,0,1.0
+Cardinals,Pirates,6,4,1.0
+Mariners,Athletics,6,5,1.0
+Giants,Rockies,12,7,1.0
+Royals,Rangers,2,1,1.0
+Blue Jays,Rays,8,2,1.0
+Dodgers,Nationals,4,1,1.0
+Astros,Angels,4,1,1.0
+D-backs,Padres,6,1,1.0
+Yankees,Red Sox,5,1,1.0
+Twins,White Sox,11,4,1.0
+Orioles,Reds,6,0,1.0
+Indians,Tigers,7,0,1.0
+Cubs,Brewers,6,2,1.0
+Mets,Marlins,4,3,1.0
+Braves,Phillies,7,4,1.0
+Cardinals,Pirates,1,0,1.0
+Mariners,Athletics,2,1,1.0
+Rockies,Giants,9,2,1.0
+Royals,Rangers,4,1,1.0
+Blue Jays,Rays,7,4,1.0
+Nationals,Dodgers,8,5,1.0
+Angels,Twins,5,4,1.0
+D-backs,Padres,5,1,1.0
+Yankees,Red Sox,5,4,1.0
+Orioles,Reds,9,7,1.0
+Tigers,Indians,11,4,1.0
+Mariners,Rangers,10,2,1.0
+Cardinals,Brewers,3,2,1.0
+Blue Jays,Rays,1,0,1.0
+Angels,Twins,7,6,1.0
+Dodgers,D-backs,2,1,1.0
+Marlins,Braves,11,3,1.0
+Rays,Orioles,3,0,1.0
+Indians,White Sox,2,1,1.0
+Astros,Athletics,4,3,1.0
+Royals,Yankees,1,0,1.0
+Mets,Reds,14,5,1.0
+Phillies,Nationals,9,8,1.0
+Pirates,Cubs,5,3,1.0
+Rockies,Padres,3,0,1.0
+Mariners,Rangers,7,5,1.0
+Giants,Tigers,8,2,1.0
+Brewers,Cardinals,6,2,1.0
+Red Sox,Blue Jays,9,8,1.0
+Angels,Twins,8,5,1.0
+Dodgers,D-backs,5,2,1.0
+Braves,Marlins,4,3,1.0
+Rays,Orioles,3,2,1.0
+Indians,White Sox,3,1,1.0
+Athletics,Astros,4,3,1.0
+Yankees,Royals,6,2,1.0
+Reds,Mets,2,1,1.0
+Phillies,Nationals,3,1,1.0
+Pirates,Cubs,5,0,1.0
+Rockies,Padres,7,6,1.0
+Mariners,Rangers,4,2,1.0
+Giants,Tigers,5,4,1.0
+Cardinals,Brewers,5,3,1.0
+Red Sox,Blue Jays,4,3,1.0
+Angels,Twins,14,4,1.0
+Dodgers,D-backs,7,2,1.0
+Marlins,Braves,4,0,1.0
+Orioles,Rays,7,5,1.0
+Indians,White Sox,2,0,1.0
+Astros,Athletics,4,3,1.0
+Royals,Yankees,2,0,1.0
+Mets,Reds,4,3,1.0
+Nationals,Phillies,3,2,1.0
+Pirates,Cubs,10,4,1.0
+Rockies,Padres,6,0,1.0
+Rangers,Mariners,1,0,1.0
+Tigers,Giants,6,1,1.0
+Cardinals,Brewers,9,1,1.0
+Blue Jays,Red Sox,3,1,1.0
+Angels,Indians,12,3,1.0
+Nationals,Braves,2,1,1.0
+Orioles,Red Sox,4,0,1.0
+Blue Jays,Cubs,8,0,1.0
+Mets,Rockies,3,2,1.0
+Mariners,Astros,4,1,1.0
+Tigers,Royals,9,5,1.0
+Marlins,Brewers,6,4,1.0
+White Sox,Athletics,5,4,1.0
+Pirates,Phillies,6,4,1.0
+Dodgers,Padres,9,4,1.0
+Cardinals,Reds,5,0,1.0
+Angels,Rangers,9,3,1.0
+Giants,D-backs,5,1,1.0
+Nationals,Braves,6,4,1.0
+Orioles,Red Sox,4,1,1.0
+Blue Jays,Cubs,9,2,1.0
+Mets,Rockies,2,0,1.0
+Astros,Mariners,2,1,1.0
+Tigers,Royals,4,2,1.0
+Marlins,Brewers,6,3,1.0
+Twins,Indians,4,3,1.0
+Athletics,White Sox,11,2,1.0
+Phillies,Pirates,4,3,1.0
+Padres,Dodgers,6,3,1.0
+Reds,Cardinals,9,5,1.0
+Rays,Yankees,4,3,1.0
+Angels,Rangers,8,1,1.0
+Giants,D-backs,5,0,1.0
+Braves,Nationals,6,2,1.0
+Orioles,Red Sox,10,6,1.0
+Blue Jays,Cubs,11,1,1.0
+Mets,Rockies,2,0,1.0
+Astros,Mariners,5,2,1.0
+Royals,Tigers,3,0,1.0
+Brewers,Marlins,4,1,1.0
+White Sox,Athletics,2,1,1.0
+Pirates,Phillies,6,3,1.0
+Dodgers,Padres,4,0,1.0
+Reds,Cardinals,4,2,1.0
+Yankees,Rays,8,5,1.0
+Angels,Rangers,7,3,1.0
+Giants,D-backs,6,2,1.0
+Red Sox,Royals,6,3,1.0
+Brewers,Marlins,4,2,1.0
+Indians,Twins,8,2,1.0
+Indians,Twins,2,0,1.0
+White Sox,Athletics,1,0,1.0
+Pirates,Phillies,4,1,1.0
+Reds,Cardinals,1,0,1.0
+Yankees,Rays,5,4,1.0
+Nationals,Mets,6,2,1.0
+Rangers,Braves,2,1,1.0
+Red Sox,Royals,4,2,1.0
+Pirates,Cubs,7,3,1.0
+Brewers,Reds,3,2,1.0
+Tigers,Indians,7,2,1.0
+Cardinals,Rockies,5,1,1.0
+Angels,Astros,11,3,1.0
+Giants,Dodgers,9,0,1.0
+Phillies,Marlins,3,1,1.0
+Orioles,Yankees,2,1,1.0
+Orioles,Yankees,5,0,1.0
+Mariners,Athletics,4,2,1.0
+Padres,D-backs,6,5,1.0
+Rays,Blue Jays,1,0,1.0
+Mets,Nationals,4,3,1.0
+Rangers,Braves,3,2,1.0
+Royals,Red Sox,7,1,1.0
+Cubs,Pirates,6,4,1.0
+Reds,Brewers,5,1,1.0
+Tigers,Indians,5,4,1.0
+Cardinals,Rockies,5,4,1.0
+Angels,Astros,5,2,1.0
+Dodgers,Giants,17,0,1.0
+Phillies,Marlins,2,1,1.0
+White Sox,Twins,5,1,1.0
+White Sox,Twins,7,6,1.0
+Yankees,Orioles,3,2,1.0
+Athletics,Mariners,3,2,1.0
+D-backs,Padres,10,4,1.0
+Blue Jays,Rays,6,3,1.0
+Nationals,Mets,10,3,1.0
+Rangers,Braves,10,3,1.0
+Red Sox,Royals,8,4,1.0
+Pirates,Cubs,7,3,1.0
+Brewers,Reds,9,2,1.0
+Tigers,Indians,6,4,1.0
+Cardinals,Rockies,4,1,1.0
+Astros,Angels,6,1,1.0
+Dodgers,Giants,4,2,1.0
+Marlins,Phillies,5,4,1.0
+Twins,White Sox,6,4,1.0
+Orioles,Yankees,3,2,1.0
+Athletics,Mariners,4,0,1.0
+D-backs,Padres,8,6,1.0
+Rays,Blue Jays,6,5,1.0
+Nationals,Mets,3,0,1.0
+Royals,White Sox,4,3,1.0
+Cubs,Reds,1,0,1.0
+Astros,Indians,3,1,1.0
+Tigers,Twins,8,6,1.0
+Dodgers,Rockies,11,3,1.0
+Marlins,Mets,6,5,1.0
+Rays,Yankees,1,0,1.0
+Padres,Phillies,1,0,1.0
+Angels,Mariners,8,1,1.0
+D-backs,Giants,6,2,1.0
+Orioles,Blue Jays,5,2,1.0
+Nationals,Braves,4,2,1.0
+Pirates,Red Sox,4,0,1.0
+White Sox,Royals,7,5,1.0
+Cubs,Reds,7,0,1.0
+Indians,Astros,4,2,1.0
+Twins,Tigers,4,3,1.0
+Rockies,Dodgers,10,4,1.0
+Mets,Marlins,9,1,1.0
+Brewers,Cardinals,3,2,1.0
+Rays,Yankees,6,1,1.0
+Padres,Phillies,5,4,1.0
+Mariners,Angels,13,2,1.0
+Giants,D-backs,2,1,1.0
+Rangers,Athletics,6,3,1.0
+Orioles,Blue Jays,8,2,1.0
+Nationals,Braves,3,0,1.0
+Pirates,Red Sox,9,1,1.0
+Royals,White Sox,6,2,1.0
+Cubs,Reds,3,1,1.0
+Indians,Astros,2,0,1.0
+Twins,Tigers,8,4,1.0
+Rockies,Dodgers,16,2,1.0
+Marlins,Mets,4,3,1.0
+Cardinals,Brewers,2,0,1.0
+Yankees,Rays,3,2,1.0
+Phillies,Padres,5,2,1.0
+Angels,Mariners,5,0,1.0
+Giants,D-backs,4,2,1.0
+Rangers,Athletics,6,1,1.0
+Orioles,Blue Jays,6,1,1.0
+Braves,Nationals,3,1,1.0
+Rockies,D-backs,7,6,1.0
+Pirates,Red Sox,3,2,1.0
+Indians,Astros,2,1,1.0
+Dodgers,Cubs,8,4,1.0
+Cardinals,Brewers,3,2,1.0
+Padres,Phillies,7,3,1.0
+Mariners,Angels,3,1,1.0
+Rangers,Athletics,7,2,1.0
+Yankees,Blue Jays,3,2,1.0
+Nationals,Marlins,6,2,1.0
+Rockies,D-backs,15,3,1.0
+Red Sox,Orioles,5,3,1.0
+White Sox,Rays,4,3,1.0
+Cardinals,Reds,2,1,1.0
+Twins,Indians,5,4,1.0
+Tigers,Royals,10,1,1.0
+Dodgers,Cubs,14,5,1.0
+Pirates,Brewers,4,2,1.0
+Mets,Braves,5,0,1.0
+Athletics,Phillies,3,1,1.0
+Mariners,Astros,10,5,1.0
+Padres,Giants,5,0,1.0
+Rangers,Angels,12,3,1.0
+Yankees,Blue Jays,5,3,1.0
+Nationals,Marlins,3,2,1.0
+Rockies,D-backs,5,1,1.0
+Orioles,Red Sox,7,2,1.0
+Rays,White Sox,3,1,1.0
+Cardinals,Reds,8,4,1.0
+Indians,Twins,7,3,1.0
+Tigers,Royals,3,2,1.0
+Cubs,Dodgers,8,7,1.0
+Brewers,Pirates,1,0,1.0
+Mets,Braves,4,2,1.0
+Phillies,Athletics,3,0,1.0
+Astros,Mariners,10,1,1.0
+Padres,Giants,3,2,1.0
+Angels,Rangers,8,5,1.0
+Blue Jays,Yankees,6,3,1.0
+Nationals,Marlins,3,2,1.0
+Rockies,D-backs,8,3,1.0
+Red Sox,Orioles,3,2,1.0
+White Sox,Rays,10,5,1.0
+Reds,Cardinals,7,2,1.0
+Indians,Twins,7,2,1.0
+Royals,Tigers,5,2,1.0
+Dodgers,Cubs,8,5,1.0
+Pirates,Brewers,1,0,1.0
+Mets,Braves,10,2,1.0
+Athletics,Phillies,8,6,1.0
+Astros,Mariners,8,3,1.0
+Padres,Giants,8,2,1.0
+Rangers,Angels,2,1,1.0
+Yankees,Blue Jays,5,2,1.0
+Nationals,Marlins,2,1,1.0
+Athletics,Angels,8,4,1.0
+D-backs,Twins,6,2,1.0
+Yankees,Orioles,5,0,1.0
+White Sox,Tigers,2,0,1.0
+Padres,Rockies,1,0,1.0
+Rangers,Astros,4,3,1.0
+Royals,Indians,2,0,1.0
+Pirates,Braves,1,0,1.0
+Blue Jays,Mariners,14,4,1.0
+Giants,Dodgers,5,2,1.0
+Cardinals,Cubs,8,0,1.0
+Angels,Athletics,2,0,1.0
+Twins,D-backs,6,3,1.0
+Orioles,Yankees,5,4,1.0
+Tigers,White Sox,4,3,1.0
+Rockies,Padres,3,2,1.0
+Rangers,Astros,2,1,1.0
+Royals,Indians,7,1,1.0
+Reds,Brewers,3,1,1.0
+Nationals,Mets,4,2,1.0
+Marlins,Phillies,2,0,1.0
+Pirates,Braves,3,2,1.0
+Blue Jays,Mariners,10,2,1.0
+Dodgers,Giants,4,2,1.0
+Cubs,Cardinals,4,3,1.0
+Rays,Red Sox,6,2,1.0
+Angels,Athletics,5,4,1.0
+Twins,D-backs,2,1,1.0
+Orioles,Yankees,9,5,1.0
+Tigers,White Sox,6,1,1.0
+Padres,Rockies,4,3,1.0
+Rangers,Astros,5,1,1.0
+Indians,Royals,6,4,1.0
+Brewers,Reds,5,0,1.0
+Phillies,Marlins,2,1,1.0
+Braves,Pirates,6,2,1.0
+Blue Jays,Mariners,1,0,1.0
+Dodgers,Giants,9,1,1.0
+Cubs,Cardinals,3,1,1.0
+Red Sox,Rays,11,3,1.0
+Yankees,Orioles,6,5,1.0
+Royals,White Sox,6,3,1.0
+Reds,Brewers,5,3,1.0
+Tigers,Twins,4,2,1.0
+Mets,Nationals,7,4,1.0
+Nationals,Mets,3,0,1.0
+Rangers,Athletics,2,1,1.0
+Marlins,Phillies,6,4,1.0
+Pirates,Braves,10,1,1.0
+Giants,Padres,9,8,1.0
+Mariners,Blue Jays,7,5,1.0
+Red Sox,Rays,11,1,1.0
+Mariners,Angels,4,3,1.0
+Phillies,Braves,5,4,1.0
+Blue Jays,Orioles,4,2,1.0
+Cubs,Brewers,6,4,1.0
+Dodgers,Rockies,7,4,1.0
+Astros,Mets,3,1,1.0
+Royals,White Sox,3,1,1.0
+Nationals,Marlins,4,0,1.0
+Marlins,Nationals,15,7,1.0
+Twins,Tigers,11,4,1.0
+Yankees,Red Sox,3,2,1.0
+Athletics,Rangers,6,2,1.0
+Pirates,Reds,3,1,1.0
+Padres,Giants,4,1,1.0
+Cardinals,D-backs,7,6,1.0
+Indians,Rays,1,0,1.0
+Mariners,Angels,2,1,1.0
+Braves,Phillies,4,2,1.0
+Blue Jays,Orioles,4,2,1.0
+Brewers,Cubs,2,1,1.0
+Dodgers,Rockies,6,5,1.0
+Mets,Astros,2,1,1.0
+White Sox,Royals,5,4,1.0
+Nationals,Marlins,5,1,1.0
+Twins,Tigers,12,3,1.0
+Red Sox,Yankees,10,4,1.0
+Rangers,Athletics,5,4,1.0
+Reds,Pirates,10,6,1.0
+Giants,Padres,3,1,1.0
+D-backs,Cardinals,5,2,1.0
+Rays,Indians,2,0,1.0
+Mariners,Angels,4,1,1.0
+Braves,Phillies,2,1,1.0
+Orioles,Blue Jays,1,0,1.0
+Cubs,Brewers,5,2,1.0
+Dodgers,Rockies,10,5,1.0
+Mets,Astros,8,3,1.0
+Royals,White Sox,6,4,1.0
+Nationals,Marlins,1,0,1.0
+Tigers,Twins,3,0,1.0
+Yankees,Red Sox,9,5,1.0
+Athletics,Rangers,4,0,1.0
+Reds,Pirates,4,1,1.0
+Giants,Padres,9,3,1.0
+Cardinals,D-backs,1,0,1.0
+Indians,Rays,7,2,1.0
+D-backs,Dodgers,1,3,0.0
+D-backs,Dodgers,5,7,0.0
+Dodgers,Padres,1,3,0.0
+Braves,Brewers,0,2,0.0
+Red Sox,Orioles,1,2,0.0
+Cubs,Pirates,0,1,0.0
+Athletics,Indians,0,2,0.0
+Rockies,Marlins,1,10,0.0
+Royals,Tigers,3,4,0.0
+Twins,White Sox,3,5,0.0
+Rangers,Phillies,10,14,0.0
+Angels,Mariners,3,10,0.0
+D-backs,Giants,8,9,0.0
+Reds,Cardinals,0,1,0.0
+Blue Jays,Rays,2,9,0.0
+Mets,Nationals,7,9,0.0
+Brewers,Braves,2,5,0.0
+Rockies,Marlins,3,4,0.0
+Padres,Dodgers,2,3,0.0
+Yankees,Astros,2,6,0.0
+Phillies,Rangers,2,3,0.0
+Angels,Mariners,3,8,0.0
+Giants,D-backs,4,5,0.0
+Rays,Blue Jays,2,4,0.0
+Brewers,Braves,0,1,0.0
+Orioles,Red Sox,2,6,0.0
+Cubs,Pirates,3,4,0.0
+Indians,Athletics,1,6,0.0
+Athletics,Indians,4,6,0.0
+Marlins,Rockies,5,6,0.0
+Royals,Tigers,1,2,0.0
+Padres,Dodgers,1,5,0.0
+Twins,White Sox,6,7,0.0
+Yankees,Astros,1,3,0.0
+Phillies,Rangers,3,4,0.0
+Angels,Mariners,2,8,0.0
+D-backs,Giants,0,2,0.0
+Cardinals,Reds,0,1,0.0
+Rays,Blue Jays,0,3,0.0
+Mets,Nationals,1,5,0.0
+Orioles,Red Sox,3,4,0.0
+Pirates,Cubs,2,3,0.0
+Rockies,Marlins,5,8,0.0
+White Sox,Twins,9,10,0.0
+Astros,Yankees,2,4,0.0
+Mariners,Athletics,2,3,0.0
+D-backs,Giants,5,8,0.0
+Reds,Cardinals,6,7,0.0
+Blue Jays,Rays,2,7,0.0
+Mets,Nationals,2,8,0.0
+Astros,Angels,1,11,0.0
+D-backs,Rockies,2,12,0.0
+Nationals,Braves,1,2,0.0
+Orioles,Tigers,4,10,0.0
+White Sox,Royals,5,7,0.0
+Reds,Mets,3,4,0.0
+Red Sox,Brewers,2,6,0.0
+Twins,Indians,2,7,0.0
+Blue Jays,Yankees,3,7,0.0
+Cubs,Phillies,2,7,0.0
+Padres,Marlins,2,8,0.0
+Dodgers,Giants,4,8,0.0
+Cardinals,Pirates,2,12,0.0
+Rangers,Rays,1,8,0.0
+Astros,Angels,1,5,0.0
+D-backs,Rockies,4,9,0.0
+Nationals,Braves,2,6,0.0
+Orioles,Tigers,6,7,0.0
+White Sox,Royals,3,4,0.0
+Reds,Mets,3,6,0.0
+Red Sox,Brewers,6,7,0.0
+Indians,Twins,3,7,0.0
+Yankees,Blue Jays,0,4,0.0
+Cubs,Phillies,0,2,0.0
+Padres,Marlins,0,5,0.0
+Athletics,Mariners,1,3,0.0
+Dodgers,Giants,2,7,0.0
+Pirates,Cardinals,1,6,0.0
+Rangers,Rays,4,5,0.0
+Angels,Astros,4,7,0.0
+Rockies,D-backs,3,5,0.0
+Braves,Nationals,1,2,0.0
+Tigers,Orioles,1,3,0.0
+Royals,White Sox,1,5,0.0
+Mets,Reds,1,2,0.0
+Red Sox,Brewers,0,4,0.0
+Indians,Twins,7,10,0.0
+Blue Jays,Yankees,4,6,0.0
+Phillies,Cubs,3,8,0.0
+Marlins,Padres,2,4,0.0
+Mariners,Athletics,3,6,0.0
+Giants,Dodgers,2,6,0.0
+Cardinals,Pirates,1,2,0.0
+Rays,Rangers,0,3,0.0
+Astros,Angels,1,9,0.0
+Orioles,Yankees,2,4,0.0
+White Sox,Rockies,1,8,0.0
+Reds,Cardinals,3,5,0.0
+Twins,Athletics,3,8,0.0
+Rays,Royals,2,4,0.0
+Rangers,Red Sox,1,5,0.0
+Angels,Mariners,3,5,0.0
+D-backs,Giants,3,7,0.0
+Yankees,Orioles,5,14,0.0
+Rockies,White Sox,3,15,0.0
+Reds,Cardinals,5,7,0.0
+Tigers,Dodgers,2,3,0.0
+Astros,Blue Jays,2,5,0.0
+Marlins,Nationals,0,5,0.0
+Phillies,Brewers,4,10,0.0
+Braves,Mets,0,4,0.0
+Cubs,Pirates,6,7,0.0
+Padres,Indians,6,8,0.0
+Royals,Rays,0,1,0.0
+Red Sox,Rangers,7,10,0.0
+Mariners,Angels,0,2,0.0
+Giants,D-backs,3,7,0.0
+Yankees,Orioles,4,5,0.0
+White Sox,Rockies,4,10,0.0
+Cardinals,Reds,0,4,0.0
+Dodgers,Tigers,6,7,0.0
+Astros,Blue Jays,3,7,0.0
+Marlins,Nationals,7,10,0.0
+Phillies,Brewers,4,9,0.0
+Mets,Braves,3,4,0.0
+Twins,Athletics,4,7,0.0
+Pirates,Cubs,5,7,0.0
+Padres,Indians,0,2,0.0
+Indians,Padres,1,2,0.0
+Rays,Royals,3,7,0.0
+Rangers,Red Sox,2,4,0.0
+Giants,D-backs,5,6,0.0
+Red Sox,Yankees,1,4,0.0
+Indians,White Sox,3,7,0.0
+Blue Jays,Astros,4,6,0.0
+Marlins,Nationals,1,7,0.0
+Phillies,Brewers,2,6,0.0
+Braves,Mets,4,6,0.0
+Twins,Athletics,1,6,0.0
+Cubs,Pirates,4,5,0.0
+Yankees,Red Sox,2,4,0.0
+Cardinals,Cubs,3,6,0.0
+Indians,White Sox,6,9,0.0
+Rockies,Giants,5,6,0.0
+Tigers,Padres,0,6,0.0
+Astros,Rangers,0,1,0.0
+Royals,Twins,1,10,0.0
+D-backs,Dodgers,0,6,0.0
+Marlins,Phillies,3,6,0.0
+Mets,Angels,4,5,0.0
+Athletics,Mariners,4,6,0.0
+Pirates,Brewers,2,4,0.0
+Reds,Rays,1,2,0.0
+Orioles,Blue Jays,0,2,0.0
+Nationals,Braves,6,7,0.0
+Red Sox,Yankees,4,7,0.0
+Cubs,Cardinals,4,10,0.0
+White Sox,Indians,6,12,0.0
+Giants,Rockies,0,1,0.0
+Padres,Tigers,2,6,0.0
+Rangers,Astros,5,6,0.0
+Royals,Twins,1,7,0.0
+D-backs,Dodgers,5,8,0.0
+Marlins,Phillies,4,5,0.0
+Angels,Mets,6,7,0.0
+Mariners,Athletics,1,3,0.0
+Pirates,Brewers,2,3,0.0
+Reds,Rays,0,1,0.0
+Blue Jays,Orioles,1,2,0.0
+Nationals,Braves,3,6,0.0
+Red Sox,Yankees,2,3,0.0
+Cubs,Cardinals,4,6,0.0
+Indians,White Sox,3,4,0.0
+Rockies,Giants,4,5,0.0
+Tigers,Padres,1,5,0.0
+Astros,Rangers,0,1,0.0
+Royals,Twins,3,4,0.0
+D-backs,Dodgers,6,8,0.0
+Marlins,Phillies,3,4,0.0
+Mets,Angels,2,14,0.0
+Mariners,Athletics,0,3,0.0
+Pirates,Brewers,1,4,0.0
+Rays,Reds,4,12,0.0
+Orioles,Blue Jays,3,11,0.0
+Nationals,Braves,2,10,0.0
+Phillies,Braves,6,9,0.0
+Rockies,Padres,4,5,0.0
+D-backs,Mets,3,7,0.0
+Angels,Athletics,2,3,0.0
+Reds,Pirates,7,8,0.0
+Rangers,Mariners,1,7,0.0
+Brewers,Cardinals,0,4,0.0
+Rays,Orioles,1,7,0.0
+Marlins,Nationals,2,9,0.0
+Red Sox,White Sox,1,2,0.0
+Padres,Rockies,2,3,0.0
+Astros,Royals,2,4,0.0
+Dodgers,Giants,2,3,0.0
+D-backs,Mets,0,9,0.0
+Angels,Athletics,9,10,0.0
+Pirates,Reds,5,7,0.0
+Mariners,Rangers,0,5,0.0
+Brewers,Cardinals,1,6,0.0
+Twins,Blue Jays,3,9,0.0
+Nationals,Marlins,2,11,0.0
+Phillies,Braves,0,1,0.0
+White Sox,Red Sox,4,6,0.0
+Cubs,Yankees,0,3,0.0
+Cubs,Yankees,0,2,0.0
+Tigers,Indians,2,3,0.0
+Rockies,Padres,2,4,0.0
+Astros,Royals,4,6,0.0
+Dodgers,Giants,1,2,0.0
+D-backs,Mets,2,5,0.0
+Athletics,Angels,4,5,0.0
+Pirates,Reds,0,4,0.0
+Mariners,Rangers,2,3,0.0
+Cardinals,Brewers,1,5,0.0
+Rays,Orioles,0,3,0.0
+Marlins,Nationals,3,6,0.0
+Braves,Phillies,0,1,0.0
+White Sox,Red Sox,1,3,0.0
+Indians,Tigers,5,7,0.0
+Padres,Rockies,1,3,0.0
+Astros,Royals,1,5,0.0
+Giants,Dodgers,1,2,0.0
+Brewers,Pirates,2,11,0.0
+Rays,Yankees,2,10,0.0
+Mariners,Rangers,6,8,0.0
+Nationals,Cardinals,0,8,0.0
+Blue Jays,Twins,0,7,0.0
+Blue Jays,Twins,5,9,0.0
+Tigers,Angels,6,11,0.0
+Dodgers,D-backs,2,4,0.0
+Mets,Braves,0,6,0.0
+Red Sox,Orioles,4,8,0.0
+White Sox,Rangers,0,12,0.0
+Cubs,Reds,1,4,0.0
+Astros,Athletics,3,11,0.0
+Pirates,Brewers,3,5,0.0
+Twins,Royals,0,5,0.0
+Yankees,Rays,5,11,0.0
+Phillies,Rockies,1,12,0.0
+Mariners,Marlins,4,8,0.0
+Giants,Padres,1,2,0.0
+Cardinals,Nationals,1,3,0.0
+Indians,Blue Jays,2,3,0.0
+Angels,Tigers,2,5,0.0
+D-backs,Dodgers,6,8,0.0
+Mets,Braves,5,7,0.0
+Orioles,Red Sox,2,4,0.0
+White Sox,Rangers,3,6,0.0
+Reds,Cubs,4,8,0.0
+Astros,Athletics,3,4,0.0
+Pirates,Brewers,7,8,0.0
+Twins,Royals,4,5,0.0
+Yankees,Rays,1,16,0.0
+Phillies,Rockies,1,3,0.0
+Mariners,Marlins,0,7,0.0
+Giants,Padres,1,3,0.0
+Nationals,Cardinals,3,4,0.0
+Indians,Blue Jays,0,5,0.0
+Angels,Tigers,1,2,0.0
+D-backs,Dodgers,1,4,0.0
+Braves,Mets,3,4,0.0
+Orioles,Red Sox,5,6,0.0
+Rangers,White Sox,2,16,0.0
+Cubs,Reds,2,8,0.0
+Astros,Athletics,1,4,0.0
+Pirates,Brewers,2,3,0.0
+Royals,Twins,3,8,0.0
+Rays,Yankees,1,5,0.0
+Rockies,Phillies,9,10,0.0
+Mariners,Marlins,2,3,0.0
+Padres,Giants,3,4,0.0
+Cardinals,Nationals,2,3,0.0
+Blue Jays,Indians,4,6,0.0
+Nationals,Angels,2,4,0.0
+D-backs,Cubs,1,5,0.0
+Red Sox,Orioles,6,7,0.0
+Tigers,White Sox,1,3,0.0
+Reds,Pirates,5,6,0.0
+Mariners,Astros,2,7,0.0
+Royals,Indians,3,4,0.0
+Marlins,Braves,2,4,0.0
+Dodgers,Phillies,0,7,0.0
+Padres,Brewers,3,4,0.0
+Giants,Rockies,2,8,0.0
+Cardinals,Mets,0,2,0.0
+Athletics,Rangers,3,4,0.0
+Nationals,Angels,2,7,0.0
+D-backs,Cubs,2,9,0.0
+Orioles,Blue Jays,3,9,0.0
+White Sox,Tigers,6,8,0.0
+Pirates,Reds,1,4,0.0
+Mariners,Astros,2,5,0.0
+Indians,Royals,2,8,0.0
+Braves,Marlins,0,1,0.0
+Twins,Rays,3,7,0.0
+Red Sox,Yankees,3,9,0.0
+Dodgers,Phillies,2,3,0.0
+Brewers,Padres,1,2,0.0
+Giants,Rockies,1,2,0.0
+Mets,Cardinals,0,3,0.0
+Athletics,Rangers,4,5,0.0
+Angels,Nationals,4,5,0.0
+Cubs,D-backs,5,7,0.0
+Blue Jays,Orioles,8,10,0.0
+Tigers,White Sox,4,6,0.0
+Pirates,Reds,2,5,0.0
+Astros,Mariners,3,5,0.0
+Royals,Indians,3,5,0.0
+Marlins,Braves,1,3,0.0
+Rays,Twins,4,6,0.0
+Yankees,Red Sox,1,5,0.0
+Phillies,Dodgers,2,5,0.0
+Padres,Brewers,2,5,0.0
+Rockies,Giants,10,12,0.0
+Cardinals,Mets,2,3,0.0
+Athletics,Rangers,0,3,0.0
+Cubs,D-backs,2,5,0.0
+Blue Jays,Orioles,4,11,0.0
+White Sox,Tigers,4,7,0.0
+Pirates,Reds,1,2,0.0
+Royals,Indians,1,5,0.0
+Rays,Twins,7,9,0.0
+Red Sox,Yankees,5,14,0.0
+Astros,Athletics,1,10,0.0
+Dodgers,Phillies,3,7,0.0
+Nationals,Padres,3,4,0.0
+Cardinals,Mets,1,4,0.0
+Yankees,Angels,1,13,0.0
+Blue Jays,Red Sox,1,8,0.0
+Cubs,Brewers,2,5,0.0
+Reds,Braves,4,5,0.0
+Indians,Giants,1,5,0.0
+Dodgers,Rockies,4,5,0.0
+Twins,Tigers,6,10,0.0
+Orioles,Royals,0,5,0.0
+Marlins,Mets,3,4,0.0
+Astros,Athletics,5,12,0.0
+Phillies,D-backs,4,5,0.0
+Pirates,Cardinals,0,1,0.0
+Padres,Nationals,1,11,0.0
+Rays,White Sox,6,9,0.0
+Rangers,Mariners,5,6,0.0
+Angels,Yankees,3,4,0.0
+Blue Jays,Red Sox,6,7,0.0
+Cubs,Brewers,3,5,0.0
+Reds,Braves,1,4,0.0
+Indians,Giants,3,5,0.0
+Rockies,Dodgers,3,6,0.0
+Tigers,Twins,3,5,0.0
+Royals,Orioles,2,3,0.0
+Mets,Marlins,6,7,0.0
+Athletics,Astros,6,7,0.0
+D-backs,Phillies,5,6,0.0
+Cardinals,Pirates,1,6,0.0
+Padres,Nationals,0,4,0.0
+White Sox,Rays,0,4,0.0
+Mariners,Rangers,3,6,0.0
+Angels,Yankees,2,3,0.0
+Red Sox,Blue Jays,1,7,0.0
+Brewers,Cubs,0,4,0.0
+Reds,Braves,0,1,0.0
+Indians,Giants,1,4,0.0
+Dodgers,Rockies,1,6,0.0
+Orioles,Royals,3,9,0.0
+Marlins,Mets,0,4,0.0
+Athletics,Astros,1,5,0.0
+D-backs,Phillies,0,2,0.0
+Pirates,Cardinals,0,7,0.0
+Nationals,Padres,2,4,0.0
+Rays,White Sox,2,9,0.0
+Rangers,Mariners,5,6,0.0
+Indians,Angels,3,6,0.0
+D-backs,Rockies,5,8,0.0
+Cardinals,Brewers,3,5,0.0
+Rangers,Athletics,0,4,0.0
+Giants,Padres,4,6,0.0
+Rays,White Sox,3,7,0.0
+Braves,Marlins,0,9,0.0
+Cubs,Reds,2,3,0.0
+Indians,Angels,4,6,0.0
+D-backs,Rockies,4,5,0.0
+White Sox,Tigers,3,4,0.0
+Cardinals,Brewers,4,5,0.0
+Phillies,Mets,1,6,0.0
+Rangers,Athletics,3,9,0.0
+Padres,Giants,0,6,0.0
+Yankees,Mariners,3,6,0.0
+Rays,Red Sox,4,7,0.0
+Blue Jays,Royals,7,10,0.0
+Astros,Nationals,3,4,0.0
+Braves,Marlins,3,9,0.0
+Reds,Cubs,4,9,0.0
+Indians,Angels,1,7,0.0
+Rockies,D-backs,4,5,0.0
+White Sox,Tigers,1,5,0.0
+Twins,Dodgers,4,6,0.0
+Brewers,Cardinals,3,9,0.0
+Rangers,Athletics,1,12,0.0
+Padres,Giants,2,3,0.0
+Blue Jays,Royals,2,4,0.0
+Astros,Nationals,0,7,0.0
+Braves,Marlins,4,5,0.0
+Twins,Dodgers,4,9,0.0
+Twins,Dodgers,3,4,0.0
+Brewers,Reds,3,8,0.0
+Mets,Rockies,4,7,0.0
+Pirates,Orioles,1,5,0.0
+Pirates,Orioles,5,6,0.0
+Yankees,Mariners,2,4,0.0
+Red Sox,Rays,1,2,0.0
+Red Sox,Rays,5,6,0.0
+Royals,Blue Jays,3,7,0.0
+Padres,D-backs,0,2,0.0
+Twins,Orioles,0,3,0.0
+White Sox,Indians,5,12,0.0
+Royals,Tigers,2,8,0.0
+Dodgers,Marlins,3,6,0.0
+Reds,Brewers,0,2,0.0
+Mets,Rockies,3,10,0.0
+Athletics,Red Sox,1,7,0.0
+Mariners,Astros,4,5,0.0
+Braves,Giants,1,2,0.0
+Cardinals,Cubs,5,6,0.0
+Yankees,Rays,5,10,0.0
+Angels,Rangers,2,5,0.0
+Blue Jays,Pirates,5,6,0.0
+Phillies,Nationals,3,5,0.0
+Padres,D-backs,3,4,0.0
+Orioles,Twins,1,6,0.0
+White Sox,Indians,0,2,0.0
+Royals,Tigers,2,9,0.0
+Marlins,Dodgers,7,9,0.0
+Brewers,Reds,2,6,0.0
+Mets,Rockies,10,11,0.0
+Athletics,Red Sox,3,6,0.0
+Astros,Mariners,8,9,0.0
+Braves,Giants,1,3,0.0
+Cardinals,Cubs,0,3,0.0
+Rays,Yankees,3,9,0.0
+Rangers,Angels,3,5,0.0
+Blue Jays,Pirates,6,8,0.0
+Nationals,Phillies,2,7,0.0
+D-backs,Padres,3,4,0.0
+Orioles,Twins,2,5,0.0
+Indians,White Sox,3,4,0.0
+Royals,Tigers,4,9,0.0
+Dodgers,Marlins,4,5,0.0
+Brewers,Reds,3,4,0.0
+Rockies,Mets,1,5,0.0
+Red Sox,Athletics,2,3,0.0
+Astros,Mariners,7,8,0.0
+Braves,Giants,1,4,0.0
+Cubs,Cardinals,4,5,0.0
+Yankees,Rays,1,5,0.0
+Angels,Rangers,3,14,0.0
+Pirates,Blue Jays,2,7,0.0
+Nationals,Phillies,0,1,0.0
+D-backs,Brewers,3,8,0.0
+Cubs,White Sox,1,3,0.0
+Astros,Tigers,0,2,0.0
+Royals,Padres,5,6,0.0
+Dodgers,Nationals,0,4,0.0
+Indians,Twins,0,1,0.0
+Yankees,Angels,1,4,0.0
+Mets,Marlins,3,4,0.0
+Athletics,Mariners,2,4,0.0
+Pirates,Giants,10,11,0.0
+Braves,Cardinals,3,4,0.0
+Rangers,Rockies,2,8,0.0
+Phillies,Blue Jays,0,3,0.0
+Brewers,D-backs,5,7,0.0
+Rays,Orioles,3,5,0.0
+Cubs,White Sox,1,5,0.0
+Reds,Red Sox,3,4,0.0
+Astros,Tigers,4,11,0.0
+Padres,Royals,1,3,0.0
+Nationals,Dodgers,3,8,0.0
+Twins,Indians,2,4,0.0
+Angels,Yankees,3,4,0.0
+Mets,Marlins,0,3,0.0
+Athletics,Mariners,3,8,0.0
+Giants,Pirates,1,2,0.0
+Cardinals,Braves,1,2,0.0
+Rangers,Rockies,1,12,0.0
+Phillies,Blue Jays,5,6,0.0
+Brewers,D-backs,2,3,0.0
+Rays,Orioles,3,4,0.0
+Cubs,White Sox,3,8,0.0
+Reds,Red Sox,3,4,0.0
+Rangers,Rockies,2,9,0.0
+Astros,Tigers,2,3,0.0
+Padres,Royals,0,8,0.0
+Dodgers,Nationals,2,3,0.0
+Twins,Indians,3,4,0.0
+Angels,Yankees,2,9,0.0
+Mets,Marlins,0,1,0.0
+Phillies,Blue Jays,0,10,0.0
+Athletics,Mariners,4,6,0.0
+Mariners,Athletics,0,2,0.0
+Giants,Pirates,3,4,0.0
+Braves,Cardinals,1,7,0.0
+Rays,Orioles,1,3,0.0
+White Sox,Cubs,5,12,0.0
+Rockies,Rangers,0,5,0.0
+Tigers,Astros,2,6,0.0
+Royals,Mariners,0,1,0.0
+Padres,Marlins,1,3,0.0
+Twins,Indians,4,9,0.0
+Phillies,Blue Jays,6,12,0.0
+Dodgers,Giants,1,3,0.0
+Blue Jays,Angels,3,4,0.0
+D-backs,White Sox,3,9,0.0
+Red Sox,Rangers,0,8,0.0
+Cubs,Braves,2,3,0.0
+Rays,Indians,3,6,0.0
+Rockies,Reds,3,4,0.0
+Astros,Orioles,3,4,0.0
+Mariners,Royals,1,6,0.0
+Marlins,Padres,1,10,0.0
+Tigers,Twins,1,2,0.0
+Brewers,Yankees,3,5,0.0
+Mets,Phillies,2,3,0.0
+Dodgers,Giants,1,3,0.0
+Cardinals,Pirates,4,6,0.0
+Nationals,Athletics,0,8,0.0
+Blue Jays,Angels,3,5,0.0
+White Sox,D-backs,3,4,0.0
+Rangers,Red Sox,3,8,0.0
+Cubs,Braves,0,2,0.0
+Indians,Rays,1,7,0.0
+Reds,Rockies,2,11,0.0
+Astros,Orioles,4,5,0.0
+Royals,Mariners,1,3,0.0
+Marlins,Padres,3,9,0.0
+Twins,Tigers,3,9,0.0
+Yankees,Brewers,4,5,0.0
+Mets,Phillies,4,5,0.0
+Giants,Dodgers,2,6,0.0
+Cardinals,Pirates,3,4,0.0
+Nationals,Athletics,3,4,0.0
+Blue Jays,Angels,3,9,0.0
+White Sox,D-backs,1,5,0.0
+Rangers,Red Sox,2,5,0.0
+Cubs,Braves,2,5,0.0
+Rays,Indians,5,6,0.0
+Rockies,Reds,1,4,0.0
+Orioles,Astros,2,5,0.0
+Mariners,Royals,7,9,0.0
+Marlins,Padres,4,5,0.0
+Tigers,Twins,3,4,0.0
+Yankees,Brewers,5,6,0.0
+Phillies,Mets,4,5,0.0
+Dodgers,Giants,4,7,0.0
+Pirates,Cardinals,5,6,0.0
+Nationals,Athletics,1,9,0.0
+Angels,Blue Jays,3,7,0.0
+Braves,Giants,2,4,0.0
+White Sox,Athletics,4,5,0.0
+Cardinals,Cubs,5,17,0.0
+Orioles,Tigers,1,4,0.0
+Marlins,Dodgers,5,6,0.0
+Yankees,Mets,7,9,0.0
+Rays,Mariners,5,12,0.0
+Astros,Rangers,0,4,0.0
+D-backs,Nationals,5,6,0.0
+Phillies,Angels,3,4,0.0
+Giants,Braves,0,5,0.0
+Red Sox,Twins,6,8,0.0
+White Sox,Athletics,0,11,0.0
+Cubs,Cardinals,3,4,0.0
+Indians,Blue Jays,4,5,0.0
+Rockies,Royals,1,5,0.0
+Orioles,Tigers,1,4,0.0
+Marlins,Dodgers,1,7,0.0
+Yankees,Mets,7,12,0.0
+Pirates,Brewers,2,5,0.0
+Reds,Padres,1,2,0.0
+Mariners,Rays,1,2,0.0
+Rangers,Astros,0,8,0.0
+Nationals,D-backs,1,3,0.0
+Phillies,Angels,0,3,0.0
+Braves,Giants,4,10,0.0
+Twins,Red Sox,4,9,0.0
+Athletics,White Sox,2,4,0.0
+Blue Jays,Indians,4,15,0.0
+Rockies,Royals,2,3,0.0
+Orioles,Tigers,5,7,0.0
+Dodgers,Marlins,3,13,0.0
+Mets,Yankees,0,4,0.0
+Brewers,Pirates,1,4,0.0
+Mariners,Rays,0,2,0.0
+Rangers,Astros,4,5,0.0
+D-backs,Nationals,1,5,0.0
+Royals,Orioles,1,2,0.0
+Red Sox,Twins,3,4,0.0
+Cubs,Cardinals,3,5,0.0
+Indians,Blue Jays,2,4,0.0
+Marlins,Giants,4,6,0.0
+Mets,Yankees,0,1,0.0
+Pirates,Brewers,3,4,0.0
+Padres,Reds,0,5,0.0
+Reds,Padres,1,6,0.0
+Rays,Angels,5,6,0.0
+Braves,Cardinals,2,5,0.0
+Royals,Orioles,0,4,0.0
+Astros,White Sox,2,7,0.0
+Phillies,Reds,0,3,0.0
+Red Sox,Tigers,0,1,0.0
+D-backs,Dodgers,0,7,0.0
+Giants,Marlins,5,7,0.0
+Cubs,Brewers,3,4,0.0
+Mets,Nationals,2,5,0.0
+Indians,Athletics,1,11,0.0
+Padres,Rockies,1,3,0.0
+Mariners,Twins,4,5,0.0
+Angels,Rays,0,3,0.0
+Rangers,Blue Jays,0,2,0.0
+Braves,Cardinals,1,4,0.0
+Orioles,Royals,0,1,0.0
+White Sox,Astros,5,6,0.0
+Reds,Phillies,1,12,0.0
+Red Sox,Tigers,1,6,0.0
+Dodgers,D-backs,7,18,0.0
+Giants,Marlins,0,5,0.0
+Brewers,Cubs,0,3,0.0
+Nationals,Mets,2,5,0.0
+Indians,Athletics,2,6,0.0
+Pirates,Yankees,1,7,0.0
+Rockies,Padres,5,8,0.0
+Mariners,Twins,3,4,0.0
+Rays,Angels,0,6,0.0
+Rangers,Blue Jays,2,4,0.0
+Cardinals,Braves,5,6,0.0
+Orioles,Royals,6,8,0.0
+White Sox,Astros,2,8,0.0
+Reds,Phillies,3,8,0.0
+Red Sox,Tigers,2,6,0.0
+Dodgers,D-backs,3,5,0.0
+Marlins,Giants,1,4,0.0
+Brewers,Cubs,2,4,0.0
+Mets,Nationals,3,6,0.0
+Indians,Athletics,3,13,0.0
+Pirates,Yankees,3,4,0.0
+Yankees,Pirates,3,5,0.0
+Padres,Rockies,6,8,0.0
+Twins,Mariners,2,6,0.0
+Rays,Angels,2,6,0.0
+Blue Jays,Rangers,2,6,0.0
+Royals,White Sox,6,7,0.0
+Nationals,Reds,3,4,0.0
+Tigers,Indians,4,5,0.0
+Angels,Astros,2,5,0.0
+Brewers,Braves,3,9,0.0
+D-backs,Cardinals,0,5,0.0
+Pirates,Orioles,2,9,0.0
+Royals,White Sox,6,7,0.0
+Reds,Nationals,4,9,0.0
+Tigers,Indians,2,6,0.0
+Astros,Angels,3,9,0.0
+Mets,Dodgers,4,9,0.0
+Brewers,Braves,0,5,0.0
+Padres,Twins,3,5,0.0
+Yankees,Cubs,1,6,0.0
+Rays,Athletics,0,3,0.0
+Marlins,Phillies,5,6,0.0
+Rangers,Mariners,2,6,0.0
+Giants,Rockies,4,5,0.0
+Red Sox,Blue Jays,4,7,0.0
+D-backs,Cardinals,2,3,0.0
+Orioles,Pirates,8,9,0.0
+White Sox,Royals,1,3,0.0
+Nationals,Reds,1,2,0.0
+Tigers,Indians,10,11,0.0
+Astros,Angels,1,2,0.0
+Mets,Dodgers,3,4,0.0
+Braves,Brewers,1,6,0.0
+Padres,Twins,0,2,0.0
+Cubs,Yankees,2,4,0.0
+Rays,Athletics,2,3,0.0
+Phillies,Marlins,5,14,0.0
+Mariners,Rangers,3,4,0.0
+Rockies,Giants,1,5,0.0
+Red Sox,Blue Jays,4,6,0.0
+D-backs,Cardinals,2,4,0.0
+Padres,Cubs,1,5,0.0
+Orioles,Indians,7,8,0.0
+Astros,Mariners,1,3,0.0
+Dodgers,Mets,3,5,0.0
+Brewers,Braves,4,5,0.0
+Yankees,White Sox,2,3,0.0
+Athletics,Rays,2,5,0.0
+Phillies,Marlins,3,4,0.0
+Rockies,Giants,2,4,0.0
+Tigers,Rangers,2,9,0.0
+Red Sox,Blue Jays,2,7,0.0
+Nationals,Pirates,1,3,0.0
+Red Sox,Rays,0,1,0.0
+Cubs,Padres,1,11,0.0
+Indians,Orioles,4,8,0.0
+Rockies,Braves,2,3,0.0
+Astros,Mariners,1,6,0.0
+Royals,Angels,1,6,0.0
+Phillies,Dodgers,0,2,0.0
+Marlins,Brewers,5,9,0.0
+Twins,Giants,2,6,0.0
+Yankees,White Sox,5,6,0.0
+Athletics,Blue Jays,2,3,0.0
+Cardinals,Reds,3,5,0.0
+Rangers,Tigers,2,7,0.0
+Nationals,Pirates,3,4,0.0
+Mets,D-backs,2,3,0.0
+Red Sox,Rays,5,6,0.0
+Padres,Cubs,2,3,0.0
+Orioles,Indians,0,9,0.0
+Braves,Rockies,1,3,0.0
+Mariners,Astros,4,9,0.0
+Angels,Royals,4,7,0.0
+Dodgers,Phillies,3,5,0.0
+Brewers,Marlins,1,2,0.0
+Twins,Giants,1,2,0.0
+White Sox,Yankees,3,4,0.0
+Athletics,Blue Jays,2,5,0.0
+Reds,Cardinals,3,6,0.0
+Tigers,Rangers,2,12,0.0
+Nationals,Pirates,2,3,0.0
+Mets,D-backs,1,2,0.0
+D-backs,Mets,2,4,0.0
+Red Sox,Rays,5,8,0.0
+Cubs,Padres,3,4,0.0
+Indians,Orioles,2,4,0.0
+Rockies,Braves,0,7,0.0
+Mariners,Astros,1,4,0.0
+Royals,Angels,3,4,0.0
+Phillies,Dodgers,0,6,0.0
+Marlins,Brewers,1,7,0.0
+Twins,Giants,1,8,0.0
+White Sox,Yankees,1,7,0.0
+Athletics,Blue Jays,1,3,0.0
+Reds,Cardinals,0,4,0.0
+Tigers,Rangers,4,12,0.0
+Pirates,Nationals,2,5,0.0
+Angels,Mariners,1,5,0.0
+Brewers,Orioles,6,7,0.0
+Braves,Red Sox,6,8,0.0
+Giants,Cubs,4,8,0.0
+Reds,Dodgers,3,4,0.0
+Indians,White Sox,2,6,0.0
+Rockies,Phillies,0,9,0.0
+Tigers,Athletics,0,10,0.0
+Royals,Astros,2,9,0.0
+Nationals,Marlins,2,3,0.0
+Cardinals,Yankees,4,6,0.0
+Mets,Pirates,3,5,0.0
+Padres,D-backs,5,7,0.0
+Rays,Blue Jays,5,10,0.0
+Twins,Rangers,2,7,0.0
+Mariners,Angels,4,6,0.0
+Orioles,Brewers,6,7,0.0
+Braves,Red Sox,3,6,0.0
+Cubs,Giants,0,4,0.0
+Reds,Dodgers,3,6,0.0
+Indians,White Sox,1,2,0.0
+Phillies,Rockies,2,6,0.0
+Athletics,Tigers,5,6,0.0
+Royals,Astros,0,3,0.0
+Yankees,Cardinals,0,6,0.0
+Pirates,Mets,2,4,0.0
+D-backs,Padres,3,4,0.0
+Rays,Blue Jays,6,9,0.0
+Rangers,Twins,3,4,0.0
+Angels,Mariners,1,3,0.0
+Braves,Red Sox,0,4,0.0
+Orioles,Brewers,3,8,0.0
+Cubs,Giants,0,5,0.0
+Dodgers,Reds,2,3,0.0
+Indians,White Sox,2,3,0.0
+Rockies,Phillies,3,6,0.0
+Tigers,Athletics,1,3,0.0
+Royals,Astros,3,9,0.0
+Nationals,Marlins,5,8,0.0
+Cardinals,Yankees,4,7,0.0
+Pirates,Mets,0,5,0.0
+Padres,D-backs,6,12,0.0
+Rays,Blue Jays,2,3,0.0
+Twins,Rangers,0,1,0.0
+Mariners,Angels,5,7,0.0
+Braves,Red Sox,3,4,0.0
+Orioles,Astros,1,3,0.0
+Reds,D-backs,0,4,0.0
+Athletics,Tigers,4,5,0.0
+Blue Jays,Royals,6,8,0.0
+Phillies,Mets,1,4,0.0
+Dodgers,Pirates,3,6,0.0
+Cardinals,Giants,5,6,0.0
+Twins,Rangers,4,5,0.0
+Angels,Athletics,5,9,0.0
+Marlins,Braves,2,3,0.0
+Orioles,Astros,1,2,0.0
+Cubs,Brewers,5,11,0.0
+D-backs,Reds,4,6,0.0
+Rockies,Indians,2,5,0.0
+Mariners,Tigers,3,6,0.0
+Blue Jays,Royals,1,6,0.0
+Yankees,Twins,1,6,0.0
+Mets,Phillies,5,6,0.0
+Dodgers,Pirates,1,2,0.0
+White Sox,Padres,1,4,0.0
+Cardinals,Giants,4,9,0.0
+Rays,Red Sox,2,3,0.0
+Rangers,Nationals,2,9,0.0
+Angels,Athletics,3,11,0.0
+Marlins,Braves,5,9,0.0
+Astros,Orioles,1,4,0.0
+Brewers,Cubs,0,8,0.0
+D-backs,Reds,0,5,0.0
+Rockies,Indians,6,7,0.0
+Tigers,Mariners,2,3,0.0
+Royals,Blue Jays,2,12,0.0
+Twins,Yankees,1,3,0.0
+Phillies,Mets,4,5,0.0
+Pirates,Dodgers,2,12,0.0
+White Sox,Padres,2,4,0.0
+Giants,Cardinals,0,2,0.0
+Rays,Red Sox,1,7,0.0
+Rangers,Nationals,2,10,0.0
+Angels,Athletics,3,6,0.0
+Marlins,Braves,2,4,0.0
+Astros,Orioles,4,9,0.0
+Cubs,Brewers,0,9,0.0
+D-backs,Reds,3,4,0.0
+Rockies,Indians,4,6,0.0
+Tigers,Mariners,0,4,0.0
+Royals,Blue Jays,0,4,0.0
+Yankees,Twins,2,7,0.0
+Phillies,Mets,3,4,0.0
+Dodgers,Pirates,3,5,0.0
+Padres,White Sox,1,4,0.0
+Cardinals,Giants,0,8,0.0
+Rays,Red Sox,0,4,0.0
+Nationals,Rangers,0,2,0.0
+Red Sox,Indians,2,3,0.0
+White Sox,Dodgers,2,5,0.0
+Cardinals,Royals,0,6,0.0
+Twins,Brewers,2,6,0.0
+Phillies,Mets,2,11,0.0
+Padres,Pirates,3,10,0.0
+Yankees,Mariners,2,10,0.0
+Rays,Marlins,1,3,0.0
+Angels,Astros,2,7,0.0
+Rockies,D-backs,2,4,0.0
+Rangers,Orioles,3,8,0.0
+Red Sox,Indians,3,5,0.0
+Dodgers,White Sox,1,4,0.0
+Cardinals,Royals,7,8,0.0
+Brewers,Twins,4,6,0.0
+Mets,Cubs,1,2,0.0
+Yankees,Athletics,2,5,0.0
+Phillies,Nationals,0,7,0.0
+Padres,Pirates,1,4,0.0
+Braves,Mariners,5,7,0.0
+Giants,Reds,3,8,0.0
+Rays,Marlins,0,1,0.0
+Tigers,Blue Jays,3,5,0.0
+Astros,Angels,0,4,0.0
+Rockies,D-backs,8,16,0.0
+Rangers,Orioles,5,6,0.0
+Red Sox,Indians,4,7,0.0
+Dodgers,White Sox,1,2,0.0
+Rays,Marlins,4,5,0.0
+Brewers,Twins,4,6,0.0
+Mets,Cubs,4,5,0.0
+Yankees,Athletics,4,7,0.0
+Phillies,Nationals,4,8,0.0
+Pirates,Padres,2,3,0.0
+Braves,Mariners,0,2,0.0
+Reds,Giants,2,3,0.0
+Royals,Cardinals,2,5,0.0
+Tigers,Blue Jays,2,8,0.0
+Angels,Astros,5,8,0.0
+Rockies,D-backs,7,12,0.0
+Orioles,Rangers,6,8,0.0
+Rays,Marlins,6,11,0.0
+Twins,Brewers,5,8,0.0
+Mets,Cubs,4,7,0.0
+Athletics,Yankees,1,2,0.0
+Phillies,Nationals,2,4,0.0
+Reds,Giants,1,6,0.0
+Cardinals,Royals,2,3,0.0
+Tigers,Blue Jays,3,7,0.0
+D-backs,Braves,2,5,0.0
+Red Sox,Tigers,2,6,0.0
+White Sox,Angels,4,8,0.0
+Indians,Rangers,4,6,0.0
+Twins,Astros,4,5,0.0
+Rockies,Dodgers,2,7,0.0
+Marlins,Cubs,3,5,0.0
+Brewers,Pirates,5,15,0.0
+Royals,Yankees,2,4,0.0
+Mets,Giants,2,4,0.0
+Orioles,Athletics,3,4,0.0
+Reds,Phillies,0,8,0.0
+Mariners,Rays,0,4,0.0
+Cardinals,Blue Jays,1,3,0.0
+Padres,Nationals,0,6,0.0
+Braves,D-backs,3,4,0.0
+Red Sox,Tigers,6,8,0.0
+White Sox,Angels,5,6,0.0
+Rangers,Indians,3,8,0.0
+Astros,Twins,0,8,0.0
+Dodgers,Rockies,4,5,0.0
+Marlins,Cubs,2,5,0.0
+Pirates,Brewers,3,9,0.0
+Yankees,Royals,4,8,0.0
+Mets,Giants,4,5,0.0
+Athletics,Orioles,3,6,0.0
+Phillies,Reds,5,6,0.0
+Rays,Mariners,4,7,0.0
+Blue Jays,Cardinals,0,5,0.0
+Nationals,Padres,3,4,0.0
+Braves,D-backs,5,6,0.0
+Tigers,Red Sox,3,5,0.0
+White Sox,Angels,2,4,0.0
+Rangers,Indians,2,3,0.0
+Twins,Astros,5,14,0.0
+Rockies,Dodgers,1,6,0.0
+Cubs,Marlins,3,4,0.0
+Pirates,Brewers,0,1,0.0
+Yankees,Royals,1,2,0.0
+Mets,Giants,4,6,0.0
+Orioles,Athletics,1,11,0.0
+Phillies,Reds,1,4,0.0
+Rays,Mariners,0,5,0.0
+Blue Jays,Cardinals,0,5,0.0
+Padres,Nationals,0,6,0.0
+Rockies,Braves,1,3,0.0
+Red Sox,Orioles,0,4,0.0
+Cubs,Pirates,2,6,0.0
+Rangers,Indians,7,17,0.0
+Tigers,White Sox,5,6,0.0
+D-backs,Astros,3,4,0.0
+Reds,Dodgers,2,6,0.0
+Twins,Blue Jays,4,5,0.0
+Athletics,Angels,1,4,0.0
+Rays,Mariners,0,3,0.0
+Giants,Nationals,2,9,0.0
+Rockies,Braves,10,13,0.0
+Orioles,Red Sox,0,1,0.0
+Pirates,Cubs,3,7,0.0
+Indians,Royals,5,9,0.0
+Astros,D-backs,1,4,0.0
+Reds,Dodgers,1,6,0.0
+Rangers,Marlins,5,8,0.0
+Brewers,Mets,2,6,0.0
+Blue Jays,Twins,0,4,0.0
+Mariners,Yankees,2,3,0.0
+Athletics,Angels,1,2,0.0
+Padres,Phillies,2,5,0.0
+Rays,Cardinals,0,1,0.0
+Giants,Nationals,1,2,0.0
+D-backs,Astros,1,5,0.0
+Braves,Rockies,2,8,0.0
+Red Sox,Orioles,0,6,0.0
+Cubs,Pirates,2,4,0.0
+Indians,Royals,1,4,0.0
+Tigers,White Sox,2,8,0.0
+Dodgers,Reds,0,5,0.0
+Marlins,Rangers,0,6,0.0
+Mets,Brewers,1,3,0.0
+Blue Jays,Twins,2,7,0.0
+Mariners,Yankees,2,4,0.0
+Angels,Athletics,1,7,0.0
+Padres,Phillies,0,3,0.0
+Cardinals,Rays,3,6,0.0
+Giants,Nationals,2,6,0.0
+D-backs,Astros,4,5,0.0
+Braves,Rockies,3,10,0.0
+Cubs,Pirates,0,4,0.0
+Indians,Red Sox,2,5,0.0
+White Sox,Tigers,0,4,0.0
+Dodgers,Reds,1,4,0.0
+Mets,Brewers,1,5,0.0
+Mariners,Yankees,3,6,0.0
+Padres,Phillies,3,7,0.0
+Blue Jays,Orioles,2,4,0.0
+Nationals,Giants,1,7,0.0
+Angels,Braves,3,4,0.0
+D-backs,Dodgers,3,4,0.0
+Phillies,Cubs,1,2,0.0
+Brewers,Reds,5,6,0.0
+Indians,Red Sox,3,10,0.0
+Giants,Rockies,4,7,0.0
+White Sox,Royals,2,7,0.0
+Tigers,Twins,0,2,0.0
+Athletics,Yankees,0,7,0.0
+Marlins,Pirates,6,8,0.0
+Padres,Mets,2,6,0.0
+Astros,Rays,1,6,0.0
+Mariners,Rangers,0,1,0.0
+Orioles,Blue Jays,0,4,0.0
+Nationals,Cardinals,0,1,0.0
+Braves,Angels,6,11,0.0
+D-backs,Dodgers,4,6,0.0
+Cubs,Phillies,4,7,0.0
+Reds,Brewers,2,4,0.0
+Red Sox,Indians,2,3,0.0
+Giants,Rockies,4,5,0.0
+White Sox,Royals,1,9,0.0
+Twins,Tigers,9,12,0.0
+Yankees,Athletics,1,5,0.0
+Marlins,Pirates,6,8,0.0
+Mets,Padres,0,5,0.0
+Rays,Astros,3,7,0.0
+Mariners,Rangers,3,4,0.0
+Blue Jays,Orioles,2,3,0.0
+Nationals,Cardinals,1,4,0.0
+Angels,Braves,3,7,0.0
+Dodgers,D-backs,3,6,0.0
+Phillies,Cubs,0,3,0.0
+Brewers,Reds,4,13,0.0
+Red Sox,Indians,2,3,0.0
+Giants,Rockies,7,8,0.0
+White Sox,Royals,3,6,0.0
+Twins,Tigers,3,4,0.0
+Yankees,Athletics,5,10,0.0
+Pirates,Marlins,2,3,0.0
+Padres,Mets,1,3,0.0
+Astros,Rays,3,4,0.0
+Rangers,Mariners,1,5,0.0
+Orioles,Blue Jays,2,5,0.0
+Nationals,Cardinals,2,5,0.0
+Angels,Indians,3,4,0.0
+Orioles,Rays,4,5,0.0
+Marlins,Cubs,4,5,0.0
+Rockies,Dodgers,1,6,0.0
+Tigers,Royals,8,11,0.0
+D-backs,Brewers,3,9,0.0
+Twins,Red Sox,0,1,0.0
+Mets,Cardinals,2,6,0.0
+Braves,Phillies,1,6,0.0
+Padres,Mariners,1,5,0.0
+Athletics,Rangers,8,14,0.0
+Indians,Angels,3,9,0.0
+Rays,Orioles,5,7,0.0
+Cubs,Marlins,5,6,0.0
+Pirates,Reds,5,6,0.0
+Rockies,Dodgers,2,4,0.0
+Astros,Nationals,5,6,0.0
+Tigers,Royals,4,11,0.0
+D-backs,Brewers,5,7,0.0
+Twins,Red Sox,1,2,0.0
+Mets,Cardinals,2,5,0.0
+Braves,Phillies,2,5,0.0
+Padres,Mariners,1,6,0.0
+Giants,White Sox,2,8,0.0
+Rangers,Athletics,6,10,0.0
+Blue Jays,Yankees,1,3,0.0
+Rays,Orioles,0,2,0.0
+Marlins,Cubs,1,6,0.0
+Pirates,Reds,4,11,0.0
+Rockies,Dodgers,0,8,0.0
+Astros,Nationals,5,6,0.0
+Tigers,Royals,1,2,0.0
+Brewers,D-backs,3,4,0.0
+Twins,Red Sox,1,2,0.0
+Cardinals,Mets,2,3,0.0
+Braves,Phillies,5,10,0.0
+Mariners,Padres,1,2,0.0
+Giants,White Sox,6,7,0.0
+Rangers,Athletics,2,4,0.0
+Blue Jays,Yankees,3,7,0.0
+Angels,Indians,3,5,0.0
+Nationals,Braves,0,3,0.0
+Red Sox,Athletics,2,4,0.0
+White Sox,Twins,2,4,0.0
+Reds,Pirates,3,4,0.0
+Astros,Rays,0,5,0.0
+Royals,Tigers,1,2,0.0
+D-backs,Brewers,1,4,0.0
+Marlins,Mets,0,1,0.0
+Cardinals,Phillies,1,4,0.0
+Mariners,Padres,1,4,0.0
+Blue Jays,Yankees,4,6,0.0
+Nationals,Braves,4,6,0.0
+Orioles,Yankees,3,5,0.0
+Red Sox,Athletics,3,4,0.0
+White Sox,Twins,4,5,0.0
+Indians,Tigers,4,6,0.0
+Rays,Astros,1,3,0.0
+Dodgers,Padres,5,6,0.0
+Rockies,Brewers,10,13,0.0
+Mets,Marlins,2,3,0.0
+Cardinals,Phillies,1,5,0.0
+Pirates,Cubs,3,6,0.0
+Royals,Mariners,5,7,0.0
+Giants,D-backs,1,4,0.0
+Rangers,Angels,3,7,0.0
+Reds,Blue Jays,9,14,0.0
+Braves,Nationals,0,3,0.0
+Yankees,Orioles,1,6,0.0
+Red Sox,Athletics,1,2,0.0
+White Sox,Twins,3,4,0.0
+Indians,Tigers,4,5,0.0
+Astros,Rays,0,8,0.0
+Padres,Dodgers,2,4,0.0
+Rockies,Brewers,4,9,0.0
+Marlins,Mets,0,4,0.0
+Phillies,Cardinals,1,4,0.0
+Cubs,Pirates,3,5,0.0
+Royals,Mariners,1,2,0.0
+D-backs,Giants,4,6,0.0
+Rangers,Angels,2,3,0.0
+Blue Jays,Reds,1,11,0.0
+Braves,Nationals,1,4,0.0
+Yankees,Orioles,0,8,0.0
+Athletics,Red Sox,6,7,0.0
+White Sox,Twins,5,6,0.0
+Indians,Tigers,4,10,0.0
+Astros,Rays,2,5,0.0
+Padres,Dodgers,1,2,0.0
+Rockies,Brewers,5,6,0.0
+Marlins,Mets,5,11,0.0
+Phillies,Cardinals,3,5,0.0
+Cubs,Pirates,1,2,0.0
+Royals,Mariners,1,2,0.0
+D-backs,Giants,1,4,0.0
+Rangers,Angels,2,5,0.0
+Blue Jays,Reds,3,4,0.0
+Red Sox,Mariners,3,12,0.0
+White Sox,Orioles,4,6,0.0
+Cubs,Reds,1,6,0.0
+Dodgers,Royals,3,5,0.0
+Phillies,Marlins,0,4,0.0
+Yankees,Blue Jays,3,8,0.0
+Rays,Pirates,1,8,0.0
+Giants,Padres,0,6,0.0
+Rockies,Cardinals,0,8,0.0
+Brewers,Nationals,0,3,0.0
+Astros,Braves,2,3,0.0
+Red Sox,Mariners,2,8,0.0
+Orioles,White Sox,2,4,0.0
+Reds,Cubs,3,7,0.0
+Indians,D-backs,8,9,0.0
+Rangers,Tigers,2,8,0.0
+Royals,Dodgers,0,2,0.0
+Marlins,Phillies,4,7,0.0
+Twins,Angels,6,8,0.0
+Yankees,Blue Jays,6,7,0.0
+Athletics,Mets,1,10,0.0
+Rays,Pirates,5,6,0.0
+Giants,Padres,2,7,0.0
+Cardinals,Rockies,5,10,0.0
+Brewers,Nationals,2,4,0.0
+Astros,Braves,0,4,0.0
+Mariners,Red Sox,4,5,0.0
+White Sox,Orioles,4,5,0.0
+Cubs,Reds,1,4,0.0
+D-backs,Indians,1,6,0.0
+Rangers,Tigers,6,8,0.0
+Royals,Dodgers,4,5,0.0
+Phillies,Marlins,2,3,0.0
+Twins,Angels,2,6,0.0
+Blue Jays,Yankees,3,5,0.0
+Mets,Athletics,5,8,0.0
+Pirates,Rays,1,5,0.0
+Padres,Giants,0,4,0.0
+Rockies,Cardinals,6,9,0.0
+Nationals,Brewers,2,9,0.0
+Braves,Astros,1,6,0.0
+White Sox,Blue Jays,0,7,0.0
+Giants,Reds,1,3,0.0
+Rockies,Brewers,4,7,0.0
+Rangers,Tigers,0,6,0.0
+Marlins,Phillies,3,5,0.0
+Twins,Angels,4,6,0.0
+Mets,Pirates,2,5,0.0
+Cardinals,Dodgers,0,1,0.0
+Nationals,Cubs,3,5,0.0
+Angels,Royals,6,8,0.0
+Padres,D-backs,1,2,0.0
+Phillies,Braves,2,4,0.0
+Red Sox,Yankees,0,6,0.0
+Blue Jays,White Sox,4,5,0.0
+Giants,Reds,2,6,0.0
+Indians,Mariners,2,3,0.0
+Rockies,Brewers,2,3,0.0
+Tigers,Astros,3,4,0.0
+Twins,Rangers,4,5,0.0
+Mets,Pirates,2,3,0.0
+Marlins,Athletics,5,9,0.0
+Dodgers,Cardinals,1,3,0.0
+Orioles,Rays,2,5,0.0
+Rays,Orioles,1,4,0.0
+Nationals,Cubs,2,7,0.0
+Royals,Angels,2,6,0.0
+Padres,D-backs,1,3,0.0
+Phillies,Braves,3,10,0.0
+Phillies,Braves,1,5,0.0
+Yankees,Red Sox,1,2,0.0
+Blue Jays,White Sox,3,4,0.0
+Giants,Reds,3,7,0.0
+Mariners,Indians,0,5,0.0
+Rockies,Brewers,4,7,0.0
+Astros,Tigers,3,4,0.0
+Twins,Rangers,0,5,0.0
+Pirates,Mets,3,5,0.0
+Marlins,Athletics,6,7,0.0
+Cardinals,Dodgers,1,9,0.0
+Orioles,Rays,4,5,0.0
+Cubs,Nationals,0,3,0.0
+Cubs,Nationals,2,7,0.0
+Angels,Royals,4,5,0.0
+D-backs,Padres,1,2,0.0
+Phillies,Braves,2,3,0.0
+Yankees,Red Sox,5,8,0.0
+Blue Jays,White Sox,0,4,0.0
+Giants,Reds,0,4,0.0
+Indians,Mariners,0,3,0.0
+Brewers,Rockies,4,10,0.0
+Tigers,Astros,4,6,0.0
+Rangers,Twins,2,3,0.0
+Mets,Pirates,2,5,0.0
+Marlins,Athletics,3,4,0.0
+Cardinals,Dodgers,0,6,0.0
+Orioles,Rays,7,12,0.0
+Red Sox,Cubs,0,2,0.0
+Reds,Padres,0,1,0.0
+Indians,Dodgers,0,1,0.0
+Rockies,Nationals,3,7,0.0
+Twins,Royals,1,6,0.0
+Mets,Braves,3,5,0.0
+Athletics,Tigers,4,5,0.0
+Astros,Mariners,4,10,0.0
+Yankees,Rays,3,4,0.0
+Rangers,Orioles,1,7,0.0
+White Sox,Angels,4,8,0.0
+White Sox,Angels,5,7,0.0
+D-backs,Pirates,2,3,0.0
+Red Sox,Cubs,1,2,0.0
+Reds,Padres,2,8,0.0
+Dodgers,Indians,3,10,0.0
+Rockies,Nationals,1,7,0.0
+Royals,Twins,2,10,0.0
+Brewers,Blue Jays,1,4,0.0
+Mets,Braves,4,5,0.0
+Athletics,Tigers,0,3,0.0
+Phillies,Marlins,4,5,0.0
+Astros,Mariners,2,13,0.0
+Cardinals,Giants,0,5,0.0
+Yankees,Rays,1,2,0.0
+Rangers,Orioles,3,8,0.0
+Angels,White Sox,2,3,0.0
+D-backs,Pirates,1,5,0.0
+Red Sox,Cubs,9,16,0.0
+Reds,Padres,0,3,0.0
+Dodgers,Indians,4,5,0.0
+Rockies,Nationals,3,4,0.0
+Twins,Royals,0,4,0.0
+Brewers,Blue Jays,4,7,0.0
+Mets,Braves,1,3,0.0
+Athletics,Tigers,3,9,0.0
+Phillies,Marlins,0,5,0.0
+Astros,Mariners,2,5,0.0
+Giants,Cardinals,0,2,0.0
+Yankees,Rays,3,6,0.0
+Rangers,Orioles,4,6,0.0
+Pirates,D-backs,2,10,0.0
+Astros,Angels,2,5,0.0
+Rockies,Dodgers,2,3,0.0
+Twins,Yankees,4,7,0.0
+Marlins,Phillies,4,5,0.0
+Giants,Cardinals,2,7,0.0
+Rays,Tigers,1,8,0.0
+Rangers,Orioles,2,5,0.0
+Blue Jays,Athletics,1,4,0.0
+D-backs,Braves,2,5,0.0
+Nationals,Cubs,2,7,0.0
+Astros,Angels,6,7,0.0
+Indians,Royals,1,7,0.0
+Rockies,Dodgers,0,9,0.0
+Marlins,Cardinals,2,3,0.0
+Brewers,Reds,2,4,0.0
+Twins,Yankees,5,6,0.0
+Phillies,Pirates,2,8,0.0
+Mariners,White Sox,1,7,0.0
+Giants,Padres,0,2,0.0
+Tigers,Rays,3,6,0.0
+Rangers,Mets,5,6,0.0
+Blue Jays,Athletics,0,1,0.0
+D-backs,Braves,4,10,0.0
+Orioles,Red Sox,2,3,0.0
+Red Sox,Orioles,4,7,0.0
+Cubs,Nationals,0,13,0.0
+Astros,Angels,5,11,0.0
+Royals,Indians,3,7,0.0
+Dodgers,Rockies,7,8,0.0
+Cardinals,Marlins,5,6,0.0
+Reds,Brewers,0,1,0.0
+Yankees,Twins,1,2,0.0
+Phillies,Pirates,2,3,0.0
+White Sox,Mariners,2,3,0.0
+Padres,Giants,3,5,0.0
+Tigers,Rays,2,7,0.0
+Mets,Rangers,3,5,0.0
+Blue Jays,Athletics,1,5,0.0
+Braves,D-backs,1,3,0.0
+Red Sox,Orioles,6,7,0.0
+Cubs,Nationals,1,2,0.0
+Astros,Angels,1,6,0.0
+Royals,Indians,1,4,0.0
+Rockies,Dodgers,2,8,0.0
+Cardinals,Marlins,4,8,0.0
+Brewers,Reds,2,4,0.0
+Twins,Yankees,7,9,0.0
+Phillies,Pirates,2,6,0.0
+Mariners,White Sox,0,1,0.0
+Padres,Giants,3,5,0.0
+Tigers,Rays,3,7,0.0
+Rangers,Mets,4,8,0.0
+Blue Jays,Athletics,2,4,0.0
+Braves,Mets,3,4,0.0
+Nationals,Orioles,2,8,0.0
+Red Sox,White Sox,0,4,0.0
+Cubs,Reds,3,9,0.0
+Rangers,Astros,7,12,0.0
+Rays,Royals,0,6,0.0
+Marlins,D-backs,1,9,0.0
+Twins,Mariners,0,2,0.0
+Indians,Yankees,3,5,0.0
+Brewers,Phillies,2,3,0.0
+Pirates,Cardinals,0,2,0.0
+Rockies,Padres,1,6,0.0
+Giants,Athletics,0,5,0.0
+Blue Jays,Angels,2,5,0.0
+Braves,Mets,3,8,0.0
+Red Sox,White Sox,3,8,0.0
+Cubs,Reds,2,4,0.0
+Cubs,Reds,5,6,0.0
+Rangers,Astros,3,8,0.0
+Royals,Rays,3,4,0.0
+Dodgers,Tigers,5,14,0.0
+D-backs,Marlins,1,2,0.0
+Mariners,Twins,0,2,0.0
+Yankees,Indians,3,5,0.0
+Brewers,Phillies,7,9,0.0
+Pirates,Cardinals,4,5,0.0
+Padres,Rockies,1,2,0.0
+Giants,Athletics,1,6,0.0
+Angels,Blue Jays,0,4,0.0
+Braves,Mets,1,4,0.0
+White Sox,Red Sox,4,5,0.0
+Cubs,Reds,1,4,0.0
+Rangers,Astros,4,8,0.0
+Rays,Royals,4,5,0.0
+Dodgers,Tigers,1,4,0.0
+Marlins,D-backs,3,4,0.0
+Mariners,Twins,1,8,0.0
+Indians,Yankees,4,5,0.0
+Athletics,Giants,2,5,0.0
+Brewers,Phillies,1,4,0.0
+Pirates,Cardinals,2,5,0.0
+Padres,Rockies,3,6,0.0
+Blue Jays,Angels,7,8,0.0
+Orioles,Nationals,2,6,0.0
+Rangers,Angels,6,15,0.0
+Mets,Braves,1,3,0.0
+White Sox,Red Sox,3,4,0.0
+Reds,Cubs,4,6,0.0
+Royals,Tigers,4,16,0.0
+Mariners,Twins,2,4,0.0
+Yankees,Indians,3,9,0.0
+Giants,Athletics,1,6,0.0
+Brewers,Phillies,1,9,0.0
+Cardinals,Pirates,1,9,0.0
+Padres,Dodgers,1,2,0.0
+Nationals,Orioles,3,4,0.0
+Rangers,Angels,0,3,0.0
+D-backs,Giants,0,5,0.0
+Braves,Cubs,4,5,0.0
+Astros,Red Sox,3,8,0.0
+White Sox,Indians,4,7,0.0
+Royals,Tigers,1,2,0.0
+Marlins,Mets,1,7,0.0
+Twins,Rockies,2,6,0.0
+Yankees,Orioles,2,3,0.0
+Athletics,Mariners,2,3,0.0
+Pirates,Reds,5,6,0.0
+Dodgers,Padres,3,6,0.0
+Brewers,Cardinals,6,7,0.0
+Rays,Blue Jays,5,8,0.0
+Nationals,Phillies,2,6,0.0
+Rangers,Angels,2,5,0.0
+Giants,D-backs,0,2,0.0
+Cubs,Braves,6,11,0.0
+Red Sox,Astros,2,3,0.0
+Indians,White Sox,2,6,0.0
+Royals,Tigers,1,5,0.0
+Marlins,Mets,4,5,0.0
+Rockies,Twins,3,9,0.0
+Orioles,Yankees,0,3,0.0
+Athletics,Mariners,2,6,0.0
+Reds,Pirates,5,6,0.0
+Padres,Dodgers,0,1,0.0
+Brewers,Cardinals,2,10,0.0
+Blue Jays,Rays,3,10,0.0
+Phillies,Nationals,3,5,0.0
+Rangers,Angels,7,10,0.0
+D-backs,Giants,4,8,0.0
+Cubs,Braves,7,10,0.0
+Astros,Red Sox,0,11,0.0
+White Sox,Indians,2,3,0.0
+Tigers,Royals,2,5,0.0
+Marlins,Mets,1,9,0.0
+Rockies,Twins,5,13,0.0
+Yankees,Orioles,1,3,0.0
+Mariners,Athletics,1,4,0.0
+Pirates,Reds,3,6,0.0
+Padres,Dodgers,0,1,0.0
+Cardinals,Brewers,2,11,0.0
+Blue Jays,Rays,0,3,0.0
+Phillies,Nationals,3,10,0.0
+Orioles,Athletics,4,5,0.0
+Cubs,D-backs,4,5,0.0
+Reds,Yankees,3,4,0.0
+Tigers,Indians,3,9,0.0
+Rockies,Pirates,2,4,0.0
+Astros,White Sox,2,3,0.0
+Royals,Red Sox,4,5,0.0
+Dodgers,Cardinals,2,3,0.0
+Nationals,Brewers,2,4,0.0
+Padres,Mets,4,5,0.0
+Phillies,Braves,4,6,0.0
+Mariners,Angels,2,3,0.0
+Marlins,Giants,1,9,0.0
+Twins,Rays,2,6,0.0
+Blue Jays,Rangers,1,5,0.0
+Athletics,Orioles,4,8,0.0
+Cubs,D-backs,3,9,0.0
+Reds,Yankees,1,7,0.0
+Tigers,Indians,2,6,0.0
+Tigers,Indians,2,5,0.0
+Rockies,Pirates,2,3,0.0
+Astros,White Sox,3,4,0.0
+Royals,Red Sox,1,2,0.0
+Dodgers,Cardinals,2,4,0.0
+Brewers,Nationals,3,8,0.0
+Mets,Padres,0,6,0.0
+Braves,Phillies,1,2,0.0
+Angels,Mariners,2,3,0.0
+Marlins,Giants,3,5,0.0
+Twins,Rays,1,5,0.0
+Rangers,Blue Jays,1,4,0.0
+Orioles,Athletics,2,10,0.0
+Cubs,D-backs,2,3,0.0
+Reds,Yankees,2,3,0.0
+Indians,Tigers,1,5,0.0
+Rockies,Pirates,3,5,0.0
+White Sox,Astros,7,11,0.0
+Royals,Red Sox,0,6,0.0
+Cardinals,Dodgers,3,4,0.0
+Brewers,Nationals,4,5,0.0
+Mets,Padres,1,2,0.0
+Phillies,Braves,2,8,0.0
+Mariners,Angels,5,6,0.0
+Giants,Marlins,2,3,0.0
+Twins,Rays,3,5,0.0
+Rangers,Blue Jays,6,9,0.0
+Angels,Orioles,2,4,0.0
+Blue Jays,Red Sox,1,14,0.0
+Reds,Brewers,2,5,0.0
+Indians,Twins,3,4,0.0
+D-backs,Tigers,3,4,0.0
+Royals,White Sox,1,3,0.0
+Pirates,Dodgers,2,5,0.0
+Braves,Marlins,1,3,0.0
+Mets,Mariners,2,5,0.0
+Phillies,Giants,4,7,0.0
+Yankees,Rangers,2,4,0.0
+Rockies,Nationals,2,7,0.0
+Angels,Orioles,2,4,0.0
+Red Sox,Blue Jays,3,7,0.0
+Reds,Brewers,3,4,0.0
+Twins,Indians,2,8,0.0
+Tigers,D-backs,4,5,0.0
+Athletics,Astros,2,3,0.0
+White Sox,Royals,1,7,0.0
+Dodgers,Pirates,7,12,0.0
+Braves,Marlins,5,6,0.0
+Mariners,Mets,1,3,0.0
+Padres,Cubs,0,6,0.0
+Phillies,Giants,6,9,0.0
+Cardinals,Rays,2,7,0.0
+Rangers,Yankees,1,2,0.0
+Rockies,Nationals,4,7,0.0
+Orioles,Angels,2,3,0.0
+Red Sox,Blue Jays,4,6,0.0
+Reds,Brewers,1,5,0.0
+Indians,Twins,1,3,0.0
+D-backs,Tigers,5,11,0.0
+Astros,Athletics,7,9,0.0
+White Sox,Royals,1,2,0.0
+Dodgers,Pirates,1,6,0.0
+Marlins,Braves,1,6,0.0
+Mariners,Mets,2,3,0.0
+Cubs,Padres,3,8,0.0
+Phillies,Giants,1,3,0.0
+Cardinals,Rays,0,3,0.0
+Rangers,Yankees,1,2,0.0
+Nationals,Rockies,4,6,0.0
+Mariners,Orioles,0,4,0.0
+Red Sox,Blue Jays,0,8,0.0
+Twins,White Sox,2,5,0.0
+Indians,Royals,1,2,0.0
+Angels,Tigers,4,6,0.0
+Astros,Athletics,1,13,0.0
+Braves,Marlins,2,3,0.0
+Mets,Brewers,1,9,0.0
+Cubs,Padres,3,13,0.0
+Giants,Phillies,1,2,0.0
+Rangers,Yankees,2,4,0.0
+D-backs,Phillies,5,9,0.0
+Mariners,Orioles,1,2,0.0
+Red Sox,Rays,4,6,0.0
+Twins,White Sox,5,9,0.0
+Indians,Royals,4,6,0.0
+Tigers,Angels,1,2,0.0
+Giants,Dodgers,1,8,0.0
+Astros,Marlins,0,2,0.0
+Brewers,Mets,2,3,0.0
+Athletics,Rangers,1,4,0.0
+Pirates,Rockies,1,8,0.0
+Braves,Padres,2,5,0.0
+Cardinals,Cubs,6,7,0.0
+Blue Jays,Yankees,4,6,0.0
+Reds,Nationals,1,4,0.0
+Phillies,D-backs,6,10,0.0
+Orioles,Mariners,3,4,0.0
+Red Sox,Rays,0,3,0.0
+Twins,White Sox,0,7,0.0
+Indians,Royals,5,7,0.0
+Tigers,Angels,0,4,0.0
+Giants,Dodgers,0,5,0.0
+Astros,Marlins,3,7,0.0
+Mets,Brewers,2,5,0.0
+Rangers,Athletics,1,5,0.0
+Pirates,Rockies,1,8,0.0
+Padres,Braves,3,5,0.0
+Cubs,Cardinals,3,6,0.0
+Yankees,Blue Jays,4,6,0.0
+Nationals,Reds,0,1,0.0
+D-backs,Phillies,2,4,0.0
+Mariners,Orioles,2,3,0.0
+Rays,Red Sox,2,3,0.0
+White Sox,Twins,3,4,0.0
+Royals,Indians,3,10,0.0
+Tigers,Angels,1,2,0.0
+Giants,Dodgers,3,4,0.0
+Astros,Marlins,2,4,0.0
+Brewers,Mets,0,2,0.0
+Rangers,Athletics,3,9,0.0
+Rockies,Pirates,5,7,0.0
+Padres,Braves,3,8,0.0
+Cubs,Cardinals,0,1,0.0
+Yankees,Blue Jays,4,5,0.0
+Reds,Nationals,2,4,0.0
+Reds,D-backs,1,2,0.0
+Rockies,Cubs,1,4,0.0
+Brewers,Rays,1,2,0.0
+Yankees,Rangers,2,4,0.0
+Athletics,Astros,3,7,0.0
+Phillies,Mets,1,7,0.0
+Giants,Pirates,0,5,0.0
+Padres,Braves,0,2,0.0
+Red Sox,Blue Jays,1,14,0.0
+Nationals,Marlins,6,7,0.0
+Angels,Orioles,6,7,0.0
+D-backs,Reds,0,3,0.0
+Braves,Dodgers,4,8,0.0
+Tigers,White Sox,4,11,0.0
+Rockies,Cubs,3,4,0.0
+Brewers,Rays,1,5,0.0
+Royals,Twins,1,2,0.0
+Rangers,Yankees,11,12,0.0
+Astros,Athletics,4,7,0.0
+Mets,Phillies,0,6,0.0
+Giants,Pirates,1,3,0.0
+Indians,Mariners,2,5,0.0
+Cardinals,Padres,1,3,0.0
+Red Sox,Blue Jays,2,4,0.0
+Nationals,Marlins,0,3,0.0
+Angels,Orioles,3,4,0.0
+Reds,D-backs,4,5,0.0
+Braves,Dodgers,2,3,0.0
+White Sox,Tigers,2,7,0.0
+Cubs,Rockies,4,6,0.0
+Rays,Brewers,0,5,0.0
+Twins,Royals,2,3,0.0
+Yankees,Rangers,2,3,0.0
+Athletics,Astros,1,8,0.0
+Phillies,Mets,2,11,0.0
+Pirates,Giants,5,7,0.0
+Mariners,Indians,0,2,0.0
+Cardinals,Padres,1,12,0.0
+Red Sox,Blue Jays,1,6,0.0
+Marlins,Nationals,3,4,0.0
+Orioles,Angels,0,1,0.0
+Braves,Dodgers,1,2,0.0
+Tigers,White Sox,4,7,0.0
+Marlins,Reds,1,3,0.0
+Rockies,Cubs,1,3,0.0
+Twins,Royals,3,6,0.0
+Nationals,Phillies,4,10,0.0
+Pirates,D-backs,4,7,0.0
+Indians,Mariners,5,6,0.0
+Padres,Cardinals,2,6,0.0
+Astros,Blue Jays,5,6,0.0
+Rays,Angels,3,5,0.0
+Braves,Padres,1,10,0.0
+Dodgers,Cubs,2,8,0.0
+Marlins,Reds,2,5,0.0
+Rockies,Tigers,2,4,0.0
+Athletics,Royals,0,1,0.0
+Cardinals,Brewers,4,7,0.0
+Twins,White Sox,8,10,0.0
+Yankees,Red Sox,3,4,0.0
+Nationals,Phillies,1,2,0.0
+D-backs,Pirates,4,9,0.0
+Mariners,Orioles,1,2,0.0
+Mets,Giants,1,5,0.0
+Rangers,Indians,2,12,0.0
+Blue Jays,Astros,1,3,0.0
+Angels,Rays,3,10,0.0
+Braves,Padres,2,3,0.0
+Cubs,Dodgers,2,5,0.0
+Reds,Marlins,1,2,0.0
+Rockies,Tigers,5,11,0.0
+Royals,Athletics,3,8,0.0
+Brewers,Cardinals,7,9,0.0
+White Sox,Twins,6,8,0.0
+Red Sox,Yankees,4,6,0.0
+Phillies,Nationals,0,11,0.0
+D-backs,Pirates,3,8,0.0
+Orioles,Mariners,3,6,0.0
+Giants,Mets,2,4,0.0
+Rangers,Indians,0,2,0.0
+Blue Jays,Astros,2,8,0.0
+Rays,Angels,5,7,0.0
+Braves,Padres,3,4,0.0
+Dodgers,Cubs,3,7,0.0
+Marlins,Reds,3,7,0.0
+Rockies,Tigers,0,4,0.0
+Athletics,Royals,2,4,0.0
+Brewers,Cardinals,2,3,0.0
+White Sox,Twins,3,16,0.0
+Red Sox,Yankees,7,8,0.0
+Phillies,Nationals,0,4,0.0
+Pirates,D-backs,2,3,0.0
+Mariners,Orioles,0,1,0.0
+Mets,Giants,0,9,0.0
+Rangers,Indians,3,4,0.0
+Blue Jays,Astros,1,6,0.0
+Dodgers,Angels,0,5,0.0
+Nationals,Orioles,3,7,0.0
+Reds,Indians,1,7,0.0
+Tigers,Yankees,1,2,0.0
+Mets,Giants,3,4,0.0
+Rays,Athletics,2,3,0.0
+Rangers,White Sox,3,5,0.0
+Angels,Dodgers,4,5,0.0
+Braves,Mariners,2,4,0.0
+Blue Jays,Orioles,3,9,0.0
+Red Sox,Cardinals,2,3,0.0
+Rockies,Cubs,5,6,0.0
+Indians,Reds,2,9,0.0
+Yankees,Tigers,3,4,0.0
+Astros,Phillies,1,2,0.0
+D-backs,Royals,2,12,0.0
+Pirates,Marlins,3,6,0.0
+Nationals,Mets,1,6,0.0
+Padres,Twins,1,3,0.0
+Giants,Brewers,3,4,0.0
+Rays,Athletics,0,3,0.0
+White Sox,Rangers,0,16,0.0
+Braves,Mariners,3,7,0.0
+Orioles,Blue Jays,1,5,0.0
+Cardinals,Red Sox,1,2,0.0
+Cubs,Rockies,4,13,0.0
+Indians,Reds,3,8,0.0
+Tigers,Yankees,1,5,0.0
+Astros,Phillies,3,10,0.0
+D-backs,Royals,3,4,0.0
+Angels,Dodgers,1,2,0.0
+Marlins,Pirates,3,7,0.0
+Mets,Nationals,1,7,0.0
+Twins,Padres,4,5,0.0
+Brewers,Giants,4,7,0.0
+Athletics,Rays,3,7,0.0
+White Sox,Rangers,1,3,0.0
+Blue Jays,Orioles,1,2,0.0
+Red Sox,Cardinals,2,5,0.0
+White Sox,Mariners,3,13,0.0
+Rockies,Cubs,2,6,0.0
+Indians,Reds,0,4,0.0
+Tigers,Yankees,0,1,0.0
+Astros,Phillies,5,6,0.0
+D-backs,Royals,2,6,0.0
+Angels,Dodgers,0,7,0.0
+Marlins,Pirates,2,7,0.0
+Twins,Athletics,0,3,0.0
+Mets,Nationals,3,5,0.0
+Giants,Brewers,1,3,0.0
+Angels,Red Sox,2,4,0.0
+White Sox,Mariners,1,4,0.0
+Indians,Yankees,6,10,0.0
+Rockies,D-backs,3,5,0.0
+Blue Jays,Tigers,4,5,0.0
+Dodgers,Brewers,3,9,0.0
+Reds,Marlins,1,2,0.0
+Twins,Athletics,5,6,0.0
+Phillies,Mets,4,5,0.0
+Padres,Pirates,1,2,0.0
+Giants,Royals,2,4,0.0
+Cardinals,Orioles,2,12,0.0
+Cubs,Rays,3,4,0.0
+Rangers,Astros,3,4,0.0
+Nationals,Braves,6,7,0.0
+Red Sox,Angels,4,5,0.0
+Mariners,White Sox,1,2,0.0
+Yankees,Indians,0,3,0.0
+Rockies,D-backs,4,14,0.0
+Tigers,Blue Jays,2,3,0.0
+Dodgers,Brewers,1,4,0.0
+Reds,Marlins,3,4,0.0
+Twins,Athletics,4,9,0.0
+Phillies,Mets,1,2,0.0
+Pirates,Padres,1,2,0.0
+Giants,Royals,0,5,0.0
+Cardinals,Orioles,3,10,0.0
+Cubs,Rays,0,4,0.0
+Rangers,Astros,3,8,0.0
+Braves,Nationals,1,4,0.0
+Angels,Red Sox,1,3,0.0
+White Sox,Mariners,2,4,0.0
+Yankees,Indians,1,4,0.0
+D-backs,Rockies,3,5,0.0
+Tigers,Blue Jays,5,6,0.0
+Brewers,Dodgers,1,5,0.0
+Marlins,Reds,2,7,0.0
+Athletics,Twins,1,6,0.0
+Mets,Phillies,6,7,0.0
+Pirates,Padres,2,8,0.0
+Giants,Royals,4,7,0.0
+Orioles,Cardinals,3,8,0.0
+Rays,Cubs,2,3,0.0
+Astros,Rangers,2,6,0.0
+Nationals,Braves,1,3,0.0
+Rockies,Padres,3,4,0.0
+Tigers,Pirates,6,11,0.0
+Braves,Dodgers,2,6,0.0
+Cubs,Brewers,1,3,0.0
+Astros,Twins,2,4,0.0
+Yankees,Orioles,3,11,0.0
+Phillies,Mets,3,5,0.0
+Athletics,Royals,2,3,0.0
+Cardinals,Marlins,5,6,0.0
+Rangers,Rays,0,7,0.0
+Blue Jays,Mariners,1,11,0.0
+Reds,Red Sox,2,3,0.0
+Giants,White Sox,2,3,0.0
+Rockies,Padres,1,4,0.0
+Tigers,Pirates,2,4,0.0
+Braves,Dodgers,2,4,0.0
+Brewers,Cubs,0,3,0.0
+Twins,Astros,4,10,0.0
+Royals,Athletics,3,11,0.0
+Phillies,Angels,2,7,0.0
+Cardinals,Marlins,0,3,0.0
+Rays,Rangers,2,3,0.0
+Blue Jays,Mariners,3,6,0.0
+Mets,Nationals,1,7,0.0
+D-backs,Indians,2,3,0.0
+Indians,D-backs,0,1,0.0
+Reds,Red Sox,4,5,0.0
+White Sox,Giants,1,7,0.0
+Rockies,Padres,3,5,0.0
+Dodgers,Braves,2,3,0.0
+Brewers,Cubs,2,4,0.0
+Astros,Twins,1,3,0.0
+Yankees,Orioles,3,5,0.0
+Athletics,Royals,0,3,0.0
+Phillies,Angels,3,4,0.0
+Pirates,Tigers,4,8,0.0
+Marlins,Cardinals,2,5,0.0
+Rangers,Rays,1,10,0.0
+Blue Jays,Mariners,0,2,0.0
+Mets,Nationals,2,3,0.0
+D-backs,Marlins,4,5,0.0
+Reds,Rockies,3,7,0.0
+Astros,Red Sox,4,9,0.0
+Braves,Dodgers,4,6,0.0
+Cubs,Brewers,2,6,0.0
+Athletics,Royals,3,7,0.0
+Pirates,Tigers,2,5,0.0
+Padres,Cardinals,3,4,0.0
+Rangers,Rays,3,6,0.0
+Mets,Nationals,1,4,0.0
+Rangers,Angels,4,5,0.0
+Marlins,D-backs,2,3,0.0
+Orioles,Indians,1,2,0.0
+Cubs,Mets,2,3,0.0
+Rockies,Reds,2,3,0.0
+Red Sox,Astros,3,5,0.0
+Twins,Royals,5,6,0.0
+Dodgers,Brewers,3,6,0.0
+Yankees,Rays,0,5,0.0
+Athletics,Braves,2,7,0.0
+Giants,Phillies,3,5,0.0
+Pirates,Nationals,4,5,0.0
+Padres,Cardinals,2,4,0.0
+Tigers,Mariners,2,7,0.0
+Blue Jays,White Sox,5,11,0.0
+Rangers,Angels,4,5,0.0
+D-backs,Marlins,1,2,0.0
+Orioles,Indians,0,6,0.0
+Cubs,Mets,3,7,0.0
+Astros,Red Sox,7,10,0.0
+Royals,Twins,1,4,0.0
+Dodgers,Brewers,2,3,0.0
+Rays,Yankees,2,3,0.0
+Athletics,Braves,3,4,0.0
+Phillies,Giants,5,6,0.0
+Pirates,Nationals,3,4,0.0
+Cardinals,Padres,5,9,0.0
+Mariners,Tigers,2,4,0.0
+White Sox,Blue Jays,3,6,0.0
+Angels,Rangers,2,3,0.0
+D-backs,Marlins,3,10,0.0
+Indians,Orioles,1,4,0.0
+Mets,Cubs,1,2,0.0
+Reds,Rockies,9,10,0.0
+Reds,Rockies,5,10,0.0
+Red Sox,Astros,1,8,0.0
+Twins,Royals,6,12,0.0
+Dodgers,Brewers,2,7,0.0
+Rays,Yankees,2,4,0.0
+Athletics,Braves,3,4,0.0
+Phillies,Giants,2,5,0.0
+Pirates,Nationals,5,6,0.0
+Padres,Cardinals,6,7,0.0
+Tigers,Mariners,1,8,0.0
+Blue Jays,White Sox,5,7,0.0
+Red Sox,Angels,2,4,0.0
+D-backs,Nationals,4,5,0.0
+Pirates,Braves,3,7,0.0
+White Sox,Orioles,2,8,0.0
+Mets,Cubs,1,4,0.0
+Reds,Cardinals,5,6,0.0
+Twins,Royals,4,6,0.0
+Mariners,Phillies,1,4,0.0
+Red Sox,Angels,3,4,0.0
+D-backs,Nationals,1,8,0.0
+Pirates,Braves,3,11,0.0
+White Sox,Orioles,1,5,0.0
+Reds,Cardinals,4,5,0.0
+Twins,Indians,5,7,0.0
+Rays,Tigers,6,8,0.0
+Yankees,Astros,4,7,0.0
+Rockies,Royals,4,7,0.0
+Mets,Athletics,2,6,0.0
+Padres,Dodgers,6,8,0.0
+Phillies,Mariners,2,5,0.0
+Giants,Cubs,1,2,0.0
+Rangers,Marlins,3,4,0.0
+Blue Jays,Brewers,1,6,0.0
+Red Sox,Angels,3,8,0.0
+D-backs,Nationals,2,3,0.0
+Braves,Pirates,2,3,0.0
+White Sox,Orioles,3,4,0.0
+Reds,Cardinals,3,7,0.0
+Twins,Indians,0,5,0.0
+Rays,Tigers,0,6,0.0
+Yankees,Astros,2,5,0.0
+Royals,Rockies,2,5,0.0
+Athletics,Mets,5,8,0.0
+Dodgers,Padres,1,4,0.0
+Mariners,Phillies,3,4,0.0
+Cubs,Giants,3,8,0.0
+Marlins,Rangers,4,5,0.0
+Brewers,Blue Jays,5,9,0.0
+Red Sox,Angels,0,2,0.0
+D-backs,Nationals,0,1,0.0
+Reds,Braves,0,8,0.0
+Indians,Twins,1,4,0.0
+Tigers,Rays,0,1,0.0
+Astros,Yankees,0,3,0.0
+Padres,Dodgers,1,2,0.0
+Cubs,Giants,3,5,0.0
+Angels,Athletics,3,5,0.0
+Reds,Braves,1,3,0.0
+Orioles,Cubs,1,4,0.0
+White Sox,Yankees,3,4,0.0
+Tigers,Twins,6,20,0.0
+Indians,Astros,1,5,0.0
+Rangers,Royals,3,6,0.0
+Rockies,Marlins,5,13,0.0
+Mets,Dodgers,2,6,0.0
+Brewers,Pirates,3,8,0.0
+Padres,D-backs,1,5,0.0
+Red Sox,Mariners,3,5,0.0
+Nationals,Giants,3,10,0.0
+Cardinals,Phillies,4,5,0.0
+Blue Jays,Rays,0,8,0.0
+Angels,Athletics,1,2,0.0
+Braves,Reds,0,1,0.0
+Orioles,Cubs,2,7,0.0
+White Sox,Yankees,3,5,0.0
+Tigers,Twins,4,12,0.0
+Twins,Tigers,6,8,0.0
+Astros,Indians,2,3,0.0
+Rangers,Royals,3,6,0.0
+Marlins,Rockies,4,5,0.0
+Mets,Dodgers,4,7,0.0
+Brewers,Pirates,2,10,0.0
+Padres,D-backs,2,5,0.0
+Red Sox,Mariners,3,7,0.0
+Giants,Nationals,2,6,0.0
+Phillies,Cardinals,5,6,0.0
+Rays,Blue Jays,4,5,0.0
+Athletics,Angels,4,9,0.0
+Braves,Reds,3,5,0.0
+Orioles,Cubs,1,2,0.0
+White Sox,Yankees,4,7,0.0
+Twins,Tigers,4,13,0.0
+Astros,Indians,1,3,0.0
+Royals,Rangers,1,3,0.0
+Marlins,Rockies,4,7,0.0
+Dodgers,Mets,3,11,0.0
+Pirates,Brewers,3,4,0.0
+D-backs,Padres,4,7,0.0
+Red Sox,Mariners,6,8,0.0
+Giants,Nationals,6,14,0.0
+Cardinals,Phillies,1,7,0.0
+Blue Jays,Rays,1,2,0.0
+Blue Jays,Red Sox,3,4,0.0
+Giants,Rockies,2,3,0.0
+Angels,Marlins,1,7,0.0
+Padres,Brewers,1,10,0.0
+Royals,Yankees,1,8,0.0
+Astros,Athletics,2,8,0.0
+Pirates,Cardinals,2,3,0.0
+Rays,Orioles,1,9,0.0
+Mariners,Rangers,0,2,0.0
+Nationals,Phillies,2,3,0.0
+Braves,Mets,2,3,0.0
+Blue Jays,Red Sox,7,11,0.0
+Reds,Cubs,0,3,0.0
+White Sox,Indians,6,8,0.0
+Rockies,Giants,0,3,0.0
+D-backs,Dodgers,5,9,0.0
+Marlins,Angels,2,8,0.0
+Brewers,Padres,1,4,0.0
+Twins,Royals,1,2,0.0
+Yankees,Tigers,2,5,0.0
+Athletics,Astros,2,4,0.0
+Cardinals,Pirates,2,5,0.0
+Rays,Orioles,2,4,0.0
+Rangers,Mariners,0,5,0.0
+Nationals,Phillies,3,4,0.0
+Mets,Braves,2,3,0.0
+Red Sox,Blue Jays,2,5,0.0
+Cubs,Reds,5,7,0.0
+Indians,White Sox,2,3,0.0
+Rockies,Giants,2,4,0.0
+D-backs,Dodgers,1,3,0.0
+Marlins,Angels,1,6,0.0
+Brewers,Padres,2,3,0.0
+Twins,Royals,1,6,0.0
+Tigers,Yankees,4,8,0.0
+Astros,Athletics,4,5,0.0
+Cardinals,Pirates,1,3,0.0
+Orioles,Rays,1,3,0.0
+Mariners,Rangers,4,12,0.0
+Nationals,Phillies,4,8,0.0
+Mets,Braves,1,6,0.0
+Cubs,Reds,2,7,0.0
+White Sox,Indians,2,3,0.0
+Rockies,Giants,1,4,0.0
+Royals,Twins,5,11,0.0
+Yankees,Tigers,2,3,0.0
+Athletics,Angels,3,4,0.0
+Rays,Orioles,4,5,0.0
+Rangers,Astros,2,4,0.0
+Rays,Red Sox,4,8,0.0
+Cardinals,Cubs,2,7,0.0
+Reds,Pirates,1,2,0.0
+Royals,Indians,1,6,0.0
+Rockies,D-backs,2,5,0.0
+White Sox,Tigers,1,7,0.0
+Dodgers,Padres,2,3,0.0
+Marlins,Braves,2,5,0.0
+Brewers,Giants,2,13,0.0
+Twins,Orioles,1,9,0.0
+Blue Jays,Yankees,3,6,0.0
+Athletics,Angels,0,4,0.0
+Phillies,Mets,1,4,0.0
+Astros,Rangers,6,13,0.0
+Mariners,Nationals,3,8,0.0
+Red Sox,Rays,0,7,0.0
+Cardinals,Cubs,1,5,0.0
+Cubs,Cardinals,2,13,0.0
+Reds,Pirates,2,3,0.0
+Royals,Indians,2,3,0.0
+D-backs,Rockies,0,2,0.0
+Tigers,White Sox,3,6,0.0
+White Sox,Tigers,4,8,0.0
+Dodgers,Padres,1,2,0.0
+Braves,Marlins,0,4,0.0
+Brewers,Giants,1,3,0.0
+Twins,Orioles,2,3,0.0
+Yankees,Blue Jays,0,2,0.0
+Athletics,Angels,0,2,0.0
+Mets,Phillies,2,7,0.0
+Rangers,Astros,0,2,0.0
+Mariners,Nationals,1,3,0.0
+Rays,Red Sox,0,3,0.0
+Cubs,Cardinals,6,9,0.0
+Pirates,Reds,2,3,0.0
+Royals,Indians,3,4,0.0
+Rockies,D-backs,2,6,0.0
+Tigers,White Sox,2,6,0.0
+Padres,Dodgers,1,7,0.0
+Marlins,Braves,0,1,0.0
+Brewers,Giants,5,15,0.0
+Twins,Orioles,8,12,0.0
+Yankees,Blue Jays,3,4,0.0
+Athletics,Angels,1,8,0.0
+Phillies,Mets,5,6,0.0
+Rangers,Astros,2,3,0.0
+Nationals,Mariners,3,5,0.0
+D-backs,Padres,1,3,0.0
+Red Sox,Rays,3,4,0.0
+Indians,Tigers,1,12,0.0
+Brewers,Cubs,2,4,0.0
+Orioles,Twins,4,6,0.0
+Mets,Marlins,6,9,0.0
+Braves,Phillies,0,7,0.0
+Pirates,Cardinals,4,5,0.0
+Mariners,Athletics,1,6,0.0
+Giants,Rockies,9,10,0.0
+Rangers,Royals,3,4,0.0
+Dodgers,Nationals,4,6,0.0
+Angels,Astros,3,8,0.0
+D-backs,Padres,1,2,0.0
+Yankees,Red Sox,4,9,0.0
+Twins,White Sox,3,6,0.0
+Reds,Orioles,4,5,0.0
+Indians,Tigers,2,4,0.0
+Brewers,Cubs,1,7,0.0
+Marlins,Mets,6,8,0.0
+Braves,Phillies,0,4,0.0
+Pirates,Cardinals,4,6,0.0
+Athletics,Mariners,5,6,0.0
+Rockies,Giants,7,12,0.0
+Rangers,Royals,1,2,0.0
+Rays,Blue Jays,2,8,0.0
+Nationals,Dodgers,1,4,0.0
+Angels,Astros,1,4,0.0
+Padres,D-backs,1,6,0.0
+Red Sox,Yankees,1,5,0.0
+White Sox,Twins,4,11,0.0
+Reds,Orioles,0,6,0.0
+Tigers,Indians,0,7,0.0
+Brewers,Cubs,2,6,0.0
+Marlins,Mets,3,4,0.0
+Phillies,Braves,4,7,0.0
+Pirates,Cardinals,0,1,0.0
+Athletics,Mariners,1,2,0.0
+Giants,Rockies,2,9,0.0
+Rangers,Royals,1,4,0.0
+Rays,Blue Jays,4,7,0.0
+Dodgers,Nationals,5,8,0.0
+Twins,Angels,4,5,0.0
+Padres,D-backs,1,5,0.0
+Red Sox,Yankees,4,5,0.0
+Reds,Orioles,7,9,0.0
+Indians,Tigers,4,11,0.0
+Rangers,Mariners,2,10,0.0
+Brewers,Cardinals,2,3,0.0
+Rays,Blue Jays,0,1,0.0
+Twins,Angels,6,7,0.0
+D-backs,Dodgers,1,2,0.0
+Braves,Marlins,3,11,0.0
+Orioles,Rays,0,3,0.0
+White Sox,Indians,1,2,0.0
+Athletics,Astros,3,4,0.0
+Yankees,Royals,0,1,0.0
+Reds,Mets,5,14,0.0
+Nationals,Phillies,8,9,0.0
+Cubs,Pirates,3,5,0.0
+Padres,Rockies,0,3,0.0
+Rangers,Mariners,5,7,0.0
+Tigers,Giants,2,8,0.0
+Cardinals,Brewers,2,6,0.0
+Blue Jays,Red Sox,8,9,0.0
+Twins,Angels,5,8,0.0
+D-backs,Dodgers,2,5,0.0
+Marlins,Braves,3,4,0.0
+Orioles,Rays,2,3,0.0
+White Sox,Indians,1,3,0.0
+Astros,Athletics,3,4,0.0
+Royals,Yankees,2,6,0.0
+Mets,Reds,1,2,0.0
+Nationals,Phillies,1,3,0.0
+Cubs,Pirates,0,5,0.0
+Padres,Rockies,6,7,0.0
+Rangers,Mariners,2,4,0.0
+Tigers,Giants,4,5,0.0
+Brewers,Cardinals,3,5,0.0
+Blue Jays,Red Sox,3,4,0.0
+Twins,Angels,4,14,0.0
+D-backs,Dodgers,2,7,0.0
+Braves,Marlins,0,4,0.0
+Rays,Orioles,5,7,0.0
+White Sox,Indians,0,2,0.0
+Athletics,Astros,3,4,0.0
+Yankees,Royals,0,2,0.0
+Reds,Mets,3,4,0.0
+Phillies,Nationals,2,3,0.0
+Cubs,Pirates,4,10,0.0
+Padres,Rockies,0,6,0.0
+Mariners,Rangers,0,1,0.0
+Giants,Tigers,1,6,0.0
+Brewers,Cardinals,1,9,0.0
+Red Sox,Blue Jays,1,3,0.0
+Indians,Angels,3,12,0.0
+Braves,Nationals,1,2,0.0
+Red Sox,Orioles,0,4,0.0
+Cubs,Blue Jays,0,8,0.0
+Rockies,Mets,2,3,0.0
+Astros,Mariners,1,4,0.0
+Royals,Tigers,5,9,0.0
+Brewers,Marlins,4,6,0.0
+Athletics,White Sox,4,5,0.0
+Phillies,Pirates,4,6,0.0
+Padres,Dodgers,4,9,0.0
+Reds,Cardinals,0,5,0.0
+Rangers,Angels,3,9,0.0
+D-backs,Giants,1,5,0.0
+Braves,Nationals,4,6,0.0
+Red Sox,Orioles,1,4,0.0
+Cubs,Blue Jays,2,9,0.0
+Rockies,Mets,0,2,0.0
+Mariners,Astros,1,2,0.0
+Royals,Tigers,2,4,0.0
+Brewers,Marlins,3,6,0.0
+Indians,Twins,3,4,0.0
+White Sox,Athletics,2,11,0.0
+Pirates,Phillies,3,4,0.0
+Dodgers,Padres,3,6,0.0
+Cardinals,Reds,5,9,0.0
+Yankees,Rays,3,4,0.0
+Rangers,Angels,1,8,0.0
+D-backs,Giants,0,5,0.0
+Nationals,Braves,2,6,0.0
+Red Sox,Orioles,6,10,0.0
+Cubs,Blue Jays,1,11,0.0
+Rockies,Mets,0,2,0.0
+Mariners,Astros,2,5,0.0
+Tigers,Royals,0,3,0.0
+Marlins,Brewers,1,4,0.0
+Athletics,White Sox,1,2,0.0
+Phillies,Pirates,3,6,0.0
+Padres,Dodgers,0,4,0.0
+Cardinals,Reds,2,4,0.0
+Rays,Yankees,5,8,0.0
+Rangers,Angels,3,7,0.0
+D-backs,Giants,2,6,0.0
+Royals,Red Sox,3,6,0.0
+Marlins,Brewers,2,4,0.0
+Twins,Indians,2,8,0.0
+Twins,Indians,0,2,0.0
+Athletics,White Sox,0,1,0.0
+Phillies,Pirates,1,4,0.0
+Cardinals,Reds,0,1,0.0
+Rays,Yankees,4,5,0.0
+Mets,Nationals,2,6,0.0
+Braves,Rangers,1,2,0.0
+Royals,Red Sox,2,4,0.0
+Cubs,Pirates,3,7,0.0
+Reds,Brewers,2,3,0.0
+Indians,Tigers,2,7,0.0
+Rockies,Cardinals,1,5,0.0
+Astros,Angels,3,11,0.0
+Dodgers,Giants,0,9,0.0
+Marlins,Phillies,1,3,0.0
+Yankees,Orioles,1,2,0.0
+Yankees,Orioles,0,5,0.0
+Athletics,Mariners,2,4,0.0
+D-backs,Padres,5,6,0.0
+Blue Jays,Rays,0,1,0.0
+Nationals,Mets,3,4,0.0
+Braves,Rangers,2,3,0.0
+Red Sox,Royals,1,7,0.0
+Pirates,Cubs,4,6,0.0
+Brewers,Reds,1,5,0.0
+Indians,Tigers,4,5,0.0
+Rockies,Cardinals,4,5,0.0
+Astros,Angels,2,5,0.0
+Giants,Dodgers,0,17,0.0
+Marlins,Phillies,1,2,0.0
+Twins,White Sox,1,5,0.0
+Twins,White Sox,6,7,0.0
+Orioles,Yankees,2,3,0.0
+Mariners,Athletics,2,3,0.0
+Padres,D-backs,4,10,0.0
+Rays,Blue Jays,3,6,0.0
+Mets,Nationals,3,10,0.0
+Braves,Rangers,3,10,0.0
+Royals,Red Sox,4,8,0.0
+Cubs,Pirates,3,7,0.0
+Reds,Brewers,2,9,0.0
+Indians,Tigers,4,6,0.0
+Rockies,Cardinals,1,4,0.0
+Angels,Astros,1,6,0.0
+Giants,Dodgers,2,4,0.0
+Phillies,Marlins,4,5,0.0
+White Sox,Twins,4,6,0.0
+Yankees,Orioles,2,3,0.0
+Mariners,Athletics,0,4,0.0
+Padres,D-backs,6,8,0.0
+Blue Jays,Rays,5,6,0.0
+Mets,Nationals,0,3,0.0
+White Sox,Royals,3,4,0.0
+Reds,Cubs,0,1,0.0
+Indians,Astros,1,3,0.0
+Twins,Tigers,6,8,0.0
+Rockies,Dodgers,3,11,0.0
+Mets,Marlins,5,6,0.0
+Yankees,Rays,0,1,0.0
+Phillies,Padres,0,1,0.0
+Mariners,Angels,1,8,0.0
+Giants,D-backs,2,6,0.0
+Blue Jays,Orioles,2,5,0.0
+Braves,Nationals,2,4,0.0
+Red Sox,Pirates,0,4,0.0
+Royals,White Sox,5,7,0.0
+Reds,Cubs,0,7,0.0
+Astros,Indians,2,4,0.0
+Tigers,Twins,3,4,0.0
+Dodgers,Rockies,4,10,0.0
+Marlins,Mets,1,9,0.0
+Cardinals,Brewers,2,3,0.0
+Yankees,Rays,1,6,0.0
+Phillies,Padres,4,5,0.0
+Angels,Mariners,2,13,0.0
+D-backs,Giants,1,2,0.0
+Athletics,Rangers,3,6,0.0
+Blue Jays,Orioles,2,8,0.0
+Braves,Nationals,0,3,0.0
+Red Sox,Pirates,1,9,0.0
+White Sox,Royals,2,6,0.0
+Reds,Cubs,1,3,0.0
+Astros,Indians,0,2,0.0
+Tigers,Twins,4,8,0.0
+Dodgers,Rockies,2,16,0.0
+Mets,Marlins,3,4,0.0
+Brewers,Cardinals,0,2,0.0
+Rays,Yankees,2,3,0.0
+Padres,Phillies,2,5,0.0
+Mariners,Angels,0,5,0.0
+D-backs,Giants,2,4,0.0
+Athletics,Rangers,1,6,0.0
+Blue Jays,Orioles,1,6,0.0
+Nationals,Braves,1,3,0.0
+D-backs,Rockies,6,7,0.0
+Red Sox,Pirates,2,3,0.0
+Astros,Indians,1,2,0.0
+Cubs,Dodgers,4,8,0.0
+Brewers,Cardinals,2,3,0.0
+Phillies,Padres,3,7,0.0
+Angels,Mariners,1,3,0.0
+Athletics,Rangers,2,7,0.0
+Blue Jays,Yankees,2,3,0.0
+Marlins,Nationals,2,6,0.0
+D-backs,Rockies,3,15,0.0
+Orioles,Red Sox,3,5,0.0
+Rays,White Sox,3,4,0.0
+Reds,Cardinals,1,2,0.0
+Indians,Twins,4,5,0.0
+Royals,Tigers,1,10,0.0
+Cubs,Dodgers,5,14,0.0
+Brewers,Pirates,2,4,0.0
+Braves,Mets,0,5,0.0
+Phillies,Athletics,1,3,0.0
+Astros,Mariners,5,10,0.0
+Giants,Padres,0,5,0.0
+Angels,Rangers,3,12,0.0
+Blue Jays,Yankees,3,5,0.0
+Marlins,Nationals,2,3,0.0
+D-backs,Rockies,1,5,0.0
+Red Sox,Orioles,2,7,0.0
+White Sox,Rays,1,3,0.0
+Reds,Cardinals,4,8,0.0
+Twins,Indians,3,7,0.0
+Royals,Tigers,2,3,0.0
+Dodgers,Cubs,7,8,0.0
+Pirates,Brewers,0,1,0.0
+Braves,Mets,2,4,0.0
+Athletics,Phillies,0,3,0.0
+Mariners,Astros,1,10,0.0
+Giants,Padres,2,3,0.0
+Rangers,Angels,5,8,0.0
+Yankees,Blue Jays,3,6,0.0
+Marlins,Nationals,2,3,0.0
+D-backs,Rockies,3,8,0.0
+Orioles,Red Sox,2,3,0.0
+Rays,White Sox,5,10,0.0
+Cardinals,Reds,2,7,0.0
+Twins,Indians,2,7,0.0
+Tigers,Royals,2,5,0.0
+Cubs,Dodgers,5,8,0.0
+Brewers,Pirates,0,1,0.0
+Braves,Mets,2,10,0.0
+Phillies,Athletics,6,8,0.0
+Mariners,Astros,3,8,0.0
+Giants,Padres,2,8,0.0
+Angels,Rangers,1,2,0.0
+Blue Jays,Yankees,2,5,0.0
+Marlins,Nationals,1,2,0.0
+Angels,Athletics,4,8,0.0
+Twins,D-backs,2,6,0.0
+Orioles,Yankees,0,5,0.0
+Tigers,White Sox,0,2,0.0
+Rockies,Padres,0,1,0.0
+Astros,Rangers,3,4,0.0
+Indians,Royals,0,2,0.0
+Braves,Pirates,0,1,0.0
+Mariners,Blue Jays,4,14,0.0
+Dodgers,Giants,2,5,0.0
+Cubs,Cardinals,0,8,0.0
+Athletics,Angels,0,2,0.0
+D-backs,Twins,3,6,0.0
+Yankees,Orioles,4,5,0.0
+White Sox,Tigers,3,4,0.0
+Padres,Rockies,2,3,0.0
+Astros,Rangers,1,2,0.0
+Indians,Royals,1,7,0.0
+Brewers,Reds,1,3,0.0
+Mets,Nationals,2,4,0.0
+Phillies,Marlins,0,2,0.0
+Braves,Pirates,2,3,0.0
+Mariners,Blue Jays,2,10,0.0
+Giants,Dodgers,2,4,0.0
+Cardinals,Cubs,3,4,0.0
+Red Sox,Rays,2,6,0.0
+Athletics,Angels,4,5,0.0
+D-backs,Twins,1,2,0.0
+Yankees,Orioles,5,9,0.0
+White Sox,Tigers,1,6,0.0
+Rockies,Padres,3,4,0.0
+Astros,Rangers,1,5,0.0
+Royals,Indians,4,6,0.0
+Reds,Brewers,0,5,0.0
+Marlins,Phillies,1,2,0.0
+Pirates,Braves,2,6,0.0
+Mariners,Blue Jays,0,1,0.0
+Giants,Dodgers,1,9,0.0
+Cardinals,Cubs,1,3,0.0
+Rays,Red Sox,3,11,0.0
+Orioles,Yankees,5,6,0.0
+White Sox,Royals,3,6,0.0
+Brewers,Reds,3,5,0.0
+Twins,Tigers,2,4,0.0
+Nationals,Mets,4,7,0.0
+Mets,Nationals,0,3,0.0
+Athletics,Rangers,1,2,0.0
+Phillies,Marlins,4,6,0.0
+Braves,Pirates,1,10,0.0
+Padres,Giants,8,9,0.0
+Blue Jays,Mariners,5,7,0.0
+Rays,Red Sox,1,11,0.0
+Angels,Mariners,3,4,0.0
+Braves,Phillies,4,5,0.0
+Orioles,Blue Jays,2,4,0.0
+Brewers,Cubs,4,6,0.0
+Rockies,Dodgers,4,7,0.0
+Mets,Astros,1,3,0.0
+White Sox,Royals,1,3,0.0
+Marlins,Nationals,0,4,0.0
+Nationals,Marlins,7,15,0.0
+Tigers,Twins,4,11,0.0
+Red Sox,Yankees,2,3,0.0
+Rangers,Athletics,2,6,0.0
+Reds,Pirates,1,3,0.0
+Giants,Padres,1,4,0.0
+D-backs,Cardinals,6,7,0.0
+Rays,Indians,0,1,0.0
+Angels,Mariners,1,2,0.0
+Phillies,Braves,2,4,0.0
+Orioles,Blue Jays,2,4,0.0
+Cubs,Brewers,1,2,0.0
+Rockies,Dodgers,5,6,0.0
+Astros,Mets,1,2,0.0
+Royals,White Sox,4,5,0.0
+Marlins,Nationals,1,5,0.0
+Tigers,Twins,3,12,0.0
+Yankees,Red Sox,4,10,0.0
+Athletics,Rangers,4,5,0.0
+Pirates,Reds,6,10,0.0
+Padres,Giants,1,3,0.0
+Cardinals,D-backs,2,5,0.0
+Indians,Rays,0,2,0.0
+Angels,Mariners,1,4,0.0
+Phillies,Braves,1,2,0.0
+Blue Jays,Orioles,0,1,0.0
+Brewers,Cubs,2,5,0.0
+Rockies,Dodgers,5,10,0.0
+Astros,Mets,3,8,0.0
+White Sox,Royals,4,6,0.0
+Marlins,Nationals,0,1,0.0
+Twins,Tigers,0,3,0.0
+Red Sox,Yankees,5,9,0.0
+Rangers,Athletics,0,4,0.0
+Pirates,Reds,1,4,0.0
+Padres,Giants,3,9,0.0
+D-backs,Cardinals,0,1,0.0
+Rays,Indians,2,7,0.0

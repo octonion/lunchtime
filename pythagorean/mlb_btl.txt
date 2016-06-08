@@ -1,0 +1,106 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library("BradleyTerry2")
+> 
+> games <- read.csv("mlb_2014.csv",stringsAsFactors=FALSE)
+> dim(games)
+[1] 4860    5
+> 
+> fit <- BTm(outcome,team,opponent,data=games)
+> 
+> fit
+Bradley Terry model fit by glm.fit 
+
+Call:  BTm(outcome = outcome, player1 = team, player2 = opponent, data = games)
+
+Coefficients:
+   ..Astros  ..Athletics  ..Blue Jays     ..Braves    ..Brewers  ..Cardinals  
+   -0.64249     -0.23088     -0.33768     -0.57057     -0.49724     -0.30059  
+     ..Cubs    ..D-backs    ..Dodgers     ..Giants    ..Indians   ..Mariners  
+   -0.69273     -0.95260     -0.25961     -0.40197     -0.32307     -0.25727  
+  ..Marlins       ..Mets  ..Nationals    ..Orioles     ..Padres   ..Phillies  
+   -0.61902     -0.56326     -0.17708     -0.03677     -0.65047     -0.69321  
+  ..Pirates    ..Rangers       ..Rays       ..Reds    ..Red Sox    ..Rockies  
+   -0.34522     -0.71279     -0.47162     -0.62216     -0.60499     -0.91070  
+   ..Royals     ..Tigers      ..Twins  ..White Sox    ..Yankees  
+   -0.22285     -0.20102     -0.65142     -0.59013     -0.31775  
+
+Degrees of Freedom: 4860 Total (i.e. Null);  4831 Residual
+Null Deviance:	    6737 
+Residual Deviance: 6612 	AIC: 6670
+> 
+> out <- as.data.frame(BTabilities(fit))
+> out <- out[with(out, order(-ability)), ]
+> 
+> out <- subset(out,TRUE,select=c(ability))
+> out$ability <- exp(out$ability)
+> 
+> out$team <- rownames(out)
+> out
+            ability      team
+Angels    1.0000000    Angels
+Orioles   0.9639017   Orioles
+Nationals 0.8377146 Nationals
+Tigers    0.8178954    Tigers
+Royals    0.8002356    Royals
+Athletics 0.7938354 Athletics
+Mariners  0.7731581  Mariners
+Dodgers   0.7713500   Dodgers
+Cardinals 0.7403800 Cardinals
+Yankees   0.7277826   Yankees
+Indians   0.7239237   Indians
+Blue Jays 0.7134204 Blue Jays
+Pirates   0.7080638   Pirates
+Giants    0.6690033    Giants
+Rays      0.6239927      Rays
+Brewers   0.6082082   Brewers
+Mets      0.5693481      Mets
+Braves    0.5652033    Braves
+White Sox 0.5542533 White Sox
+Red Sox   0.5460812   Red Sox
+Marlins   0.5384737   Marlins
+Reds      0.5367835      Reds
+Astros    0.5259814    Astros
+Padres    0.5217992    Padres
+Twins     0.5213047     Twins
+Cubs      0.5002078      Cubs
+Phillies  0.4999694  Phillies
+Rangers   0.4902721   Rangers
+Rockies   0.4022425   Rockies
+D-backs   0.3857354   D-backs
+> 
+> scored <- aggregate(team_score ~ team, games, sum)
+> allowed <- aggregate(opponent_score ~ team, games, sum)
+> 
+> df <- merge(out,scored)
+> df <- merge(df,allowed)
+> 
+> fit <- lm(log(ability) ~ log(team_score/opponent_score), df)
+> 
+> fit
+
+Call:
+lm(formula = log(ability) ~ log(team_score/opponent_score), data = df)
+
+Coefficients:
+                   (Intercept)  log(team_score/opponent_score)  
+                        -0.465                           1.727  
+
+> quit("no")
