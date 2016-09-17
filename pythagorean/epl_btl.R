@@ -19,6 +19,11 @@ case when team_score>opponent_score then 1.0
 end) as outcome
 from club.results
 where year=2015
+and team_league_key='english+premier+league'
+and opponent_league_key='english+premier+league'
+and competition='Prem'
+and team_score is not null
+and opponent_score is not null
 ;")
 
 games <- fetch(query,n=-1)
@@ -46,4 +51,6 @@ df <- merge(df,allowed)
 fit <- lm(log(ability) ~ log(team_score/opponent_score), df)
 
 fit
+summary(fit)
+
 quit("no")

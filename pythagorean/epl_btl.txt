@@ -38,6 +38,11 @@ Type 'q()' to quit R.
 + end) as outcome
 + from club.results
 + where year=2015
++ and team_league_key='english+premier+league'
++ and opponent_league_key='english+premier+league'
++ and competition='Prem'
++ and team_score is not null
++ and opponent_score is not null
 + ;")
 > 
 > games <- fetch(query,n=-1)
@@ -59,7 +64,7 @@ Coefficients:
     ..Norwich  ..Southampton        ..Stoke   ..Sunderland      ..Swansea  
    -1.456e+00     -3.450e-01     -7.811e-01     -1.165e+00     -8.896e-01  
   ..Tottenham      ..Watford    ..West Brom     ..West Ham  
-    9.097e-17     -9.988e-01     -9.988e-01     -2.891e-01  
+    1.516e-16     -9.988e-01     -9.988e-01     -2.891e-01  
 
 Degrees of Freedom: 760 Total (i.e. Null);  741 Residual
 Null Deviance:	    756.9 
@@ -112,4 +117,25 @@ Coefficients:
                    (Intercept)  log(team_score/opponent_score)  
                        -0.7206                          1.2865  
 
+> summary(fit)
+
+Call:
+lm(formula = log(ability) ~ log(team_score/opponent_score), data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.21852 -0.12280 -0.03924  0.10923  0.35494 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    -0.72063    0.03689  -19.53 1.45e-13 ***
+log(team_score/opponent_score)  1.28646    0.08246   15.60 6.67e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.165 on 18 degrees of freedom
+Multiple R-squared:  0.9311,	Adjusted R-squared:  0.9273 
+F-statistic: 243.4 on 1 and 18 DF,  p-value: 6.672e-12
+
+> 
 > quit("no")
